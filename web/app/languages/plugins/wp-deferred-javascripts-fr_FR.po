@@ -1,0 +1,59 @@
+# Translation of Stable (latest release) in French (France)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-02 06:08:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: inc/admin.php:43
+msgid "WP Deferred Javascripts"
+msgstr "WP Deferred Javascripts"
+
+#: inc/admin.php:59
+msgid "Javascript files to not defer"
+msgstr "Fichiers JavaScript à ne pas différer"
+
+#: inc/admin.php:66
+msgid ""
+"Add here JS handles or URL which will not be defered by WP Deferred Javascripts. \n"
+"One script handle or URI per line."
+msgstr ""
+"Ajouter ici les identifiants ou URL des fichiers JavaScript dont les chargements ne doivent pas être différé.\n"
+"Un identifiant ou URL par ligne."
+
+#: inc/admin.php:71
+msgid "WP Deferred Javascripts settings"
+msgstr "Réglages de WP Deferred Javascripts"
+
+#: inc/admin.php:75
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+#: wp-deferred-javascripts.php:57
+msgid "By %s"
+msgstr "Par %s"
+
+#. Plugin Name of the plugin/theme
+msgid "WP deferred javaScript"
+msgstr "WP Deferred JavaScript"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.screenfeed.fr"
+msgstr "http://www.screenfeed.fr"
+
+#. Description of the plugin/theme
+msgid "This plugin defer the loading of all javascripts added by the way of <code>wp_enqueue_script()</code>, using LABJS."
+msgstr "Cette extension diffère le chargement de tous les fichiers JavaScripts ajoutés par le biais de la fonction <code>wp_enqueue_script()</code>, grâce à la librairie LABJS."
+
+#. Author of the plugin/theme
+msgid "Willy Bahuaud, Daniel Roch, Grégory Viguier"
+msgstr "Willy Bahuaud, Daniel Roch et Grégory Viguier"
+
+#. Author URI of the plugin/theme
+msgid "https://wabeo.fr/wp-deferred-js-authors.html"
+msgstr "https://wabeo.fr/wp-deferred-js-authors.html"

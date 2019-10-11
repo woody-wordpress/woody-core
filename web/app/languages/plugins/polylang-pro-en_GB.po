@@ -1,0 +1,170 @@
+# Translation of WP-Syntex - Polylang Pro in English (UK)
+# This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-13 00:18:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#: modules/active-languages.php:89
+msgid "Activate this language"
+msgstr "Activate this language"
+
+#: modules/active-languages.php:97
+msgid "Deactivate this language"
+msgstr "Deactivate this language"
+
+#: modules/bulk-translate/bulk-translate.php:58
+msgid "Translate"
+msgstr "Translate"
+
+#: modules/bulk-translate/bulk-translate.php:106
+msgid "Sorry, you are not allowed to create posts."
+msgstr "Sorry, you are not allowed to create posts."
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate.php:169
+msgid "%d translation created."
+msgid_plural "%d translations created."
+msgstr[0] "%d translation created."
+msgstr[1] "%d translations created."
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate.php:182
+msgid "To avoid overwriting content, %d translation was not created."
+msgid_plural "To avoid overwriting content, %d translations were not created."
+msgstr[0] "To avoid overwriting content, %d translation was not created."
+msgstr[1] "To avoid overwriting content, %d translations were not created."
+
+#: modules/bulk-translate/view-bulk-translate.php:16
+msgid "Bulk translate"
+msgstr "Bulk translate"
+
+#: modules/bulk-translate/view-bulk-translate.php:32
+msgid "Action"
+msgstr "Action"
+
+#: modules/bulk-translate/view-bulk-translate.php:33
+msgid "Copy original items to selected languages"
+msgstr "Copy original items to selected languages"
+
+#: modules/bulk-translate/view-bulk-translate.php:35
+msgid "Synchronize original items with translation in selected languages"
+msgstr "Synchronize original items with translation in selected languages"
+
+#: modules/bulk-translate/view-bulk-translate.php:40
+#: modules/block-editor/build/sidebar.js:819
+msgid "Cancel"
+msgstr "Cancel"
+
+#: modules/bulk-translate/view-bulk-translate.php:41
+msgid "Submit"
+msgstr "Submit"
+
+#: modules/duplicate/duplicate.php:21
+msgid "Activate content duplication"
+msgstr "Activate content duplication"
+
+#: modules/duplicate/duplicate.php:22
+msgid "Deactivate content duplication"
+msgstr "Deactivate content duplication"
+
+#: modules/media/settings-media.php:22
+msgid "Media"
+msgstr "Media"
+
+#: modules/media/settings-media.php:23
+msgid "Activate languages and translations for media. Provides options for multilingual media management."
+msgstr "Activate languages and translations for media. Provides options for multilingual media management."
+
+#: modules/media/settings-media.php:38
+msgid "Automatically duplicate media in all languages when uploading a new file."
+msgstr "Automatically duplicate media in all languages when uploading a new file."
+
+#: modules/plugins/tec.php:57
+msgid "Date with year"
+msgstr "Date with year"
+
+#: modules/plugins/tec.php:58
+msgid "Date without year"
+msgstr "Date without year"
+
+#: modules/plugins/tec.php:59
+msgid "Month and year format"
+msgstr "Month and year format"
+
+#: modules/plugins/tec.php:60
+msgid "Date time separator"
+msgstr "Date time separator"
+
+#: modules/plugins/tec.php:61
+msgid "Time range separator"
+msgstr "Time range separator"
+
+#: modules/plugins/tec.php:62
+msgid "Add HTML before event content"
+msgstr "Add HTML before event content"
+
+#: modules/plugins/tec.php:63
+msgid "Add HTML after event content"
+msgstr "Add HTML after event content"
+
+#: modules/rest/rest-api.php:85
+msgid "Limit results to items of an object type."
+msgstr "Limit results to items of an object type."
+
+#: modules/rest/rest-api.php:97
+msgid "Limit results to untranslated items in a language."
+msgstr "Limit results to untranslated items in a language."
+
+#: modules/rest/rest-api.php:103
+msgid "Limit results to items in a language."
+msgstr "Limit results to items in a language."
+
+#: modules/rest/rest-api.php:109
+msgid "Limit results to those matching a string."
+msgstr "Limit results to those matching a string."
+
+#: modules/rest/rest-api.php:113
+msgid "Add this post's translation to results."
+msgstr "Add this post's translation to results."
+
+#: modules/rest/rest-api.php:118
+msgid "Are we in a block editor context?"
+msgstr "Are we in a block editor context?"
+
+#: modules/rest/rest-post.php:91
+msgid "Translations table"
+msgstr "Translations table"
+
+#: modules/rest/rest-translated-object.php:109
+msgid "Limit results to a specific language."
+msgstr "Limit results to a specific language."
+
+#: modules/sync-post/sync-post-button.php:24
+#: modules/block-editor/build/sidebar.js:674
+msgid "Synchronize this post"
+msgstr "Synchronize this post"
+
+#. translators: accessibility text
+#: modules/sync-post/sync-post-button.php:25
+#: modules/block-editor/build/sidebar.js:674
+msgid "Don't synchronize this post"
+msgstr "Don't synchronize this post"
+
+#: modules/sync-post/sync-post-rest.php:41
+msgid "Synchronizations"
+msgstr "Synchronizations"
+
+#: modules/translate-slugs/translate-slugs-model.php:435
+msgid "URL slugs"
+msgstr "URL slugs"
+
+#: modules/xdata/xdata-session-manager.php:59
+msgid "An error has occurred."
+msgstr "An error has occurred."
