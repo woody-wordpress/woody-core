@@ -1,0 +1,40 @@
+# Global
+.DS_Store
+
+# Application
+web/app/db.php
+web/app/cache/*
+!web/app/cache/.gitkeep
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/themes/*
+!web/app/themes/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Config
+config/sites
+REVISION
+
+# Composer
+bin
+vendor/*
+!vendor/.gitkeep
+
+# Theme Foundation
+node_modules
+npm-debug.log
+dist
+config.yml
+*.sass-cache*
+*.log
+.idea/
+*.swp

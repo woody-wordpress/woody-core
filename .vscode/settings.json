@@ -1,0 +1,12 @@
+{
+    "files.watcherExclude": {
+        "web/app/cache/**": true,
+        "gulp/node_modules/**": true,
+        "vendor/**": true
+    },
+    "search.exclude": {
+        "web/app/cache/**": true,
+        "gulp/node_modules/**": true,
+        "vendor/**": true
+    }
+}

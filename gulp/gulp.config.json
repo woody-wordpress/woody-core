@@ -1,0 +1,105 @@
+{
+    "site": "web/app/themes/WP_SITE_KEY",
+    "dist": "web/app/dist/WP_SITE_KEY",
+    "browserSync": {
+        "port": 3000,
+        "publicPath": "/app/themes/WP_SITE_KEY/dist"
+    },
+    "css": {
+        "src": "web/app/themes/WP_SITE_KEY/src/scss",
+        "entry": ["main.scss", "tourism.scss", "admin.scss", "print.scss"],
+        "dist": "css",
+        "modules": [
+            "gulp/node_modules/swiper",
+            "gulp/node_modules/plyr",
+            "gulp/node_modules/foundation-sites/scss",
+            "gulp/node_modules/motion-ui/src",
+            "gulp/node_modules/lightgallery/src/sass",
+            "vendor/woody-wordpress-pro/woody-library/assets/scss",
+            "web/app/plugins/woody-plugin/src/Modules",
+            "web/app/themes"
+        ],
+        "extensions": "*.+(sass|scss|css)"
+    },
+    "js": {
+        "src": "web/app/themes/WP_SITE_KEY/src/js",
+        "entry": {
+            "main": "main.js",
+            "admin": "admin.js"
+        },
+        "node_modules": "gulp/node_modules",
+        "modules": [
+            "web/app/themes",
+            "web/app/plugins/woody-plugin/src/Modules",
+            "vendor/woody-wordpress-pro"
+        ],
+        "dist": "js",
+        "externals": {
+            "jquery": "jQuery",
+            "cookieconsent": "cookieconsent",
+            "lazysizes": "lazysizes",
+            "swiper": "Swiper",
+            "arrive": "arrive",
+            "selectize": "selectize",
+            "lightgallery": "lightGallery",
+            "flatpickr": "flatpickr",
+            "rellax": "rellax",
+            "plyr": "plyr"
+        },
+        "extensions": "*.+(js|json)"
+    },
+    "imageoptim": {
+        "entry": [
+            "web/app/themes/woody-theme/src/img",
+            "web/app/plugin/woody-plugin",
+            "vendor/woody-wordpress-pro"
+        ],
+        "extensions": "*.+(jpg|jpeg|gif|png|svg)"
+    },
+    "medias": {
+        "src": ["web/app/uploads/WP_SITE_KEY"],
+        "dist": "web/app/uploads/WP_SITE_KEY",
+        "extensions": "*.+(jpg|jpeg)"
+    },
+    "img": {
+        "src": [
+            "web/app/themes/woody-theme/src/img",
+            "web/app/themes/WP_SITE_KEY/src/img",
+            "vendor/woody-wordpress-pro"
+        ],
+        "optim": "web/app/themes/WP_SITE_KEY/src/img",
+        "dist": "img",
+        "extensions": "*.+(jpg|jpeg|gif|png|svg)"
+    },
+    "fonts": {
+        "src": [
+            "web/app/themes/woody-theme/src/fonts",
+            "web/app/themes/WP_SITE_KEY/src/fonts"
+        ],
+        "dist": "fonts",
+        "extensions": "*.+(woff2|woff|eot|ttf|svg)"
+    },
+    "favicon": {
+        "src": [
+            "web/app/themes/woody-theme/src/favicon",
+            "web/app/themes/WP_SITE_KEY/src/favicon"
+        ],
+        "dist": "favicon",
+        "extensions": "*.png"
+    },
+    "static": {
+        "src": [
+            "web/app/themes/woody-theme/src/static",
+            "web/app/themes/WP_SITE_KEY/src/static"
+        ],
+        "dist": "static",
+        "extensions": "*"
+    },
+    "icons": {
+        "fontName": "woody-icons",
+        "tpl": "web/app/themes/woody-theme/src/icons/template/_icons.scss.tpl",
+        "src": ["web/app/themes/woody-theme/src/icons/icons_set_01"],
+        "extensions": "*.svg",
+        "dest": "web/app/themes/WP_SITE_KEY/src/fonts/woody-icons"
+    }
+}
