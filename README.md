@@ -8,6 +8,19 @@
 
 ## :fire: Installation & Usage
 
+### Dependencies
+
+Woody is dependent on 2 paid plugins of the wordpress community. To use woody you must absolutely buy and install :
+
+-   Polylang PRO **version 2.6.4**
+-   ACF PRO (Advanced Custom Fields PRO) **version 5.7.10**
+
+These plugins must be uploaded to the **web/app/plugins** directory.
+
+> WARNING: If you are using the Woody PRO version, it's possible to install these dependencies by "composer", but this does not mean you do not have to buy these 2 plugins.
+
+### Configuration
+
 Create a configuration file for each of your sites in "config/sites".<br/>
 My first project is called "mywebsite", so I create the file **"config/sites/mywebsite.yml"**.<br/>
 Some of these settings must be requested from the Raccourci agency, please contact [support@woody-wordpress.com](mailto:support@woody-wordpress.com)<br/>
