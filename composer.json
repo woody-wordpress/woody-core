@@ -1,7 +1,7 @@
 {
     "name": "woody-wordpress/woody-core",
     "license": "GPL-2.0",
-    "version": "1.5.9",
+    "version": "1.5.11",
     "description": "Woody core is the main project to start your new website. Enjoy ;)",
     "authors": [
         {
@@ -36,8 +36,8 @@
         "symfony/finder": "^3.4",
         "symfony/process": "^3.4",
         "vlucas/phpdotenv": "^3.4",
-        "woody-wordpress/woody-library": "^1.6.1",
-        "woody-wordpress/woody-theme": "^1.12.3",
+        "woody-wordpress/woody-library": "^1.7.10",
+        "woody-wordpress/woody-theme": "^1.13.0",
         "wp-cli/cache-command": "^2.0",
         "wp-cli/checksum-command": "^2.0",
         "wp-cli/config-command": "^2.0",

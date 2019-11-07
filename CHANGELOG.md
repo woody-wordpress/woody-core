@@ -1,5 +1,12 @@
+### 23 octobre 2019
+
+-   **[Nouveauté]** Bloc "Logo/Image d'illustration" affichant une image non clicable au format original
+
+---
+
 ### 21 octobre 2019
 
+-   **[Nouveauté]** Support des facets de date personnalisées dans le bloc de réservation
 -   **[Mise à jour]** Mise à jour de Wordpress 5.2.3 vers 5.2.4
 -   **[Mise à jour]** Mise à jour du plugin Varnish 1.8.2 vers 1.8.3
 -   **[Correctif]** Limitation des mises avants automatiques à 12 maximum si non spécifié
