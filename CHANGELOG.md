@@ -1,3 +1,19 @@
+### 28 janvier 2020
+
+-   **[Nouveauté]** Remplacement du plugin Yoast par le plugin Woody SEO => amélioration des performances du backoffice
+-   **[Nouveauté]** Suppression du plugin Timber (Twig) => amélioration des performances du backoffice
+-   **[Nouveauté]** Ajout d'un filtre pour personaliser les options multilingues
+-   **[Mise à jour]** Mise à jour du plugin ACF de 5.7.10 vers 5.8.7
+-   **[Correctif]** Ajout d'une balise robots "noindex, nofollow" sur les pages de langues non activées
+
+---
+
+### 23 janvier 2020
+
+-   **[Nouveauté]** Ajout d'une option dans les paramètres permettant de masquer les sections lorsqu'elle sont vides
+
+---
+
 ### 14 janvier 2020
 
 -   **[Nouveauté]** Liste de contenu : ajout d'un champ de recherche par ville sur la carte
