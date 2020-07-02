@@ -4,52 +4,9 @@ require_once __DIR__ . '../../vendor/autoload.php';
 
 function array_env($env)
 {
-    $env = str_replace(array('[', ']', '"', ' '), '', $env);
+    $env = str_replace(array('[', ']', '"', ' '), '', env($env));
     $env = (!empty($env)) ? explode(',', $env) : [];
-    sort($env);
-    return array_unique($env);
-}
-
-function dotenv($file)
-{
-    $env = [];
-    $file = file_get_contents($file);
-    $file = explode("\n", $file);
-    foreach ($file as $line) {
-        if (!empty($line)) {
-            $line = explode('=', $line);
-            $key = $line[0];
-            $val = substr(substr($line[1], 1), 0, -1);
-
-            if (substr($val, 0, 1) == '[' && substr($val, -1) == ']') {
-                $val = array_env($val);
-            } elseif (strpos($val, 'false') !== false) {
-                $val = false;
-            } elseif (strpos($val, 'true') !== false) {
-                $val = true;
-            }
-
-            $env[$key] = $val;
-        }
-    }
     return $env;
-}
-
-function __($str)
-{
-    switch ($str) {
-        case 'empty':
-            return 'absent';
-            break;
-        case 'locked':
-            return 'fermé';
-            break;
-        case 'opened':
-            return 'ouvert';
-            break;
-    }
-
-    return $str;
 }
 
 use Symfony\Component\Finder\Finder;
@@ -61,36 +18,20 @@ $finder->files()->followLinks()->ignoreDotFiles(false)->in(__DIR__ . '/../config
 // check if there are any search results
 if ($finder->hasResults()) {
     foreach ($finder as $file) {
-        $env = dotenv($file);
-
         $pathinfo = pathinfo($file->getRealPath());
+        $dotenv = Dotenv\Dotenv::create($pathinfo['dirname']);
+        $dotenv->overload();
+
         $site_key = explode('/', $pathinfo['dirname']);
         $site_key = end($site_key);
 
-        $locked = (!empty($env['WOODY_ACCESS_LOCKED'])) ? $env['WOODY_ACCESS_LOCKED'] : false;
-        $staging = (!empty($env['WOODY_ACCESS_STAGING'])) ? $env['WOODY_ACCESS_STAGING'] : false;
-
-        if (!file_exists(__DIR__ . '/app/themes/' . $site_key . '/style.css')) {
-            $status = 'empty';
-        } elseif ($staging) {
-            $status = 'staging';
-        } elseif ($locked) {
-            $status = 'locked';
-        } else {
-            $status = 'opened';
-        }
-
-        $sites[$site_key] = [
+        $sites[] = [
             'site_key' => $site_key,
-            'url' => (!empty($env['WOODY_HOME'])) ? $env['WOODY_HOME'] : null,
-            'status' => $status,
-            'locked' => $locked,
-            'staging' => $staging,
-            'options' => (!empty($env['WOODY_OPTIONS'])) ? $env['WOODY_OPTIONS'] : [],
+            'url' => env('WP_HOME'),
+            'locked' => env('WOODY_ACCESS_LOCKED'),
+            'options' => array_unique(array_env('WOODY_OPTIONS')),
         ];
     }
-
-    ksort($sites);
 }
 // print '<pre>';
 // print_r($sites);
@@ -123,7 +64,7 @@ if ($finder->hasResults()) {
             padding: 5px 15px;
         }
 
-        .status a {
+        a.status {
             border-radius: 4px;
             padding: 3px 8px;
             text-decoration: none;
@@ -131,30 +72,15 @@ if ($finder->hasResults()) {
             color: #000;
         }
 
-        .locked .status a {
+        a.status.locked {
             background: #000;
             color: #FFF;
         }
 
-        .empty .status a,
-        .staging .status a {
-            background: transparent;
-            color: #FFF;
-            border: 1px dotted #FFF;
-        }
-
-        .empty {
-            opacity: .3;
-        }
-
-        .status a:hover {
+        a.status:hover,
+        a.status.open:hover,
+        a.status.locked:hover {
             color: rgba(224, 0, 88, 1);
-        }
-
-        .empty .status a:hover,
-        .staging .status a:hover {
-            color: rgba(224, 0, 88, 1);
-            background: #FFF;
         }
 
         .option {
@@ -174,10 +100,10 @@ if ($finder->hasResults()) {
 
     <table class="cards">
         <?php foreach ($sites as $site) : ?>
-            <tr class="card <?php print $site['status']; ?>">
+            <tr class="card">
                 <td class="status">
-                    <a href="<?php print $site['url']; ?>" target="_blank">
-                        <?php print __($site['status']); ?>
+                    <a href="<?php print $site['url']; ?>" target="_blank" class="status <?php print ($site['locked']) ? 'locked' : 'open'; ?>">
+                        <?php print ($site['locked']) ? 'fermé' : 'ouvert'; ?>
                     </a>
                 </td>
                 <td class="site_key"><?php print $site['site_key']; ?></td>

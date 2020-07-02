@@ -141,8 +141,6 @@ Config::define('NONCE_SALT', env('NONCE_SALT') ?: '');
  * Raccourci WOODY settings
  */
 Config::define('WOODY_TIMEZONE', env('WOODY_TIMEZONE') ?: 'Europe/Paris');
-Config::define('WOODY_LATITUDE', env('WOODY_LATITUDE') ?: null);
-Config::define('WOODY_LONGITUDE', env('WOODY_LONGITUDE') ?: null);
 Config::define('WOODY_SSO_CLIENT_ID', env('WOODY_SSO_CLIENT_ID') ?: '');
 Config::define('WOODY_IMAGE_WEBP_ENABLE', env('WOODY_IMAGE_WEBP_ENABLE') ?: false);
 Config::define('WOODY_SSO_CLIENT_SECRET', env('WOODY_SSO_CLIENT_SECRET') ?: '');
@@ -154,7 +152,6 @@ Config::define('WOODY_VARNISH_CACHING_TTL', env('WOODY_VARNISH_CACHING_TTL') ?: 
 Config::define('WOODY_VARNISH_CACHING_FOCUSRANDOM_TTL', env('WOODY_VARNISH_CACHING_FOCUSRANDOM_TTL') ?: 86400);
 Config::define('WOODY_VARNISH_CACHING_FOCUSSHEET_TTL', env('WOODY_VARNISH_CACHING_FOCUSSHEET_TTL') ?: 7200);
 Config::define('WOODY_VARNISH_CACHING_WEATHERPAGE_TTL', env('WOODY_VARNISH_CACHING_WEATHERPAGE_TTL') ?: 14400);
-Config::define('WOODY_VARNISH_CACHING_LIVEPAGE_TTL', env('WOODY_VARNISH_CACHING_LIVEPAGE_TTL') ?: 900);
 Config::define('WOODY_VARNISH_CACHING_IPS', env('WOODY_VARNISH_CACHING_IPS') ?: '');
 Config::define('WOODY_VARNISH_CACHING_PURGE_KEY', env('WOODY_VARNISH_CACHING_PURGE_KEY') ?: '');
 Config::define('WOODY_VARNISH_CACHING_COOKIE', env('WOODY_VARNISH_CACHING_COOKIE') ?: '');
@@ -163,7 +160,6 @@ Config::define('WOODY_SENTRY', env('WOODY_SENTRY') ?: '');
 
 Config::define('WOODY_GTM', env('WOODY_GTM') ?: '');
 Config::define('WOODY_ACCESS_LOCKED', env('WOODY_ACCESS_LOCKED') ?: false);
-Config::define('WOODY_ACCESS_STAGING', env('WOODY_ACCESS_STAGING') ?: false);
 Config::define('WOODY_OPTIONS', array_env('WOODY_OPTIONS') ?: []);
 Config::define('WOODY_API_LOGIN', env('WOODY_API_LOGIN') ?: '');
 Config::define('WOODY_API_PASSWORD', env('WOODY_API_PASSWORD') ?: '');

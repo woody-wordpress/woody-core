@@ -16,7 +16,6 @@
             "gulp/node_modules/motion-ui/src",
             "gulp/node_modules/lightgallery/src/sass",
             "vendor/woody-wordpress-pro/woody-library/assets/scss",
-            "vendor/woody-wordpress/woody-library/assets/scss",
             "web/app/plugins/woody-plugin/src/Modules",
             "web/app/themes"
         ],
@@ -32,8 +31,7 @@
         "modules": [
             "web/app/themes",
             "web/app/plugins/woody-plugin/src/Modules",
-            "vendor/woody-wordpress-pro",
-            "vendor/woody-wordpress"
+            "vendor/woody-wordpress-pro"
         ],
         "dist": "js",
         "externals": {
@@ -48,14 +46,13 @@
             "rellax": "rellax",
             "plyr": "plyr"
         },
-        "extensions": "*.js"
+        "extensions": "*.+(js|json)"
     },
     "imageoptim": {
         "entry": [
             "web/app/themes/woody-theme/src/img",
             "web/app/plugin/woody-plugin",
-            "vendor/woody-wordpress-pro",
-            "vendor/woody-wordpress"
+            "vendor/woody-wordpress-pro"
         ],
         "extensions": "*.+(jpg|jpeg|gif|png|svg)"
     },
@@ -68,8 +65,7 @@
         "src": [
             "web/app/themes/woody-theme/src/img",
             "web/app/themes/WP_SITE_KEY/src/img",
-            "vendor/woody-wordpress-pro",
-            "vendor/woody-wordpress"
+            "vendor/woody-wordpress-pro"
         ],
         "optim": "web/app/themes/WP_SITE_KEY/src/img",
         "dist": "img",

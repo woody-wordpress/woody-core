@@ -1,132 +1,3 @@
-### 28 janvier 2020
-
--   **[Nouveauté]** Remplacement du plugin Yoast par le plugin Woody SEO => amélioration des performances du backoffice
--   **[Nouveauté]** Suppression du plugin Timber (Twig) => amélioration des performances du backoffice
--   **[Nouveauté]** Ajout d'un filtre pour personaliser les options multilingues
--   **[Mise à jour]** Mise à jour du plugin ACF de 5.7.10 vers 5.8.7
--   **[Correctif]** Ajout d'une balise robots "noindex, nofollow" sur les pages de langues non activées
-
----
-
-### 23 janvier 2020
-
--   **[Nouveauté]** Ajout d'une option dans les paramètres permettant de masquer les sections lorsqu'elle sont vides
-
----
-
-### 14 janvier 2020
-
--   **[Nouveauté]** Liste de contenu : ajout d'un champ de recherche par ville sur la carte
--   **[Mise à jour]** Mises en avant manuelles : Contenu libre => la description n'est plus limitée à 180 caractères
--   **[Mise à jour]** Ajout d'un calendrier pour choisir la date de dépublication d'une page
--   **[Mise à jour]** Listes de contenu : remontée en haut de liste lors de l'utilisation de la pagination
--   **[Mise à jour]** Amélioration du plugin d'import de pages Drupal (publication auto, langue des pages, photos dans toutes les langues)
--   **[Mise à jour]** Améliorations mineures du style de la partie tourisme
-
----
-
-### 09 janvier 2020
-
--   **[Mise à jour]** Mise à jour du plugin Redirection de 4.5.1 vers 4.6.2
--   **[Mise à jour]** Import et mise à jour asynchrone des fiches SIT - Plugin Hawwwai
--   **[Correctif]** Correction d'un bug d'affichage sur les alignements de blocs dans les sections
--   **[Correctif]** Possibilité d'utiliser la météo Darsky ou Méteo France dans le module Infolive
-
----
-
-### 20 décembre 2019
-
--   **[Nouveauté]** Accès à la configuration Hawwwai (niveau de contrats, labels, ...) depuis le menu Woody Wordpress
--   **[Nouveauté]** Gestion de la profondeur des blocs lors de l'ajout d'une transformation
--   **[Nouveauté]** Ajout de l'option "Paramètres de fond" pour les groupes d'onglets
--   **[Mise à jour]** Mise à jour de Wordpress 5.3.1 vers 5.3.2
-
----
-
-### 18 décembre 2019
-
--   **[Correctif]** Correction d'un bug lors de l'ouverture de liens/widget dans des popins dans le module publicités
-
----
-
-### 16 décembre 2019
-
--   **[Nouveauté]** Le plugin "Publicités" permet désormais d'ajouter une banière pub dans les sections
--   **[Mise à jour]** Passage du temps de cache de 4h à 15min pour les pages avec bloc infolive
-
----
-
-### 13 décembre 2019
-
--   **[Mise à jour]** Mise à jour de Wordpress 5.3 vers 5.3.1
--   **[Correctif]** Retour à une version stable de Woody + ACF
-
----
-
-### 11 décembre 2019
-
--   **[Nouveauté]** __Il est désormais possible de déplacer des blocs entre différentes sections__
--   **[Mise à jour]** Modification du temps de cache pour les pages avec blocs météo ou infolive
--   **[Mise à jour]** Evolutions mineures du plugin Groupes
--   **[Mise à jour]** Mise à jour du plugin ACF
--   **[Correctif]** Correction d'erreurs PHP
--   **[Correctif]** Enregistrement/application des modèles (depuis ACF 5.7)
--   **[Correctif]** Suppression définitive des "Anciens champs"
-
----
-
-### 05 décembre 2019
-
--   **[Correctif]** Modification du comportement des FAQ => plusieurs lignes peuvent rester ouvertes simultanément
-
----
-
-### 03 décembre 2019
-
--   **[Correctif]** Téléchargement de photos dans la bibliothèque depuis une page
--   **[Correctif]** Affichage du bloc Yoast en bas des pages
--   **[Correctif]** Correctifs suite au passage à wordpress 5.3
-
----
-
-### 02 décembre 2019
-
--   **[Mise à jour]** Mise à jour de Wordpress 5.2.4 vers 5.3
--   **[Mise à jour]** Mise à jour d'ACF Pro 5.7.10 vers 5.8.7
-
----
-
-### 29 novembre 2019
-
--   **[Nouveauté]** Possibilité de sanctuariser les urls (activable sur demande)
--   **[Correctif]** Correction d'un bug mineur dans l'addon Woody Calendar
-
----
-
-### 15 novembre 2019
-
--   **[Nouveauté]** Ajout d'un shortcode [woody_sitemap] pour afficher un plan du site
--   **[Correctif]** Correction d'un bug mineur dans l'addon Woody Crop
--   **[Mise à jour]** Ajout d'une couleur de fond "Blanc" dans les options avancées de mise en page
-
----
-
-### 13 novembre 2019
-
--   **[Nouveauté]** Addon Woody Infolive pour les stations de ski
--   **[Correctif]** Amélioration du responsive du bloc "Galerie interactive"
-
----
-
-### 7 novembre 2019
-
--   **[Nouveauté]** Catégorisation des modèles selon le type de publication + application rapide d'un modèle
--   **[Nouveauté]** Ajout de tags en masse sur les photos
--   **[Mise à jour]** Améliorations visuelles et fonctionnelles sur l'addon Woody Groupes
--   **[Mise à jour]** Affichage de l'adresse web d'une fiche sur les playlists Hawwwai
-
----
-
 ### 23 octobre 2019
 
 -   **[Nouveauté]** Bloc "Logo/Image d'illustration" affichant une image non clicable au format original
@@ -163,7 +34,7 @@
 -   **[Nouveauté]** Outil d'export/import de données des pages en CSV
 -   **[Nouveauté]** Amélioration des process de rendu des pages
 -   **[Correctif]** Listes de contenu : pagination et filtres compatibles
--   **[Correctif]** Modification de l'étape "Vos dates" dans l'addon Woody Groupes
+-   **[Correctif]** Modification de l'étape "Vos dates" dans le plugin Groupes
 -   **[Correctif]** Support de la demande de devis pour un composant de séjour
 -   **[Correctif]** Affichage "Gratuit" si le prix d'un séjour est à 0
 
@@ -198,9 +69,9 @@
 
 -   **[Nouveauté]** Sur une playlist, utiliser %nombre% dans les metadonnées Yoast pour retourner le nombre d'élément de la playlist
 -   **[Nouveauté]** Option de retrait des marges autour des blocs de texte (utile lors de l'insertion de widgets)
--   **[Nouveauté]** Addon Woody Groupes : possibilité d'activer la demande de devis depuis un composant de séjour
+-   **[Nouveauté]** Plugin Groupes : possibilité d'activer la demande de devis depuis un composant de séjour
 -   **[Mise à jour]** Optimisation du défilement des blocs de publicité
--   **[Mise à jour]** Traduction du Addon Woody Groupes groupes en EN, DE, NL, IT, ES, JA
+-   **[Mise à jour]** Traduction du plugin groupes en EN, DE, NL, IT, ES, JA
 -   **[Correctif]** Correction de la recherche globale avec tags
 
 ---
@@ -219,7 +90,7 @@
 ### 16 septembre 2019
 
 -   **[Nouveauté]** Ajout de 2 templates de mise en avant
--   **[Nouveauté]** Addon Woody Marées compatible Shom et Meteorem
+-   **[Nouveauté]** Plugin marées compatible Shom et Meteorem
 -   **[Correctif]** Correction d'erreurs W3C
 
 ---
@@ -579,13 +450,13 @@
 
 -   **[Nouveauté]** Création de playlist : posibilité de pré-cocher la conf créée ou d'utiliser une configuration existante pour le précochage
 -   **[Mise à jour]** Traduction EN, ES, DE, NL, IT des éléments d'interface (Lire la suite, M'y rendre, ...)
--   **[Mise à jour]** Addon Woody Météo compatible "Météo France Montagne"
+-   **[Mise à jour]** Plugin Météo compatible "Météo France Montagne"
 
 ---
 
 ### 5 Mars 2019
 
--   **[Mise à jour]** Réouverture du Addon Woody Instagram !
+-   **[Mise à jour]** Réouverture du plugin Woody Instagram !
 
 ---
 
@@ -623,8 +494,8 @@
 
 ### 18 février 2019
 
--   **[Mise à jour]** Mise à jour de l'addon Hawwwai avec la fonctionnalité des tris internautes
--   **[Mise à jour]** Mise à jour du l'addon Hawwwai nouvelle interface des liens rapides
+-   **[Mise à jour]** Mise à jour du plugin Hawwwai avec la fonctionnalité des tris internautes
+-   **[Mise à jour]** Mise à jour du plugin Hawwwai nouvelle interface des liens rapides
 -   **[Correctif]** Ajout d'une balise H1 sur la page d'accueil
 -   **[Correctif]** Optimisation de la mise à jour des fiches SIT
 
