@@ -11,6 +11,7 @@
         "css": "gulp --action css",
         "js": "gulp --action js",
         "img": "gulp --action img",
+        "addons": "gulp --action addons",
         "imageoptim": "gulp --action imageoptim"
     },
     "devDependencies": {
@@ -19,8 +20,8 @@
         "babel-preset-env": "^1.7.0",
         "browser-sync": "^2.26.3",
         "browserslist": "^4.6.3",
-        "csv-parse": "^4.4.6",
         "caniuse-lite": "^1.0.30000976",
+        "csv-parse": "^4.4.6",
         "del": "^4.1.0",
         "flat-map": "^1.0.0",
         "glob": "^7.1.3",
@@ -56,6 +57,7 @@
         "cookieconsent": "3.1.1",
         "flatpickr": "4.5.2",
         "foundation-sites": "6.4.3",
+        "html2canvas": "1.0.0-alpha.12",
         "jquery": "3.4.1",
         "lg-autoplay": "1.0.4",
         "lg-fullscreen": "1.1.0",

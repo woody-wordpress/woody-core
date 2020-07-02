@@ -1,3 +1,87 @@
+### 30 mars 2020
+
+-   **[Nouveauté]** Nouveaux templates de visuel & accroche (05), en-tête de page (05) et mise en avant (319)
+-   **[Mise à jour]** Mise à jour du plugin Roadbook
+-   **[Mise à jour]** Ajout d'une balise noindex sur les playlists paginées ou avec un identifiant de pré-sélection
+-   **[Mise à jour]** Autorisation de l'autoplay de vidéos en iframes
+-   **[Mise à jour]** Optimisation de chargement des CSS+JS des plugins (Hawwwai, TouristicMaps, RoadBook, Circuits, ...)
+-   **[Correctif]** Meilleure gestion de l'affichage des images dans la bibliothèque de médias
+-   **[Correctif]** Optimisations et erreurs mineures
+-   **[Correctif]** Récupération des données InfoLive toutes les 15min (1h avant le correctif)
+
+---
+
+### 4 mars 2020
+
+-   **[Nouveauté]** Meilleure gestion de l'état "actif" des éléments (ex: liens, champs de formulaires, ...) pour l'accessibilité
+-   **[Nouveauté]** Ajout d'un widget marées
+-   **[Nouveauté]** Nouveaux templates de mises en avant
+-   **[Correctif]** Tri des cocons sémantiques
+-   **[Correctif]** Les modèles de pages sont désindexés par défaut
+-   **[Correctif]** Bloc météo "vide" si température était égale à 0°
+-   **[Correctif]** Récupération des données InfoLive toutes les 15min (1h avant le correctif)
+
+---
+
+### 20 février 2020
+
+-   **[Nouveauté]** Nouveau type de bloc : témoignages
+-   **[Correctif]** Affichage des crédits dans les photos de l'en-tête de page
+-   **[Correctif]** Amélioration du rendu mobile pour les blocs de section "Logo/Image d'illustration" et "Publicité"
+
+---
+
+### 13 février 2020
+
+-   **[Nouveauté]** Option de recherche des pages dans la langue par défaut sur chacune des langues du site
+
+---
+
+### 11 février 2020
+
+-   **[Nouveauté]** Possibilité d'ajouter une vidéo Youtube dans le diaporama de page d'accueil
+-   **[Nouveauté]** Possibilité de partager les favoris sur les réseaux sociaux
+
+---
+
+### 10 février 2020
+
+-   **[Nouveauté]** Nouveau bloc de type "socialwall"
+-   **[Nouveauté]** Possibilité d'afficher les favoris en mode "Avancé" => plus d'informations sur les fiches SIT et amélioration de la version imprimable (voir la liste des shortcodes)
+
+---
+
+### 06 février 2020
+
+-   **[Mise à jour]** Ajout du crédit photo sur les galeries interactives
+-   **[Correctif]** Corrections d'un bug lors de l'ouverture d'une publicité dans une popin
+-   **[Correctif]** Correction des marges des boutons dans les encarts pub
+
+---
+
+### 04 février 2020
+
+-   **[Mise à jour]** Retrait de l'option de partage sur Google+
+-   **[Correctif]** Corrections de l'affichage des favoris
+-   **[Correctif]** Gestion des langues pour l'affichage des publicités
+
+---
+
+### 31 janvier 2020
+
+-   **[Nouveauté]** Dans les langues étrangères, affichage de la traduction du titre de page dans les mises en avant, les menus et la liste des pages,
+-   **[Correctif]** Corrections mineures sur les metadonnées OpenGraph
+-   **[Correctif]** Corrections mineures sur le module infolive suite à la mise à jour du plugin ACF
+
+---
+
+### 30 janvier 2020
+
+-   **[Correctif]** Ajout d'un id sur les éléments de fil d'ariane pour palier aux erreurs d'explorations
+-   **[Correctif]** Ordre des éléments de fil d'ariane
+
+---
+
 ### 28 janvier 2020
 
 -   **[Nouveauté]** Remplacement du plugin Yoast par le plugin Woody SEO => amélioration des performances du backoffice

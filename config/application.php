@@ -159,8 +159,8 @@ Config::define('WOODY_VARNISH_CACHING_IPS', env('WOODY_VARNISH_CACHING_IPS') ?: 
 Config::define('WOODY_VARNISH_CACHING_PURGE_KEY', env('WOODY_VARNISH_CACHING_PURGE_KEY') ?: '');
 Config::define('WOODY_VARNISH_CACHING_COOKIE', env('WOODY_VARNISH_CACHING_COOKIE') ?: '');
 Config::define('WOODY_ACF_PRO_KEY', env('WOODY_ACF_PRO_KEY') ?: '');
+Config::define('WOODY_ACF_GOOGLE_MAPS_KEY', array_env('WOODY_ACF_GOOGLE_MAPS_KEY') ?: '');
 Config::define('WOODY_SENTRY', env('WOODY_SENTRY') ?: '');
-
 Config::define('WOODY_GTM', env('WOODY_GTM') ?: '');
 Config::define('WOODY_ACCESS_LOCKED', env('WOODY_ACCESS_LOCKED') ?: false);
 Config::define('WOODY_ACCESS_STAGING', env('WOODY_ACCESS_STAGING') ?: false);

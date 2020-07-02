@@ -7,7 +7,12 @@
     },
     "css": {
         "src": "web/app/themes/WP_SITE_KEY/src/scss",
-        "entry": ["main.scss", "tourism.scss", "admin.scss", "print.scss"],
+        "entry": [
+            "main.scss",
+            "tourism.scss",
+            "admin.scss",
+            "print.scss"
+        ],
         "dist": "css",
         "modules": [
             "gulp/node_modules/swiper",
@@ -46,30 +51,37 @@
             "lightgallery": "lightGallery",
             "flatpickr": "flatpickr",
             "rellax": "rellax",
-            "plyr": "plyr"
+            "plyr": "plyr",
+            "html2canvas": "html2canvas"
         },
         "extensions": "*.js"
     },
     "imageoptim": {
         "entry": [
             "web/app/themes/woody-theme/src/img",
-            "web/app/plugin/woody-plugin",
-            "vendor/woody-wordpress-pro",
-            "vendor/woody-wordpress"
+            "web/app/plugin/woody-plugin"
         ],
         "extensions": "*.+(jpg|jpeg|gif|png|svg)"
     },
+    "addons": {
+        "src": [
+            "vendor/woody-wordpress-pro",
+            "vendor/woody-wordpress"
+        ],
+        "dist": "web/app/dist/WP_SITE_KEY/addons",
+        "extensions": "*"
+    },
     "medias": {
-        "src": ["web/app/uploads/WP_SITE_KEY"],
+        "src": [
+            "web/app/uploads/WP_SITE_KEY"
+        ],
         "dist": "web/app/uploads/WP_SITE_KEY",
         "extensions": "*.+(jpg|jpeg)"
     },
     "img": {
         "src": [
             "web/app/themes/woody-theme/src/img",
-            "web/app/themes/WP_SITE_KEY/src/img",
-            "vendor/woody-wordpress-pro",
-            "vendor/woody-wordpress"
+            "web/app/themes/WP_SITE_KEY/src/img"
         ],
         "optim": "web/app/themes/WP_SITE_KEY/src/img",
         "dist": "img",
@@ -102,7 +114,9 @@
     "icons": {
         "fontName": "woody-icons",
         "tpl": "web/app/themes/woody-theme/src/icons/template/_icons.scss.tpl",
-        "src": ["web/app/themes/woody-theme/src/icons/icons_set_01"],
+        "src": [
+            "web/app/themes/woody-theme/src/icons/icons_set_01"
+        ],
         "extensions": "*.svg",
         "dest": "web/app/themes/WP_SITE_KEY/src/fonts/woody-icons"
     }

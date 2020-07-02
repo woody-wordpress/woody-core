@@ -1,5 +1,21 @@
 # Global
 .DS_Store
+._.*
+
+# Composer
+bin
+vendor/*
+!vendor/.gitkeep
+
+# Theme Foundation
+node_modules
+npm-debug.log
+dist
+config.yml
+*.sass-cache*
+*.log
+.idea/
+*.swp
 
 # Application
 web/app/db.php
@@ -23,18 +39,3 @@ web/.htaccess
 # Config
 config/sites
 REVISION
-
-# Composer
-bin
-vendor/*
-!vendor/.gitkeep
-
-# Theme Foundation
-node_modules
-npm-debug.log
-dist
-config.yml
-*.sass-cache*
-*.log
-.idea/
-*.swp

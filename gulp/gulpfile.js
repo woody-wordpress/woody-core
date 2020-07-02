@@ -5,6 +5,7 @@
 const gulp = require('gulp');
 const mode = require('./tasks/lib/mode');
 
+require('./tasks/actions/addons.js');
 require('./tasks/actions/css.js');
 require('./tasks/actions/favicon.js');
 require('./tasks/actions/fonts.js');
@@ -26,6 +27,7 @@ if (mode.action == 'build') {
             'icons',
             gulp.parallel('img', 'fonts', 'static', 'favicon'),
             gulp.parallel('css', 'js'),
+            'addons',
             'size',
             'rev'
         )
