@@ -29,6 +29,17 @@ function wd($val, $tag = null)
     }
 }
 
+function console_log($output, $tag = 'Say my name, say my name', $with_script_tags = true) {
+
+    if (WP_ENV == 'dev') {
+        $js_code = 'console.log(); console.log("%c'. $tag .'", "background: #222; color: #bada55; padding:3px;", ' . json_encode($output, JSON_HEX_TAG) . ');';
+        if ($with_script_tags) {
+            $js_code = '<script>' . $js_code . '</script>';
+        }
+        echo $js_code;
+    }
+}
+
 /**
  * @param  [type] $val     [Valeur à debug]
  * @param  bool   $exit    [Force l'affichage du debug si vrai]

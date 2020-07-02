@@ -1,3 +1,41 @@
+### 24 juin 2020 : Version 1.17.0
+
+-   **[Nouveauté]** Nouvelles mise en page de galeries et mises en avant
+-   **[Nouveauté]** Possibilité d'activer un CDN sur les images, css et js
+-   **[Correctif]** Correction d'un bug sur les blocs commentaires
+
+---
+
+### 18 juin 2020
+
+-   **[Nouveauté]** Nouvelle interface d'ajout de blocs dans les sections
+-   **[Nouveauté]** Lien de partage WhatsApp + Option d'activation des réseaux sociaux dans les paramètres Woody
+-   **[Nouveauté]** Nouveaux blocs de mises en avant de profils
+-   **[Mise à jour]** Optimisation du poids des css
+-   **[Correctif]** Choix des templates de titres & icones inaccessibles
+
+---
+
+### 12 juin 2020
+
+-   **[Nouveauté]** Nouvelles mise en pages de galeries et mises en avant
+-   **[Nouveauté]** Ajout des effets visuels sur les titres et icones
+-   **[Mise à jour]** Styles des fiches et playlists
+-   **[Mise à jour]** Optimisation des templates de Titres & Icones
+-   **[Correctif]** Diaporamas de page d'accueil : amélioration du lancement de la vidéo
+
+---
+
+### 11 juin 2020
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.4.1 vers 5.4.2
+-   **[Correctif]** Affichage de la liste des templates sur les modèles
+-   **[Correctif]** Désactivation des redirections inverses lors de l'enregistrement d'une page
+-   **[Correctif]** Réglages d'impression du roadbook
+-   **[Correctif]** Suppression d'effets visuels dupliqués dans certaines mises en avant
+
+---
+
 ### 09 juin 2020 : Version 1.16.0
 
 -   **[Nouveauté]** Nouvelle interface de sélection des templates
