@@ -1,3 +1,39 @@
+### 02 décembre 2019
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.2.4 vers 5.3
+-   **[Mise à jour]** Mise à jour d'ACF Pro 5.7.10 vers 5.8.7
+
+### 29 novembre 2019
+
+-   **[Nouveauté]** Possibilité de sanctuariser les urls (activable sur demande)
+-   **[Correctif]** Correction d'un bug mineur dans l'addon Woody Calendar
+
+---
+
+### 15 novembre 2019
+
+-   **[Nouveauté]** Ajout d'un shortcode [woody_sitemap] pour afficher un plan du site
+-   **[Correctif]** Correction d'un bug mineur dans l'addon Woody Crop
+-   **[Mise à jour]** Ajout d'une couleur de fond "Blanc" dans les options avancées de mise en page
+
+---
+
+### 13 novembre 2019
+
+-   **[Nouveauté]** Addon Woody Infolive pour les stations de ski
+-   **[Correctif]** Amélioration du responsive du bloc "Galerie interactive"
+
+---
+
+### 7 novembre 2019
+
+-   **[Nouveauté]** Catégorisation des modèles selon le type de publication + application rapide d'un modèle
+-   **[Nouveauté]** Ajout de tags en masse sur les photos
+-   **[Mise à jour]** Améliorations visuelles et fonctionnelles sur l'addon Woody Groupes
+-   **[Mise à jour]** Affichage de l'adresse web d'une fiche sur les playlists Hawwwai
+
+---
+
 ### 23 octobre 2019
 
 -   **[Nouveauté]** Bloc "Logo/Image d'illustration" affichant une image non clicable au format original
@@ -34,7 +70,7 @@
 -   **[Nouveauté]** Outil d'export/import de données des pages en CSV
 -   **[Nouveauté]** Amélioration des process de rendu des pages
 -   **[Correctif]** Listes de contenu : pagination et filtres compatibles
--   **[Correctif]** Modification de l'étape "Vos dates" dans le plugin Groupes
+-   **[Correctif]** Modification de l'étape "Vos dates" dans l'addon Woody Groupes
 -   **[Correctif]** Support de la demande de devis pour un composant de séjour
 -   **[Correctif]** Affichage "Gratuit" si le prix d'un séjour est à 0
 
@@ -69,9 +105,9 @@
 
 -   **[Nouveauté]** Sur une playlist, utiliser %nombre% dans les metadonnées Yoast pour retourner le nombre d'élément de la playlist
 -   **[Nouveauté]** Option de retrait des marges autour des blocs de texte (utile lors de l'insertion de widgets)
--   **[Nouveauté]** Plugin Groupes : possibilité d'activer la demande de devis depuis un composant de séjour
+-   **[Nouveauté]** Addon Woody Groupes : possibilité d'activer la demande de devis depuis un composant de séjour
 -   **[Mise à jour]** Optimisation du défilement des blocs de publicité
--   **[Mise à jour]** Traduction du plugin groupes en EN, DE, NL, IT, ES, JA
+-   **[Mise à jour]** Traduction du Addon Woody Groupes groupes en EN, DE, NL, IT, ES, JA
 -   **[Correctif]** Correction de la recherche globale avec tags
 
 ---
@@ -90,7 +126,7 @@
 ### 16 septembre 2019
 
 -   **[Nouveauté]** Ajout de 2 templates de mise en avant
--   **[Nouveauté]** Plugin marées compatible Shom et Meteorem
+-   **[Nouveauté]** Addon Woody Marées compatible Shom et Meteorem
 -   **[Correctif]** Correction d'erreurs W3C
 
 ---
@@ -450,13 +486,13 @@
 
 -   **[Nouveauté]** Création de playlist : posibilité de pré-cocher la conf créée ou d'utiliser une configuration existante pour le précochage
 -   **[Mise à jour]** Traduction EN, ES, DE, NL, IT des éléments d'interface (Lire la suite, M'y rendre, ...)
--   **[Mise à jour]** Plugin Météo compatible "Météo France Montagne"
+-   **[Mise à jour]** Addon Woody Météo compatible "Météo France Montagne"
 
 ---
 
 ### 5 Mars 2019
 
--   **[Mise à jour]** Réouverture du plugin Woody Instagram !
+-   **[Mise à jour]** Réouverture du Addon Woody Instagram !
 
 ---
 
@@ -494,8 +530,8 @@
 
 ### 18 février 2019
 
--   **[Mise à jour]** Mise à jour du plugin Hawwwai avec la fonctionnalité des tris internautes
--   **[Mise à jour]** Mise à jour du plugin Hawwwai nouvelle interface des liens rapides
+-   **[Mise à jour]** Mise à jour de l'addon Hawwwai avec la fonctionnalité des tris internautes
+-   **[Mise à jour]** Mise à jour du l'addon Hawwwai nouvelle interface des liens rapides
 -   **[Correctif]** Ajout d'une balise H1 sur la page d'accueil
 -   **[Correctif]** Optimisation de la mise à jour des fiches SIT
 

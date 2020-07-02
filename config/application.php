@@ -141,6 +141,8 @@ Config::define('NONCE_SALT', env('NONCE_SALT') ?: '');
  * Raccourci WOODY settings
  */
 Config::define('WOODY_TIMEZONE', env('WOODY_TIMEZONE') ?: 'Europe/Paris');
+Config::define('WOODY_LATITUDE', env('WOODY_LATITUDE') ?: null);
+Config::define('WOODY_LONGITUDE', env('WOODY_LONGITUDE') ?: null);
 Config::define('WOODY_SSO_CLIENT_ID', env('WOODY_SSO_CLIENT_ID') ?: '');
 Config::define('WOODY_IMAGE_WEBP_ENABLE', env('WOODY_IMAGE_WEBP_ENABLE') ?: false);
 Config::define('WOODY_SSO_CLIENT_SECRET', env('WOODY_SSO_CLIENT_SECRET') ?: '');
@@ -160,6 +162,7 @@ Config::define('WOODY_SENTRY', env('WOODY_SENTRY') ?: '');
 
 Config::define('WOODY_GTM', env('WOODY_GTM') ?: '');
 Config::define('WOODY_ACCESS_LOCKED', env('WOODY_ACCESS_LOCKED') ?: false);
+Config::define('WOODY_ACCESS_STAGING', env('WOODY_ACCESS_STAGING') ?: false);
 Config::define('WOODY_OPTIONS', array_env('WOODY_OPTIONS') ?: []);
 Config::define('WOODY_API_LOGIN', env('WOODY_API_LOGIN') ?: '');
 Config::define('WOODY_API_PASSWORD', env('WOODY_API_PASSWORD') ?: '');

@@ -12,11 +12,29 @@ const config = require('../lib/config');
 const webpackConfig = require('./webpack.config');
 const Log = require('../lib/logger');
 
-gulp.task('js', done => {
+gulp.task('js_clean', done => {
     del.sync(path.resolve(config.dist, config.js.dist), {
         force: true
     });
 
+    // Async signal
+    done();
+});
+
+gulp.task('js_vendor_move', done => {
+    config.js.modules.forEach(function(item) {
+        if (item.search('vendor/') !== -1) {
+            gulp.src(
+                path.resolve(config.core, item, '**/', config.js.extensions)
+            ).pipe(gulp.dest(path.resolve(config.dist, config.js.dist)));
+        }
+    });
+
+    // Async signal
+    done();
+});
+
+gulp.task('js_compile', done => {
     webpack(webpackConfig).run(webPackBuild(done));
 
     function webPackBuild(done) {
@@ -46,3 +64,6 @@ gulp.task('js', done => {
         };
     }
 });
+
+// Main Task
+gulp.task('js', gulp.series('js_clean', 'js_vendor_move', 'js_compile'));
