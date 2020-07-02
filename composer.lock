@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b3cfa58bf721aaa04419d8ca6884f6d",
+    "content-hash": "4e769594e0c6072a827f6777d3d266f6",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -1041,20 +1041,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.3.2",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "a463d27a25d317c270e93f7259e2b138287bf8c4"
+                "reference": "6cec3b5d82e24c3fa565d725925afb63f116c584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/a463d27a25d317c270e93f7259e2b138287bf8c4",
-                "reference": "a463d27a25d317c270e93f7259e2b138287bf8c4",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6cec3b5d82e24c3fa565d725925afb63f116c584",
+                "reference": "6cec3b5d82e24c3fa565d725925afb63f116c584",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.3.2",
+                "johnpbloch/wordpress-core": "5.4.0",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.6.20"
             },
@@ -1076,27 +1076,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-12-18T22:32:20+00:00"
+            "time": "2020-03-31T20:17:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.3.2",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "a282ab0051fac21d4e0cdd828519e6739743ba92"
+                "reference": "9a9941fcad81015507e6d03801aebc51296baf37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/a282ab0051fac21d4e0cdd828519e6739743ba92",
-                "reference": "a282ab0051fac21d4e0cdd828519e6739743ba92",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9a9941fcad81015507e6d03801aebc51296baf37",
+                "reference": "9a9941fcad81015507e6d03801aebc51296baf37",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.3.2"
+                "wordpress/core-implementation": "5.4.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1106,17 +1106,17 @@
             "authors": [
                 {
                     "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
+                    "homepage": "https://wordpress.org/about/"
                 }
             ],
             "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-            "homepage": "http://wordpress.org/",
+            "homepage": "https://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-12-18T22:32:15+00:00"
+            "time": "2020-03-31T20:17:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1235,16 +1235,16 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "1c3984ba9fc3cb93848748f141f5ddac0a65c5e1"
+                "reference": "6d1100f39f684c9e004f808b27f6c824b083d8d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/1c3984ba9fc3cb93848748f141f5ddac0a65c5e1",
-                "reference": "1c3984ba9fc3cb93848748f141f5ddac0a65c5e1",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/6d1100f39f684c9e004f808b27f6c824b083d8d8",
+                "reference": "6d1100f39f684c9e004f808b27f6c824b083d8d8",
                 "shasum": ""
             },
             "require": {
@@ -1256,7 +1256,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.10.2-dev"
+                    "dev-master": "1.10.3-dev"
                 }
             },
             "autoload": {
@@ -1276,7 +1276,7 @@
                 }
             ],
             "description": "Peast is PHP library that generates AST for JavaScript code",
-            "time": "2020-03-15T16:03:55+00:00"
+            "time": "2020-04-03T09:06:20+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -3835,16 +3835,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-hawwwai",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-hawwwai.git",
-                "reference": "b3301a27007d9419adb18e2592b82865fd050e4f"
+                "reference": "395d6766aa84a9d1c71ed660741ea5aecba7f5a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-hawwwai/zipball/b3301a27007d9419adb18e2592b82865fd050e4f",
-                "reference": "b3301a27007d9419adb18e2592b82865fd050e4f",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-hawwwai/zipball/395d6766aa84a9d1c71ed660741ea5aecba7f5a4",
+                "reference": "395d6766aa84a9d1c71ed660741ea5aecba7f5a4",
                 "shasum": ""
             },
             "require": {
@@ -3867,10 +3867,10 @@
             ],
             "description": "This plugin adds all the features developped for the Woody Hawwwai",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-hawwwai/tree/1.0.0",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-hawwwai/tree/1.0.1",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-hawwwai/issues"
             },
-            "time": "2020-04-02T14:18:57+00:00"
+            "time": "2020-04-03T07:58:27+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-processus",
@@ -4006,16 +4006,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-library",
-            "version": "1.11.1",
+            "version": "1.11.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-library.git",
-                "reference": "adba839894bb439b9ee1aadb2e20855a549fa6ec"
+                "reference": "db43d2bb06750b8aab658fe7e35f2f2408dfbbae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/adba839894bb439b9ee1aadb2e20855a549fa6ec",
-                "reference": "adba839894bb439b9ee1aadb2e20855a549fa6ec",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/db43d2bb06750b8aab658fe7e35f2f2408dfbbae",
+                "reference": "db43d2bb06750b8aab658fe7e35f2f2408dfbbae",
                 "shasum": ""
             },
             "require": {
@@ -4043,10 +4043,10 @@
             ],
             "description": "Catalogue of block and section templates for the Woody builder.",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.11.1",
+                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.11.2",
                 "issues": "https://github.com/woody-wordpress-pro/woody-library/issues"
             },
-            "time": "2020-04-02T15:11:21+00:00"
+            "time": "2020-04-06T12:03:11+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-plugin",
@@ -4100,16 +4100,16 @@
         },
         {
             "name": "woody-wordpress/advanced-custom-fields-pro",
-            "version": "5.8.7",
+            "version": "5.8.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/advanced-custom-fields-pro.git",
-                "reference": "21658cc80d5a5635153a85ca3ba5b71677fa5641"
+                "reference": "97672ef729b4a15cf797ad0003420347de5f009f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/advanced-custom-fields-pro/zipball/21658cc80d5a5635153a85ca3ba5b71677fa5641",
-                "reference": "21658cc80d5a5635153a85ca3ba5b71677fa5641",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/advanced-custom-fields-pro/zipball/97672ef729b4a15cf797ad0003420347de5f009f",
+                "reference": "97672ef729b4a15cf797ad0003420347de5f009f",
                 "shasum": ""
             },
             "require": {
@@ -4122,9 +4122,9 @@
             ],
             "description": "Customize WordPress with powerful, professional and intuitive fields.",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/advanced-custom-fields-pro/tree/5.8.7"
+                "source": "https://github.com/woody-wordpress-pro/advanced-custom-fields-pro/tree/5.8.9"
             },
-            "time": "2019-11-29T13:58:05+00:00"
+            "time": "2020-04-03T07:19:50+00:00"
         },
         {
             "name": "woody-wordpress/enhanced-media-library",
@@ -4163,16 +4163,16 @@
         },
         {
             "name": "woody-wordpress/polylang-pro",
-            "version": "2.6.4",
+            "version": "2.6.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/polylang-pro.git",
-                "reference": "99ff5255460a916ec720b760520d7f6a1e88cf49"
+                "reference": "54b4a188aa92d6c3d5c360feff4143e93759f92a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/polylang-pro/zipball/99ff5255460a916ec720b760520d7f6a1e88cf49",
-                "reference": "99ff5255460a916ec720b760520d7f6a1e88cf49",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/polylang-pro/zipball/54b4a188aa92d6c3d5c360feff4143e93759f92a",
+                "reference": "54b4a188aa92d6c3d5c360feff4143e93759f92a",
                 "shasum": ""
             },
             "require": {
@@ -4185,9 +4185,9 @@
             ],
             "description": "Polylang allows you to create a bilingual or multilingual WordPress site.",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/polylang-pro/tree/2.6.4"
+                "source": "https://github.com/woody-wordpress-pro/polylang-pro/tree/2.6.10"
             },
-            "time": "2019-09-16T14:05:05+00:00"
+            "time": "2020-04-01T06:47:14+00:00"
         },
         {
             "name": "woody-wordpress/woody-acf-sync",
@@ -4340,16 +4340,16 @@
         },
         {
             "name": "woody-wordpress/woody-theme",
-            "version": "1.20.0",
+            "version": "1.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woody-wordpress/woody-theme.git",
-                "reference": "393eefb3d1a831b465c83630ea3ba984fb4ae767"
+                "reference": "7d09ce6c28c7e3f03ef43e415b0af8121386d27d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/393eefb3d1a831b465c83630ea3ba984fb4ae767",
-                "reference": "393eefb3d1a831b465c83630ea3ba984fb4ae767",
+                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/7d09ce6c28c7e3f03ef43e415b0af8121386d27d",
+                "reference": "7d09ce6c28c7e3f03ef43e415b0af8121386d27d",
                 "shasum": ""
             },
             "require": {
@@ -4375,7 +4375,7 @@
                 }
             ],
             "description": "Parent theme of Woody Wordpresss Builder",
-            "time": "2020-04-02T14:28:41+00:00"
+            "time": "2020-04-03T09:43:25+00:00"
         },
         {
             "name": "wp-cli/cache-command",

@@ -1,3 +1,9 @@
+### 5 avril 2020
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.3.2 vers 5.4.0
+-   **[Mise à jour]** Mise à jour du plugin Polylang 2.6.4 vers 2.6.10
+-   **[Mise à jour]** Mise à jour du plugin ACF PRO 5.8.7 vers 5.8.10
+
 ### 30 mars 2020
 
 -   **[Nouveauté]** Nouveaux templates de visuel & accroche (05), en-tête de page (05) et mise en avant (319)
