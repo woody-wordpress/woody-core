@@ -1,4 +1,17 @@
-### 02 juin 2020
+### 09 juin 2020 : Version 1.16.0
+
+-   **[Nouveauté]** Nouvelle interface de sélection des templates
+-   **[Nouveauté]** Nouveau bloc "sommaire"
+-   **[Nouveauté]** Ajout du concept de "Profil"
+-   **[Nouveauté]** Nouveaux blocs de "mises en avant" et de "galeries photos"
+-   **[Mise à jour]** Optimisation des templates de galeries et de citations
+-   **[Mise à jour]** Optimisation du chargement d'une page dans le back-office
+-   **[Mise à jour]** Ajout du plugin "HeartBeat Control"
+-   **[Correctif]** Affichage de la procédure d'inscription à Instagram
+
+---
+
+### 02 juin 2020 : Version 1.15.0
 
 -   **[Nouveauté]** Nouveaux blocs de mise en avant
 -   **[Nouveauté]** Possibilité d'ajouter un bouton dans un bloc de mises en avant
@@ -8,7 +21,6 @@
 -   **[Mise à jour]** Optimisation du code de la bibliothèque de mises en page
 
 ---
-
 
 ### 27 mai 2020
 
