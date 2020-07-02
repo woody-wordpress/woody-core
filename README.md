@@ -12,8 +12,8 @@
 
 Woody is dependent on 2 paid plugins of the wordpress community. To use woody you must absolutely buy and install :
 
--   Polylang PRO **version 2.6.4**
--   ACF PRO (Advanced Custom Fields PRO) **version 5.7.10**
+-   Polylang PRO **version 2.6.10**
+-   ACF PRO (Advanced Custom Fields PRO) **version 5.8.9**
 
 These plugins must be uploaded to the **web/app/plugins** directory.
 
@@ -90,6 +90,9 @@ WOODY_SMTP_SENDER_NAME='Provided by Raccourci Agency'
 WOODY_SMTP_SENDER='Provided by Raccourci Agency'
 WOODY_SMTP_USERNAME='Provided by Raccourci Agency'
 WOODY_SMTP_PASSWORD='Provided by Raccourci Agency'
+WOODY_CLOUDFLARE_URL=''
+WOODY_CLOUDFLARE_ZONE=''
+WOODY_CLOUDFLARE_TOKEN=''
 ```
 
 First, install Woody Core via the Composer package manager:
@@ -134,6 +137,7 @@ Here is the list of available ordering options:
 -   no-cache
 -   no-twig
 -   no-varnish
+-   no-cdn
 -   no-install
 -   no-updb
 -   no-acf
@@ -144,7 +148,7 @@ These two commands produce the same result. "speed" is a shortcut to all these o
 
 ```bash
 woody deploy:site -s mywebsite -o speed
-woody deploy:site -s mywebsite -o no-install,no-updb,no-acf,no-gulp,no-warm,no-varnish,no-sso
+woody deploy:site -s mywebsite -o no-install,no-updb,no-acf,no-gulp,no-warm,no-varnish,no-cdn,no-sso
 ```
 
 ## :inbox_tray: Updating

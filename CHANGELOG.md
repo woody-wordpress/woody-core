@@ -1,7 +1,24 @@
+### 2 juillet 2020 : Version 1.18.0
+
+-   **[Nouveauté]** Compatibilité de Woody avec le CDN Cloudflare 🚀
+-   **[Mise à jour]** Livraison du Core en OpenSource sur GitHub
+-   **[Mise à jour]** Mise à jour de plusieurs plugins
+
+---
+
+### 1er juillet 2020
+
+-   **[Nouveauté]** Chargement des iframes vidéos en lazyloading
+-   **[Nouveauté]** Ajout d'un format mobile pour les bannières publicitaires dans les pages
+-   **[Nouveauté]** Bouton "shuffle" dans les mises en avant
+-   **[Correctif]** Correction du comportement des blocs vidéo au scroll
+-   **[Correctif]** Correction de l'affichage des blocs story
+
+---
+
 ### 24 juin 2020 : Version 1.17.0
 
 -   **[Nouveauté]** Nouvelles mise en page de galeries et mises en avant
--   **[Nouveauté]** Possibilité d'activer un CDN sur les images, css et js
 -   **[Correctif]** Correction d'un bug sur les blocs commentaires
 
 ---

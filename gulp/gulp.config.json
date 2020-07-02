@@ -106,10 +106,7 @@
         "extensions": "*.+(woff2|woff|eot|ttf|svg)"
     },
     "favicon": {
-        "src": [
-            "web/app/themes/woody-theme/src/favicon",
-            "web/app/themes/WP_SITE_KEY/src/favicon"
-        ],
+        "src": "web/app/themes/WP_SITE_KEY/src/favicon",
         "dist": "favicon",
         "extensions": "*.png"
     },

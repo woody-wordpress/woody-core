@@ -8,19 +8,27 @@ const path = require('path');
 const flatMap = require('flat-map').default;
 const scaleImages = require('gulp-scale-images');
 const ico = require('gulp-to-ico');
-const changed = require('gulp-changed');
+// const changed = require('gulp-changed');
+const glob = require('glob');
+const del = require('del');
 
 const config = require('../lib/config');
 const mode = require('../lib/mode');
 
 // Create path
-config.favicon.src.forEach(function (part, index, array) {
-    array[index] = path.resolve(
-        config.core,
-        part.replace('WP_SITE_KEY', mode.site_key),
-        config.favicon.extensions
-    );
-});
+config.favicon.src = path.resolve(
+    config.core,
+    config.favicon.src.replace('WP_SITE_KEY', mode.site_key),
+    config.favicon.extensions
+);
+
+// config.favicon.src.forEach(function (part, index, array) {
+//     array[index] = path.resolve(
+//         config.core,
+//         part.replace('WP_SITE_KEY', mode.site_key),
+//         config.favicon.extensions
+//     );
+// });
 
 const iconsVariants = (file, done) => {
     const icon192 = file.clone();
@@ -63,27 +71,36 @@ const iconsVariants = (file, done) => {
     ]);
 };
 
-gulp.task('icons_touch', () => {
-    return gulp
-        .src(config.favicon.src)
-        .pipe(
-            changed(path.resolve(config.dist, config.favicon.dist), {
-                hasChanged: changed.compareContents
-            })
-        )
-        .pipe(flatMap(iconsVariants))
-        .pipe(scaleImages())
-        .pipe(gulp.dest(path.resolve(config.dist, config.favicon.dist)));
+gulp.task('favicon_clean', done => {
+    del.sync(path.resolve(config.dist, config.favicon.dist), {
+        force: true
+    });
+    done();
 });
 
-gulp.task('icons_favicon', () => {
-    return gulp
-        .src(path.resolve(config.dist, config.favicon.dist) + '/*.png')
-        .pipe(
-            ico('favicon.ico', { resize: true, sizes: [16, 32, 64, 128, 192] })
-        )
-        .pipe(gulp.dest(path.resolve(config.dist, config.favicon.dist)));
+gulp.task('favicon_compile', done => {
+    glob(config.favicon.src, function (er, items) {
+        items.forEach(item => {
+            var favicon_name = path.parse(item).name;
+            var favicon_path = path.resolve(config.dist, config.favicon.dist, favicon_name);
+
+            gulp
+                .src(item)
+                .pipe(flatMap(iconsVariants))
+                .pipe(scaleImages())
+                .pipe(gulp.dest(favicon_path))
+                .on("end", function () {
+                    gulp
+                        .src(favicon_path + '/*.png')
+                        .pipe(ico(favicon_name + '.ico', { resize: true, sizes: [16, 32, 64, 128, 192] }))
+                        .pipe(gulp.dest(favicon_path));
+                });
+        });
+
+        // Async signal
+        done();
+    })
 });
 
 // Main Task
-gulp.task('favicon', gulp.series('icons_touch', 'icons_favicon'));
+gulp.task('favicon', gulp.series('favicon_clean', 'favicon_compile'));
