@@ -52,7 +52,7 @@ gulp.task('watch_compile', done => {
             console.log('WATCH INCLUDE (' + task + ')', src);
             gulp.watch([src, '!' + config.dist], gulp.series(task, 'size'));
         } else if (Array.isArray(config[task].src)) {
-            config[task].src.forEach(function(part) {
+            config[task].src.forEach(function (part) {
                 console.log('WATCH INCLUDE (' + task + ')', part);
                 gulp.watch(
                     [part, '!' + config.dist],

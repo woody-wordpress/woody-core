@@ -11,18 +11,23 @@ const gulpif = require('gulp-if');
 const path = require('path');
 const plumber = require('gulp-plumber');
 const changed = require('gulp-changed');
+const del = require('del');
 
 const config = require('../lib/config');
 const mode = require('../lib/mode');
 
 // Create path
-config.img.src.forEach(function(part, index, array) {
+config.img.src.forEach(function (part, index, array) {
     array[index] = path.resolve(
         config.core,
         part.replace('WP_SITE_KEY', mode.site_key),
         '**/',
         config.img.extensions
     );
+});
+
+config.img.exclude.forEach(function (part, index, array) {
+    config.img.src.push('!' + path.resolve(config.core, part));
 });
 
 gulp.task('img_optim', () => {
@@ -51,7 +56,7 @@ gulp.task('img_optim', () => {
             gulpif(
                 mode.action != 'watch',
                 plumber({
-                    errorHandler: function(error) {
+                    errorHandler: function (error) {
                         console.log('Error Images : ' + error.message);
                         process.exit(1);
                     }
@@ -87,20 +92,22 @@ gulp.task('img_optim', () => {
         );
 });
 
+gulp.task('img_clean', done => {
+    del.sync(path.resolve(config.dist, config.img.dist), {
+        force: true
+    });
+    done();
+});
+
 gulp.task('img_move', () => {
     return gulp
         .src(config.img.src)
-        .pipe(
-            changed(path.resolve(config.dist, config.img.dist), {
-                hasChanged: changed.compareContents
-            })
-        )
         .pipe(gulp.dest(path.resolve(config.dist, config.img.dist)));
 });
 
 // Main Task
 if (mode.env == 'dev' && mode.action != 'watch') {
-    gulp.task('img', gulp.series('img_optim', 'img_move'));
+    gulp.task('img', gulp.series('img_clean', 'img_optim', 'img_move'));
 } else {
-    gulp.task('img', gulp.series('img_move'));
+    gulp.task('img', gulp.series('img_clean', 'img_move'));
 }

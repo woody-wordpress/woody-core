@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e769594e0c6072a827f6777d3d266f6",
+    "content-hash": "f3cc893eb148762a63a23b1c9257a28a",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -60,16 +60,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.6",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "47fe531de31fca4a1b997f87308e7d7804348f7e"
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/47fe531de31fca4a1b997f87308e7d7804348f7e",
-                "reference": "47fe531de31fca4a1b997f87308e7d7804348f7e",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
                 "shasum": ""
             },
             "require": {
@@ -112,20 +112,30 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2020-01-13T10:02:55+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-08T08:27:21+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "1.10.1",
+            "version": "1.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "b912a45da3e2b22f5cb5a23e441b697a295ba011"
+                "reference": "7a4d5b6aa30d2118af27c04f5e897b57156ccfa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/b912a45da3e2b22f5cb5a23e441b697a295ba011",
-                "reference": "b912a45da3e2b22f5cb5a23e441b697a295ba011",
+                "url": "https://api.github.com/repos/composer/composer/zipball/7a4d5b6aa30d2118af27c04f5e897b57156ccfa9",
+                "reference": "7a4d5b6aa30d2118af27c04f5e897b57156ccfa9",
                 "shasum": ""
             },
             "require": {
@@ -192,32 +202,35 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-03-13T19:34:27+00:00"
+            "time": "2020-04-10T09:44:22+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3"
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
-                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
+                "composer/composer": "1.6.* || 2.0.*@dev",
+                "composer/semver": "1.0.* || 2.0.*@dev",
+                "phpunit/phpunit": "^4.8.36",
+                "sebastian/comparator": "^1.2.4",
+                "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
@@ -316,7 +329,17 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2020-02-07T10:39:20+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-07T06:57:05+00:00"
         },
         {
             "name": "composer/semver",
@@ -1551,7 +1574,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "? Nette Http: abstraction for HTTP request, response and session. Provides careful data sanitization and utility for URL and cookies manipulation.",
+            "description": "🌐 Nette Http: abstraction for HTTP request, response and session. Provides careful data sanitization and utility for URL and cookies manipulation.",
             "homepage": "https://nette.org",
             "keywords": [
                 "cookies",
@@ -2860,6 +2883,15 @@
                 "logging",
                 "sentry"
             ],
+            "funding": [
+                {
+                    "type": "custom"
+                },
+                {
+                    "url": "https://sentry.io/pricing/",
+                    "type": "custom"
+                }
+            ],
             "time": "2020-03-06T09:24:53+00:00"
         },
         {
@@ -3916,16 +3948,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-roadbook",
-            "version": "1.5.0",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-roadbook.git",
-                "reference": "36d406ae1bf95c6f30f487f87f564248b1b81cda"
+                "reference": "e898531d7f3c06176b1b4c46ae5e848c283f3eb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-roadbook/zipball/36d406ae1bf95c6f30f487f87f564248b1b81cda",
-                "reference": "36d406ae1bf95c6f30f487f87f564248b1b81cda",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-roadbook/zipball/e898531d7f3c06176b1b4c46ae5e848c283f3eb9",
+                "reference": "e898531d7f3c06176b1b4c46ae5e848c283f3eb9",
                 "shasum": ""
             },
             "require": {
@@ -3956,10 +3988,10 @@
             ],
             "description": "This plugin adds all the features developped for the Woody RoadBook",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/tree/1.5.0",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/tree/1.5.2",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/issues"
             },
-            "time": "2020-04-02T14:08:20+00:00"
+            "time": "2020-04-10T12:00:18+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-touristicmaps",
@@ -4006,16 +4038,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-library",
-            "version": "1.11.2",
+            "version": "1.11.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-library.git",
-                "reference": "db43d2bb06750b8aab658fe7e35f2f2408dfbbae"
+                "reference": "4fb50c4a8f721a6e9e179c19f1354014e365d51a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/db43d2bb06750b8aab658fe7e35f2f2408dfbbae",
-                "reference": "db43d2bb06750b8aab658fe7e35f2f2408dfbbae",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/4fb50c4a8f721a6e9e179c19f1354014e365d51a",
+                "reference": "4fb50c4a8f721a6e9e179c19f1354014e365d51a",
                 "shasum": ""
             },
             "require": {
@@ -4043,23 +4075,23 @@
             ],
             "description": "Catalogue of block and section templates for the Woody builder.",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.11.2",
+                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.11.5",
                 "issues": "https://github.com/woody-wordpress-pro/woody-library/issues"
             },
-            "time": "2020-04-06T12:03:11+00:00"
+            "time": "2020-04-10T11:58:19+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-plugin",
-            "version": "1.14.0",
+            "version": "1.14.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-plugin.git",
-                "reference": "2980a74922d5af7848ac6bf52af9521c58b8222b"
+                "reference": "cef78eaad05fe908dd92b3e90419ce3732842806"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/2980a74922d5af7848ac6bf52af9521c58b8222b",
-                "reference": "2980a74922d5af7848ac6bf52af9521c58b8222b",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/cef78eaad05fe908dd92b3e90419ce3732842806",
+                "reference": "cef78eaad05fe908dd92b3e90419ce3732842806",
                 "shasum": ""
             },
             "require": {
@@ -4093,10 +4125,10 @@
             ],
             "description": "This plugin adds all the features of woody Pro (Hawwwai, Instagram, Favorites, Weather, Claims, ...)",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/1.14.0",
+                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/1.14.2",
                 "issues": "https://github.com/woody-wordpress-pro/woody-plugin/issues"
             },
-            "time": "2020-04-02T14:24:54+00:00"
+            "time": "2020-04-09T15:12:28+00:00"
         },
         {
             "name": "woody-wordpress/advanced-custom-fields-pro",
@@ -4340,16 +4372,16 @@
         },
         {
             "name": "woody-wordpress/woody-theme",
-            "version": "1.20.1",
+            "version": "1.20.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woody-wordpress/woody-theme.git",
-                "reference": "7d09ce6c28c7e3f03ef43e415b0af8121386d27d"
+                "reference": "ad154855d64bdbcb5636cc7b3917f6827104e347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/7d09ce6c28c7e3f03ef43e415b0af8121386d27d",
-                "reference": "7d09ce6c28c7e3f03ef43e415b0af8121386d27d",
+                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/ad154855d64bdbcb5636cc7b3917f6827104e347",
+                "reference": "ad154855d64bdbcb5636cc7b3917f6827104e347",
                 "shasum": ""
             },
             "require": {
@@ -4375,7 +4407,7 @@
                 }
             ],
             "description": "Parent theme of Woody Wordpresss Builder",
-            "time": "2020-04-03T09:43:25+00:00"
+            "time": "2020-04-11T12:50:51+00:00"
         },
         {
             "name": "wp-cli/cache-command",

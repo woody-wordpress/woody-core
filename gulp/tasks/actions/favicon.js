@@ -14,7 +14,7 @@ const config = require('../lib/config');
 const mode = require('../lib/mode');
 
 // Create path
-config.favicon.src.forEach(function(part, index, array) {
+config.favicon.src.forEach(function (part, index, array) {
     array[index] = path.resolve(
         config.core,
         part.replace('WP_SITE_KEY', mode.site_key),
@@ -63,7 +63,7 @@ const iconsVariants = (file, done) => {
     ]);
 };
 
-gulp.task('touch-icons', () => {
+gulp.task('icons_touch', () => {
     return gulp
         .src(config.favicon.src)
         .pipe(
@@ -76,14 +76,9 @@ gulp.task('touch-icons', () => {
         .pipe(gulp.dest(path.resolve(config.dist, config.favicon.dist)));
 });
 
-gulp.task('favicon-icons', () => {
+gulp.task('icons_favicon', () => {
     return gulp
         .src(path.resolve(config.dist, config.favicon.dist) + '/*.png')
-        .pipe(
-            changed(path.resolve(config.dist, config.favicon.dist), {
-                hasChanged: changed.compareContents
-            })
-        )
         .pipe(
             ico('favicon.ico', { resize: true, sizes: [16, 32, 64, 128, 192] })
         )
@@ -91,4 +86,4 @@ gulp.task('favicon-icons', () => {
 });
 
 // Main Task
-gulp.task('favicon', gulp.series('touch-icons', 'favicon-icons'));
+gulp.task('favicon', gulp.series('icons_touch', 'icons_favicon'));

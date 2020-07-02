@@ -81,7 +81,17 @@
     "img": {
         "src": [
             "web/app/themes/woody-theme/src/img",
-            "web/app/themes/WP_SITE_KEY/src/img"
+            "web/app/themes/WP_SITE_KEY/src/img",
+            "vendor/woody-wordpress-pro",
+            "vendor/woody-wordpress"
+        ],
+        "exclude": [
+            "vendor/woody-wordpress-pro/woody-addon-*/**",
+            "vendor/woody-wordpress-pro/woody-addon-*/**/*",
+            "vendor/woody-wordpress/woody-addon-*/**",
+            "vendor/woody-wordpress/woody-addon-*/**/*",
+            "vendor/woody-wordpress/woody-cli/**",
+            "vendor/woody-wordpress/woody-cli/**/*"
         ],
         "optim": "web/app/themes/WP_SITE_KEY/src/img",
         "dist": "img",

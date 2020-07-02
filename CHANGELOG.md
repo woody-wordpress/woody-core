@@ -1,3 +1,12 @@
+### 8 avril 2020
+
+-   **[Nouveauté]** Nouvelle mise en page de mise en avant avec résultats affichés sur une carte
+-   **[Mise à jour]** Amélioration du plugin "Topics"
+-   **[Correctif]** Affichage des vidéos dans la mise en page Visuel & Accroche 05
+-   **[Correctif]** Affichage exhaustif des cocons sémantiques (anciennement limité à 10 résultats)
+-   **[Correctif]** Ordonnancement des mises en pages de mises en avant
+-   **[Correctif]** Notices PHP
+
 ### 5 avril 2020
 
 -   **[Mise à jour]** Mise à jour de Wordpress 5.3.2 vers 5.4.0

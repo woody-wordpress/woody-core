@@ -11,6 +11,9 @@
         "css": "gulp --action css",
         "js": "gulp --action js",
         "img": "gulp --action img",
+        "favicon": "gulp --action favicon",
+        "icons": "gulp --action icons",
+        "static": "gulp --action static",
         "addons": "gulp --action addons",
         "imageoptim": "gulp --action imageoptim"
     },
