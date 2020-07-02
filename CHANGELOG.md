@@ -1,3 +1,19 @@
+### 20 mai 2020
+
+-   **[Nouveauté]** Nouveaux blocs commandés par OT Marseille
+-   **[Correctif]** Problèmes de calcul des sessions et du taux de rebond sur Google Analytics
+
+---
+
+### 13 mai 2020
+
+-   **[Nouveauté]** Ajout de l'addon PocketSite
+-   **[Nouveauté]** Nouvelle mise en page de visuel & accroche
+-   **[Mise à jour]** Possibilité de choisir la devise XPF pour les séjours
+-   **[Mise à jour]** Mise à jour du guide de voyage
+
+---
+
 ### 7 mai 2020 : Version 1.13.0
 
 -   **[Mise à jour]** Possibilité de limiter le nombre de Topics dans une mise en avant automatique
