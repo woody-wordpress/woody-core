@@ -1,3 +1,30 @@
+### 28 janvier 2020
+
+-   **[Nouveauté]** Remplacement du plugin Yoast par le plugin Woody SEO => amélioration des performances du backoffice
+-   **[Nouveauté]** Suppression du plugin Timber (Twig) => amélioration des performances du backoffice
+-   **[Nouveauté]** Ajout d'un filtre pour personaliser les options multilingues
+-   **[Mise à jour]** Mise à jour du plugin ACF de 5.7.10 vers 5.8.7
+-   **[Correctif]** Ajout d'une balise robots "noindex, nofollow" sur les pages de langues non activées
+
+---
+
+### 23 janvier 2020
+
+-   **[Nouveauté]** Ajout d'une option dans les paramètres permettant de masquer les sections lorsqu'elle sont vides
+
+---
+
+### 14 janvier 2020
+
+-   **[Nouveauté]** Liste de contenu : ajout d'un champ de recherche par ville sur la carte
+-   **[Mise à jour]** Mises en avant manuelles : Contenu libre => la description n'est plus limitée à 180 caractères
+-   **[Mise à jour]** Ajout d'un calendrier pour choisir la date de dépublication d'une page
+-   **[Mise à jour]** Listes de contenu : remontée en haut de liste lors de l'utilisation de la pagination
+-   **[Mise à jour]** Amélioration du plugin d'import de pages Drupal (publication auto, langue des pages, photos dans toutes les langues)
+-   **[Mise à jour]** Améliorations mineures du style de la partie tourisme
+
+---
+
 ### 09 janvier 2020
 
 -   **[Mise à jour]** Mise à jour du plugin Redirection de 4.5.1 vers 4.6.2
