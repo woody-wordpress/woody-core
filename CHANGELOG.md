@@ -1,4 +1,34 @@
-### 20 mai 2020
+### 02 juin 2020
+
+-   **[Nouveauté]** Nouveaux blocs de mise en avant
+-   **[Nouveauté]** Possibilité d'ajouter un bouton dans un bloc de mises en avant
+-   **[Nouveauté]** Gestion des paramètres de fond pour les mises en avant
+-   **[Nouveauté]** Option d'affichage pleine page pour les titres des blocs de mise en avant
+-   **[Nouveauté]** Mises à jour des mises en page Tourisme => Gestion COVID
+-   **[Mise à jour]** Optimisation du code de la bibliothèque de mises en page
+
+---
+
+
+### 27 mai 2020
+
+-   **[Correctif]** Correction d'un bug sur la génération des sitemaps
+
+---
+
+### 25 mai 2020
+
+-   **[Correctif]** Diverses évolutions sur le RoadBook
+-   **[Correctif]** Problèmes de calcul des sessions et du taux de rebond sur Google Analytics
+-   **[Correctif]** Gestion du play/pause automatique sur les vidéos
+-   **[Nouveauté]** Possibilité d'ajouter un titre au bloc citation + nouveau bloc de citation
+-   **[Nouveauté]** Ajout d'une metabox profil lié
+-   **[Nouveauté]** Possibilité d'ajouter le profil lié sur les mise en avant
+-   **[Nouveauté]** Possibilité d'ajouter un média sur templates 01 et 02 des en-têtes de pages
+
+---
+
+### 20 mai 2020 : Version 1.14.0
 
 -   **[Nouveauté]** Nouveaux blocs commandés par OT Marseille
 -   **[Correctif]** Problèmes de calcul des sessions et du taux de rebond sur Google Analytics
