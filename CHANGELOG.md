@@ -1,3 +1,11 @@
+### 7 mai 2020 : Version 1.13.0
+
+-   **[Mise à jour]** Possibilité de limiter le nombre de Topics dans une mise en avant automatique
+-   **[Correctif]** Problème de consommation mémoire de PHP
+-   **[Correctif]** Diverses erreurs de syntaxe PHP
+
+---
+
 ### 4 mai 2020 : Version 1.12.0
 
 -   **[Mise à jour]** Mise à jour de Wordpress 5.4.0 vers 5.4.1

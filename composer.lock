@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be3713f14b1374ba2b8e71a8be357f43",
+    "content-hash": "405dd5eb3ea2922488ad5023f4129add",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -126,16 +126,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.10.5",
+            "version": "1.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "7a4d5b6aa30d2118af27c04f5e897b57156ccfa9"
+                "reference": "be81b9c4735362c26876bdbfd3b5bc7e7f711c88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/7a4d5b6aa30d2118af27c04f5e897b57156ccfa9",
-                "reference": "7a4d5b6aa30d2118af27c04f5e897b57156ccfa9",
+                "url": "https://api.github.com/repos/composer/composer/zipball/be81b9c4735362c26876bdbfd3b5bc7e7f711c88",
+                "reference": "be81b9c4735362c26876bdbfd3b5bc7e7f711c88",
                 "shasum": ""
             },
             "require": {
@@ -154,7 +154,8 @@
                 "symfony/process": "^2.7 || ^3.0 || ^4.0 || ^5.0"
             },
             "conflict": {
-                "symfony/console": "2.8.38"
+                "symfony/console": "2.8.38",
+                "symfony/phpunit-bridge": "3.4.40"
             },
             "require-dev": {
                 "phpspec/prophecy": "^1.10",
@@ -202,7 +203,17 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-04-10T09:44:22+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-06T08:28:10+00:00"
         },
         {
             "name": "composer/installers",
@@ -4008,16 +4019,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-eskalad",
-            "version": "1.1.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-eskalad.git",
-                "reference": "e9c4fc05dc26387d487c3b0bf375adaea0175560"
+                "reference": "3d65c432ac54a20ed1a93eee3097d9d724527a1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-eskalad/zipball/e9c4fc05dc26387d487c3b0bf375adaea0175560",
-                "reference": "e9c4fc05dc26387d487c3b0bf375adaea0175560",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-eskalad/zipball/3d65c432ac54a20ed1a93eee3097d9d724527a1c",
+                "reference": "3d65c432ac54a20ed1a93eee3097d9d724527a1c",
                 "shasum": ""
             },
             "require": {
@@ -4044,10 +4055,10 @@
             ],
             "description": "This plugin adds all the features developped espcially for Eskalad Connexion",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-eskalad/tree/1.1.0",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-eskalad/tree/1.4.0",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-eskalad/issues"
             },
-            "time": "2020-05-05T06:58:25+00:00"
+            "time": "2020-05-05T12:20:36+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-hawwwai",
@@ -4266,16 +4277,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-plugin",
-            "version": "1.15.1",
+            "version": "1.15.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-plugin.git",
-                "reference": "3a35fbbbffee1cc13dcb727ccec55e59b9d96bb4"
+                "reference": "51b83e0fbe3839dbd63cac89325707456f1233ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/3a35fbbbffee1cc13dcb727ccec55e59b9d96bb4",
-                "reference": "3a35fbbbffee1cc13dcb727ccec55e59b9d96bb4",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/51b83e0fbe3839dbd63cac89325707456f1233ff",
+                "reference": "51b83e0fbe3839dbd63cac89325707456f1233ff",
                 "shasum": ""
             },
             "require": {
@@ -4309,10 +4320,10 @@
             ],
             "description": "This plugin adds all the features of woody Pro (Hawwwai, Instagram, Favorites, Weather, Claims, ...)",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/1.15.1",
+                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/1.15.2",
                 "issues": "https://github.com/woody-wordpress-pro/woody-plugin/issues"
             },
-            "time": "2020-05-04T16:28:01+00:00"
+            "time": "2020-05-07T14:46:19+00:00"
         },
         {
             "name": "woody-wordpress/advanced-custom-fields-pro",
@@ -4556,16 +4567,16 @@
         },
         {
             "name": "woody-wordpress/woody-theme",
-            "version": "1.21.1",
+            "version": "1.21.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woody-wordpress/woody-theme.git",
-                "reference": "0ad9b1f94fca8f5e8c226b890f828add3559ffa4"
+                "reference": "fc39a22adb17fff29861d9875c1a527e03248810"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/0ad9b1f94fca8f5e8c226b890f828add3559ffa4",
-                "reference": "0ad9b1f94fca8f5e8c226b890f828add3559ffa4",
+                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/fc39a22adb17fff29861d9875c1a527e03248810",
+                "reference": "fc39a22adb17fff29861d9875c1a527e03248810",
                 "shasum": ""
             },
             "require": {
@@ -4591,7 +4602,7 @@
                 }
             ],
             "description": "Parent theme of Woody Wordpresss Builder",
-            "time": "2020-05-04T16:29:41+00:00"
+            "time": "2020-05-07T14:44:42+00:00"
         },
         {
             "name": "wp-cli/cache-command",
