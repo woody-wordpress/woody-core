@@ -1,7 +1,73 @@
+### 09 janvier 2020
+
+-   **[Mise à jour]** Mise à jour du plugin Redirection de 4.5.1 vers 4.6.2
+-   **[Mise à jour]** Import et mise à jour asynchrone des fiches SIT - Plugin Hawwwai
+-   **[Correctif]** Correction d'un bug d'affichage sur les alignements de blocs dans les sections
+-   **[Correctif]** Possibilité d'utiliser la météo Darsky ou Méteo France dans le module Infolive
+
+---
+
+### 20 décembre 2019
+
+-   **[Nouveauté]** Accès à la configuration Hawwwai (niveau de contrats, labels, ...) depuis le menu Woody Wordpress
+-   **[Nouveauté]** Gestion de la profondeur des blocs lors de l'ajout d'une transformation
+-   **[Nouveauté]** Ajout de l'option "Paramètres de fond" pour les groupes d'onglets
+-   **[Mise à jour]** Mise à jour de Wordpress 5.3.1 vers 5.3.2
+
+---
+
+### 18 décembre 2019
+
+-   **[Correctif]** Correction d'un bug lors de l'ouverture de liens/widget dans des popins dans le module publicités
+
+---
+
+### 16 décembre 2019
+
+-   **[Nouveauté]** Le plugin "Publicités" permet désormais d'ajouter une banière pub dans les sections
+-   **[Mise à jour]** Passage du temps de cache de 4h à 15min pour les pages avec bloc infolive
+
+---
+
+### 13 décembre 2019
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.3 vers 5.3.1
+-   **[Correctif]** Retour à une version stable de Woody + ACF
+
+---
+
+### 11 décembre 2019
+
+-   **[Nouveauté]** __Il est désormais possible de déplacer des blocs entre différentes sections__
+-   **[Mise à jour]** Modification du temps de cache pour les pages avec blocs météo ou infolive
+-   **[Mise à jour]** Evolutions mineures du plugin Groupes
+-   **[Mise à jour]** Mise à jour du plugin ACF
+-   **[Correctif]** Correction d'erreurs PHP
+-   **[Correctif]** Enregistrement/application des modèles (depuis ACF 5.7)
+-   **[Correctif]** Suppression définitive des "Anciens champs"
+
+---
+
+### 05 décembre 2019
+
+-   **[Correctif]** Modification du comportement des FAQ => plusieurs lignes peuvent rester ouvertes simultanément
+
+---
+
+### 03 décembre 2019
+
+-   **[Correctif]** Téléchargement de photos dans la bibliothèque depuis une page
+-   **[Correctif]** Affichage du bloc Yoast en bas des pages
+-   **[Correctif]** Correctifs suite au passage à wordpress 5.3
+
+---
+
 ### 02 décembre 2019
 
 -   **[Mise à jour]** Mise à jour de Wordpress 5.2.4 vers 5.3
 -   **[Mise à jour]** Mise à jour d'ACF Pro 5.7.10 vers 5.8.7
+
+---
 
 ### 29 novembre 2019
 
