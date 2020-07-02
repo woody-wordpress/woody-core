@@ -1,4 +1,43 @@
-### 8 avril 2020
+### 4 mai 2020 : Version 1.12.0
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.4.0 vers 5.4.1
+-   **[Mise à jour]** Nouvelle nomenclature des événements GTM : https://github.com/raccourci/eskalad
+
+---
+
+### 29 avril 2020
+
+-   **[Correctif]** Optimisation de la migration Drupal vers Woody
+
+---
+
+### 22 avril 2020
+
+-   **[Nouveauté]** Possibilité d'ajouter des pictogrammes dans l'éditeur de texte
+-   **[Nouveauté]** Ajout de la miniature au chargement d'une vidéo Youtube dans le diaporama de page d'accueil
+-   **[Mise à jour]** Ajout du nom de la syndication dans Hawwwai => Outils => Guide de voyage
+-   **[Mise à jour]** Amélioration du plugin Guide de Voyage
+-   **[Correctif]** Correction d'un bug dans l'affichage des publicités sur la page d'accueil avec gestion des langues en préfixe
+
+---
+
+### 15 avril 2020
+
+-   **[Nouveauté]** Filtre Hawwwai pour exclure des fiches SIT à l'import
+-   **[Nouveauté]** Liste des playlists Hawwwai présentes dans les feuillets du RoadBook
+-   **[Correctif]** Sur un site avec une saisonnalité, la recherche ne cherche que dans la saison courante
+
+---
+
+### 14 avril 2020 : Version 1.11.0
+
+-   **[Correctif]** Lancement de la popin Hawwwai sur les liens rapides
+-   **[Correctif]** Génération d'une favicon.ico en plus des versions PNG
+-   **[Correctif]** Optimisation de la compilation des CSS, JS et compression des images du thème
+
+---
+
+### 8 avril 2020 : Version 1.10.0
 
 -   **[Nouveauté]** Nouvelle mise en page de mise en avant avec résultats affichés sur une carte
 -   **[Mise à jour]** Amélioration du plugin "Topics"
@@ -7,11 +46,15 @@
 -   **[Correctif]** Ordonnancement des mises en pages de mises en avant
 -   **[Correctif]** Notices PHP
 
-### 5 avril 2020
+---
+
+### 5 avril 2020 : Version 1.9.0
 
 -   **[Mise à jour]** Mise à jour de Wordpress 5.3.2 vers 5.4.0
 -   **[Mise à jour]** Mise à jour du plugin Polylang 2.6.4 vers 2.6.10
 -   **[Mise à jour]** Mise à jour du plugin ACF PRO 5.8.7 vers 5.8.10
+
+---
 
 ### 30 mars 2020
 
@@ -97,7 +140,7 @@
 
 ---
 
-### 28 janvier 2020
+### 28 janvier 2020 : Version 1.8.0
 
 -   **[Nouveauté]** Remplacement du plugin Yoast par le plugin Woody SEO => amélioration des performances du backoffice
 -   **[Nouveauté]** Suppression du plugin Timber (Twig) => amélioration des performances du backoffice
@@ -113,7 +156,7 @@
 
 ---
 
-### 14 janvier 2020
+### 14 janvier 2020 : Version 1.7.0
 
 -   **[Nouveauté]** Liste de contenu : ajout d'un champ de recherche par ville sur la carte
 -   **[Mise à jour]** Mises en avant manuelles : Contenu libre => la description n'est plus limitée à 180 caractères
@@ -188,7 +231,7 @@
 
 ---
 
-### 02 décembre 2019
+### 02 décembre 2019 : Version 1.6.0
 
 -   **[Mise à jour]** Mise à jour de Wordpress 5.2.4 vers 5.3
 -   **[Mise à jour]** Mise à jour d'ACF Pro 5.7.10 vers 5.8.7
@@ -249,14 +292,14 @@
 
 ---
 
-### 11 octobre 2019
+### 11 octobre 2019 : Version 1.5.0
 
 -   **[Nouveauté]** Nouvelle compression des images et mise en place du format WebP
 -   **[Nouveauté]** Génération d'un sitemap "images" pour Google
 
 ---
 
-### 08 octobre 2019
+### 08 octobre 2019 : Version 1.4.0
 
 -   **[Nouveauté]** Prise en charge bloc "Infos séjours" pour les en-tête de page 01 / 02 / 05
 -   **[Nouveauté]** Outil d'export/import de données des pages en CSV
@@ -276,7 +319,7 @@
 
 ---
 
-### 30 septembre 2019
+### 30 septembre 2019 : Version 1.3.0
 
 -   **[Mise à jour]** Mise à jour du plugin Redirection 4.4.0 vers 4.4.2
 -   **[Correctif]** Le bouton de suppression dans la bibliothèque avait disparu suite à la derniere mise à jour de Wordpress
@@ -284,7 +327,7 @@
 
 ---
 
-### 27 septembre 2019
+### 27 septembre 2019 : Version 1.2.0
 
 -   **[Nouveauté]** Bloc player audio => disponible dans les sections et les galeries interactives
 -   **[Nouveauté]** Amélioration du rendu des dans les visuels/accroche et les blocs vidéo
@@ -293,7 +336,7 @@
 
 ---
 
-### 24 septembre 2019
+### 24 septembre 2019 : Version 1.1.0
 
 -   **[Nouveauté]** Sur une playlist, utiliser %nombre% dans les metadonnées Yoast pour retourner le nombre d'élément de la playlist
 -   **[Nouveauté]** Option de retrait des marges autour des blocs de texte (utile lors de l'insertion de widgets)
@@ -330,7 +373,7 @@
 
 ---
 
-### 09 septembre 2019
+### 09 septembre 2019 : Version 1.0.0
 
 -   **[Mise à jour]** Migration php 7.0 vers php 7.3
 -   **[Mise à jour]** Améliorations ergonomiques du backoffice
