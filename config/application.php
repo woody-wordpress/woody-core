@@ -173,6 +173,7 @@ Config::define('WOODY_IGN_MAPS_API_KEY', array_env('WOODY_IGN_MAPS_API_KEY') ?: 
 Config::define('WOODY_IGN_MAPS_API_KEY_PROD', array_env('WOODY_IGN_MAPS_API_KEY_PROD') ?: []);
 Config::define('WOODY_GOOGLE_MAPS_API_KEY', array_env('WOODY_GOOGLE_MAPS_API_KEY') ?: []);
 Config::define('WOODY_GOOGLE_MAPS_API_KEY_PROD', array_env('WOODY_GOOGLE_MAPS_API_KEY_PROD') ?: []);
+Config::define('WOODY_CLOUDFLARE_ENABLE', env('WOODY_CLOUDFLARE_ENABLE') ?: false);
 Config::define('WOODY_CLOUDFLARE_URL', env('WOODY_CLOUDFLARE_URL') ?: '');
 Config::define('WOODY_CLOUDFLARE_ZONE', env('WOODY_CLOUDFLARE_ZONE') ?: '');
 Config::define('WOODY_CLOUDFLARE_TOKEN', env('WOODY_CLOUDFLARE_TOKEN') ?: '');

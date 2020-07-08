@@ -1,3 +1,18 @@
+### 7 juillet 2020 : Version 1.19.0
+
+-   **[Nouveauté]** Possibilité de choisir le comportement mobile des blocs de mise en avant
+-   **[Correctif]** Correction d'une erreur sur les vidéos de diaporama et visuel & accroche
+-   **[Correctif]** Correction du comportement des marges dans les socialwalls
+-   **[Correctif]** Correction d'un légér scroll horizontal sur mobile
+
+---
+
+### 6 juillet 2020
+
+-   **[Correctif]** Désactivation de l'API oEmbed de Wordpress
+
+---
+
 ### 2 juillet 2020 : Version 1.18.0
 
 -   **[Nouveauté]** Compatibilité de Woody avec le CDN Cloudflare 🚀
