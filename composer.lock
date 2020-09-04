@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed93c128bfbb4919e86d72df34aedc49",
+    "content-hash": "7d3b7462bb44864d698112749656ff30",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2221,21 +2221,24 @@
         },
         {
             "name": "php-http/promise",
-            "version": "v1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/promise.git",
-                "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980"
+                "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/promise/zipball/dc494cdc9d7160b9a09bd5573272195242ce7980",
-                "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
+                "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
                 "shasum": ""
             },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
             "require-dev": {
-                "henrikbjorn/phpspec-code-coverage": "^1.0",
-                "phpspec/phpspec": "^2.4"
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
+                "phpspec/phpspec": "^5.1.2 || ^6.2"
             },
             "type": "library",
             "extra": {
@@ -2254,12 +2257,12 @@
             ],
             "authors": [
                 {
-                    "name": "Márk Sági-Kazár",
-                    "email": "mark.sagikazar@gmail.com"
-                },
-                {
                     "name": "Joel Wurtz",
                     "email": "joel.wurtz@gmail.com"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
                 }
             ],
             "description": "Promise used for asynchronous HTTP requests",
@@ -2267,7 +2270,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-01-26T13:27:02+00:00"
+            "time": "2020-07-07T09:29:14+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -2781,16 +2784,16 @@
         },
         {
             "name": "seld/phar-utils",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/phar-utils.git",
-                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0"
+                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8800503d56b9867d43d9c303b9cbcc26016e82f0",
-                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
+                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
                 "shasum": ""
             },
             "require": {
@@ -2821,7 +2824,7 @@
             "keywords": [
                 "phar"
             ],
-            "time": "2020-02-14T15:25:33+00:00"
+            "time": "2020-07-07T18:42:57+00:00"
         },
         {
             "name": "sentry/sdk",
@@ -4303,16 +4306,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-formatter",
-            "version": "1.0.6",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-formatter.git",
-                "reference": "2c57b7385dfddcc9908bb21fcd0ccbafb7e3b8bc"
+                "reference": "e2336648d21023162afb5496eb0adde131740101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-formatter/zipball/2c57b7385dfddcc9908bb21fcd0ccbafb7e3b8bc",
-                "reference": "2c57b7385dfddcc9908bb21fcd0ccbafb7e3b8bc",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-formatter/zipball/e2336648d21023162afb5496eb0adde131740101",
+                "reference": "e2336648d21023162afb5496eb0adde131740101",
                 "shasum": ""
             },
             "require": {
@@ -4335,10 +4338,10 @@
             ],
             "description": "This plugin adds all the features to format data into Woody data",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-formatter/tree/1.0.6",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-formatter/tree/1.0.11",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-formatter/issues"
             },
-            "time": "2020-07-07T07:41:55+00:00"
+            "time": "2020-07-10T08:33:24+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-hawwwai",
@@ -4466,16 +4469,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-roadbook",
-            "version": "1.7.12",
+            "version": "1.7.14",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-roadbook.git",
-                "reference": "33e58ed60908c302ebcd9ad16ef3b03eff955c74"
+                "reference": "4b8a1f057ce09bb40d89443bc6f672cc95c0a48d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-roadbook/zipball/33e58ed60908c302ebcd9ad16ef3b03eff955c74",
-                "reference": "33e58ed60908c302ebcd9ad16ef3b03eff955c74",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-roadbook/zipball/4b8a1f057ce09bb40d89443bc6f672cc95c0a48d",
+                "reference": "4b8a1f057ce09bb40d89443bc6f672cc95c0a48d",
                 "shasum": ""
             },
             "require": {
@@ -4506,10 +4509,10 @@
             ],
             "description": "This plugin adds all the features developped for the Woody RoadBook",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/tree/1.7.12",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/tree/1.7.14",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/issues"
             },
-            "time": "2020-07-03T07:15:22+00:00"
+            "time": "2020-07-10T09:03:01+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-testimonies",
@@ -4599,16 +4602,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-library",
-            "version": "1.15.0",
+            "version": "1.15.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-library.git",
-                "reference": "925e42fd9fa0ef8d2e0917fe68c81f78e4637a9f"
+                "reference": "ef28ca7effbada7a389ab3d3bdaa578c48dd0385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/925e42fd9fa0ef8d2e0917fe68c81f78e4637a9f",
-                "reference": "925e42fd9fa0ef8d2e0917fe68c81f78e4637a9f",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/ef28ca7effbada7a389ab3d3bdaa578c48dd0385",
+                "reference": "ef28ca7effbada7a389ab3d3bdaa578c48dd0385",
                 "shasum": ""
             },
             "require": {
@@ -4636,23 +4639,23 @@
             ],
             "description": "Catalogue of block and section templates for the Woody builder.",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.15.0",
+                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.15.6",
                 "issues": "https://github.com/woody-wordpress-pro/woody-library/issues"
             },
-            "time": "2020-07-07T07:33:30+00:00"
+            "time": "2020-07-10T12:01:43+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-plugin",
-            "version": "1.17.6",
+            "version": "1.18.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-plugin.git",
-                "reference": "1f342d0608bdcbae3e9ffba8c15e9629ffb348d5"
+                "reference": "a8223f1e2ca1c9609a1a03cfaf0a69d1b55d831b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/1f342d0608bdcbae3e9ffba8c15e9629ffb348d5",
-                "reference": "1f342d0608bdcbae3e9ffba8c15e9629ffb348d5",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/a8223f1e2ca1c9609a1a03cfaf0a69d1b55d831b",
+                "reference": "a8223f1e2ca1c9609a1a03cfaf0a69d1b55d831b",
                 "shasum": ""
             },
             "require": {
@@ -4690,10 +4693,10 @@
             ],
             "description": "This plugin adds all the features of woody Pro (Hawwwai, Instagram, Favorites, Weather, Claims, ...)",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/master",
+                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/1.18.2",
                 "issues": "https://github.com/woody-wordpress-pro/woody-plugin/issues"
             },
-            "time": "2020-07-01T13:37:46+00:00"
+            "time": "2020-07-09T14:01:06+00:00"
         },
         {
             "name": "woody-wordpress/advanced-custom-fields-pro",
@@ -4937,16 +4940,16 @@
         },
         {
             "name": "woody-wordpress/woody-theme",
-            "version": "1.26.1",
+            "version": "1.26.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woody-wordpress/woody-theme.git",
-                "reference": "21c502b155afa727cb7d24715e17f0116720569f"
+                "reference": "fd6e61ec6a7d02aa66db71874010ed840a37f968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/21c502b155afa727cb7d24715e17f0116720569f",
-                "reference": "21c502b155afa727cb7d24715e17f0116720569f",
+                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/fd6e61ec6a7d02aa66db71874010ed840a37f968",
+                "reference": "fd6e61ec6a7d02aa66db71874010ed840a37f968",
                 "shasum": ""
             },
             "require": {
@@ -4976,7 +4979,7 @@
                 }
             ],
             "description": "Parent theme of Woody Wordpresss Builder",
-            "time": "2020-07-07T07:53:18+00:00"
+            "time": "2020-07-10T15:20:39+00:00"
         },
         {
             "name": "wp-cli/cache-command",
@@ -5792,16 +5795,16 @@
         },
         {
             "name": "wp-cli/i18n-command",
-            "version": "v2.2.4",
+            "version": "v2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/i18n-command.git",
-                "reference": "9784ff2c074d1765442b618e6d3a43fee2093a05"
+                "reference": "b02ecdc9a57f9633740c254d19749118b7411f0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/i18n-command/zipball/9784ff2c074d1765442b618e6d3a43fee2093a05",
-                "reference": "9784ff2c074d1765442b618e6d3a43fee2093a05",
+                "url": "https://api.github.com/repos/wp-cli/i18n-command/zipball/b02ecdc9a57f9633740c254d19749118b7411f0f",
+                "reference": "b02ecdc9a57f9633740c254d19749118b7411f0f",
                 "shasum": ""
             },
             "require": {
@@ -5845,7 +5848,7 @@
             ],
             "description": "Provides internationalization tools for WordPress projects.",
             "homepage": "https://github.com/wp-cli/i18n-command",
-            "time": "2020-06-12T00:17:09+00:00"
+            "time": "2020-07-08T15:20:38+00:00"
         },
         {
             "name": "wp-cli/import-command",
@@ -6667,15 +6670,15 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/3.2.4"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
