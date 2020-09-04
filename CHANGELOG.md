@@ -1,3 +1,37 @@
+### 17 août 2020 : Version 1.22.0
+
+-   **[Nouveauté]** Nouveau type de bloc "Story"
+<!-- -   **[Nouveauté]** Ajout de "clusters" (regroupement de marqueurs) sur les cartes géographiques manuelles et filtres de listes -->
+-   **[Mise à jour]** Mise à jour du plugin Wordpress 5.4.2 vers 5.5
+-   **[Mise à jour]** Mise à jour du plugin Polylang 2.6.10 vers 2.7.4
+-   **[Mise à jour]** Mise à jour du plugin ACF 5.8.9 vers 5.8.13
+-   **[Mise à jour]** Mise à jour du plugin custom_permalinks 1.5.1 vers 1.6.2
+<!-- -   **[Mise à jour]** Améliorations et optimisations de TouristicMaps -->
+-   **[Correctif]** Correction des sliders de galeries photos sur mobile
+-   **[Correctif]** Correction de la position des marqueurs sur les cartes géographiques manuelles et filtres de listes
+-   **[Correctif]** Correction de l'affichage des données Instagram sur les socialwall
+
+---
+
+### 10 août 2020
+
+-   **[Nouveauté]** Obfuscation du lien sur le logo principal du site
+-   **[Mise à jour]** Mise en place du CDN sur plus d'éléments (fonts, images, CSS, JS)
+-   **[Mise à jour]** Nouveaux templates de blocs et optimisations
+-   **[Correctif]** Malgré une déconnexion, les administrateurs n'avaient pas de cache sur le site
+-   **[Correctif]** Le logo du site sur une langue étrangère pointait vers le FR (sur mobile uniquement)
+-   **[Correctif]** Chargement des miniatures de Viméo non https
+-   **[Correctif]** Toutes les images dans un SocialWall étaient considérées comme étant issues d'Instagram
+-   **[Correctif]** Problème de lancement automatique de certaines vidéos dans le visuel et accroche
+
+---
+
+### 27 juillet 2020
+
+-   **[Correctif]** Correction d'un bug dans le champ de dépublication
+
+---
+
 ### 23 juillet 2020 : Version 1.21.0
 
 -   **[Nouveauté]** Obfuscation des liens de partage sur les réseaux sociaux pour le SEO
