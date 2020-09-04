@@ -51,7 +51,6 @@ if (file_exists(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/config/.env')
  */
 define('WP_ENV', env('WP_ENV') ?: 'prod');
 
-
 if (file_exists(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/config/' . WP_ENV . '/.env')) {
     $dotenv = Dotenv\Dotenv::create(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/config/' . WP_ENV);
     $dotenv->overload();
@@ -140,43 +139,49 @@ Config::define('NONCE_SALT', env('NONCE_SALT') ?: '');
 /**
  * Raccourci WOODY settings
  */
-Config::define('WOODY_TIMEZONE', env('WOODY_TIMEZONE') ?: 'Europe/Paris');
-Config::define('WOODY_LATITUDE', env('WOODY_LATITUDE') ?: null);
-Config::define('WOODY_LONGITUDE', env('WOODY_LONGITUDE') ?: null);
-Config::define('WOODY_SSO_CLIENT_ID', env('WOODY_SSO_CLIENT_ID') ?: '');
-Config::define('WOODY_IMAGE_WEBP_ENABLE', env('WOODY_IMAGE_WEBP_ENABLE') ?: false);
-Config::define('WOODY_SSO_CLIENT_SECRET', env('WOODY_SSO_CLIENT_SECRET') ?: '');
-Config::define('WOODY_SSO_SECRET_URL', env('WOODY_SSO_SECRET_URL') ?: '');
-Config::define('WOODY_SSO_ADD_URL_TOKEN', env('WOODY_SSO_ADD_URL_TOKEN') ?: '');
-Config::define('WOODY_VARNISH_CACHING_ENABLE', env('WOODY_VARNISH_CACHING_ENABLE') ?: false);
-Config::define('WOODY_VARNISH_CACHING_DEBUG', env('WOODY_VARNISH_CACHING_DEBUG') ?: false);
-Config::define('WOODY_VARNISH_CACHING_TTL', env('WOODY_VARNISH_CACHING_TTL') ?: 2592000);
-Config::define('WOODY_VARNISH_CACHING_FOCUSRANDOM_TTL', env('WOODY_VARNISH_CACHING_FOCUSRANDOM_TTL') ?: 86400);
-Config::define('WOODY_VARNISH_CACHING_FOCUSSHEET_TTL', env('WOODY_VARNISH_CACHING_FOCUSSHEET_TTL') ?: 7200);
-Config::define('WOODY_VARNISH_CACHING_WEATHERPAGE_TTL', env('WOODY_VARNISH_CACHING_WEATHERPAGE_TTL') ?: 14400);
-Config::define('WOODY_VARNISH_CACHING_LIVEPAGE_TTL', env('WOODY_VARNISH_CACHING_LIVEPAGE_TTL') ?: 900);
-Config::define('WOODY_VARNISH_CACHING_IPS', env('WOODY_VARNISH_CACHING_IPS') ?: '');
-Config::define('WOODY_VARNISH_CACHING_PURGE_KEY', env('WOODY_VARNISH_CACHING_PURGE_KEY') ?: '');
-Config::define('WOODY_VARNISH_CACHING_COOKIE', env('WOODY_VARNISH_CACHING_COOKIE') ?: '');
-Config::define('WOODY_ACF_PRO_KEY', env('WOODY_ACF_PRO_KEY') ?: '');
-Config::define('WOODY_ACF_GOOGLE_MAPS_KEY', array_env('WOODY_ACF_GOOGLE_MAPS_KEY') ?: '');
-Config::define('WOODY_SENTRY', env('WOODY_SENTRY') ?: '');
-Config::define('WOODY_GTM', env('WOODY_GTM') ?: '');
-Config::define('WOODY_ACCESS_LOCKED', env('WOODY_ACCESS_LOCKED') ?: false);
+Config::define('WOODY_MAINTENANCE', env('WOODY_MAINTENANCE') ?: false);
 Config::define('WOODY_ACCESS_STAGING', env('WOODY_ACCESS_STAGING') ?: false);
-Config::define('WOODY_OPTIONS', array_env('WOODY_OPTIONS') ?: []);
+Config::define('WOODY_ACCESS_LOCKED', env('WOODY_ACCESS_LOCKED') ?: false);
+
+Config::define('WOODY_ACF_GOOGLE_MAPS_KEY', array_env('WOODY_ACF_GOOGLE_MAPS_KEY') ?: '');
+Config::define('WOODY_ACF_PRO_KEY', env('WOODY_ACF_PRO_KEY') ?: '');
 Config::define('WOODY_API_LOGIN', env('WOODY_API_LOGIN') ?: '');
 Config::define('WOODY_API_PASSWORD', env('WOODY_API_PASSWORD') ?: '');
-Config::define('WOODY_TOURISTIC_MAPS_API_KEY', array_env('WOODY_TOURISTIC_MAPS_API_KEY') ?: []);
-Config::define('WOODY_TOURISTIC_MAPS_API_KEY_PROD', array_env('WOODY_TOURISTIC_MAPS_API_KEY_PROD') ?: []);
-Config::define('WOODY_IGN_MAPS_API_KEY', array_env('WOODY_IGN_MAPS_API_KEY') ?: []);
-Config::define('WOODY_IGN_MAPS_API_KEY_PROD', array_env('WOODY_IGN_MAPS_API_KEY_PROD') ?: []);
-Config::define('WOODY_GOOGLE_MAPS_API_KEY', array_env('WOODY_GOOGLE_MAPS_API_KEY') ?: []);
-Config::define('WOODY_GOOGLE_MAPS_API_KEY_PROD', array_env('WOODY_GOOGLE_MAPS_API_KEY_PROD') ?: []);
 Config::define('WOODY_CLOUDFLARE_ENABLE', env('WOODY_CLOUDFLARE_ENABLE') ?: false);
+Config::define('WOODY_CLOUDFLARE_TOKEN', env('WOODY_CLOUDFLARE_TOKEN') ?: '');
 Config::define('WOODY_CLOUDFLARE_URL', env('WOODY_CLOUDFLARE_URL') ?: '');
 Config::define('WOODY_CLOUDFLARE_ZONE', env('WOODY_CLOUDFLARE_ZONE') ?: '');
-Config::define('WOODY_CLOUDFLARE_TOKEN', env('WOODY_CLOUDFLARE_TOKEN') ?: '');
+Config::define('WOODY_GOOGLE_MAPS_API_KEY', array_env('WOODY_GOOGLE_MAPS_API_KEY') ?: []);
+Config::define('WOODY_GOOGLE_MAPS_API_KEY_PROD', array_env('WOODY_GOOGLE_MAPS_API_KEY_PROD') ?: []);
+Config::define('WOODY_GTM', env('WOODY_GTM') ?: '');
+Config::define('WOODY_IGN_MAPS_API_KEY', array_env('WOODY_IGN_MAPS_API_KEY') ?: []);
+Config::define('WOODY_IGN_MAPS_API_KEY_PROD', array_env('WOODY_IGN_MAPS_API_KEY_PROD') ?: []);
+Config::define('WOODY_IMAGE_WEBP_ENABLE', env('WOODY_IMAGE_WEBP_ENABLE') ?: false);
+Config::define('WOODY_LATITUDE', env('WOODY_LATITUDE') ?: null);
+Config::define('WOODY_LONGITUDE', env('WOODY_LONGITUDE') ?: null);
+Config::define('WOODY_OPTIONS', array_env('WOODY_OPTIONS') ?: []);
+Config::define('WOODY_PERMALINK_STRUCTURE', env('WOODY_PERMALINK_STRUCTURE') ?: '/%postname%/');
+Config::define('WOODY_SENTRY', env('WOODY_SENTRY') ?: '');
+Config::define('WOODY_SSO_ADD_URL_TOKEN', env('WOODY_SSO_ADD_URL_TOKEN') ?: '');
+Config::define('WOODY_SSO_CLIENT_ID', env('WOODY_SSO_CLIENT_ID') ?: '');
+Config::define('WOODY_SSO_CLIENT_SECRET', env('WOODY_SSO_CLIENT_SECRET') ?: '');
+Config::define('WOODY_SSO_SECRET_URL', env('WOODY_SSO_SECRET_URL') ?: '');
+Config::define('WOODY_TIMEZONE', env('WOODY_TIMEZONE') ?: 'Europe/Paris');
+Config::define('WOODY_TOURISTIC_MAPS_API_KEY', array_env('WOODY_TOURISTIC_MAPS_API_KEY') ?: []);
+Config::define('WOODY_TOURISTIC_MAPS_API_KEY_PROD', array_env('WOODY_TOURISTIC_MAPS_API_KEY_PROD') ?: []);
+Config::define('WOODY_TWIG_CACHE_DISABLE', env('WOODY_TWIG_CACHE_DISABLE') ?: false);
+Config::define('WOODY_VARNISH_CACHING_COOKIE', env('WOODY_VARNISH_CACHING_COOKIE') ?: '');
+Config::define('WOODY_VARNISH_CACHING_DEBUG', env('WOODY_VARNISH_CACHING_DEBUG') ?: false);
+Config::define('WOODY_VARNISH_CACHING_ENABLE', env('WOODY_VARNISH_CACHING_ENABLE') ?: false);
+Config::define('WOODY_VARNISH_CACHING_IPS', env('WOODY_VARNISH_CACHING_IPS') ?: '');
+Config::define('WOODY_VARNISH_CACHING_PURGE_KEY', env('WOODY_VARNISH_CACHING_PURGE_KEY') ?: '');
+Config::define('WOODY_VARNISH_CACHING_TTL', env('WOODY_VARNISH_CACHING_TTL') ?: 2592000);
+Config::define('WOODY_VARNISH_CACHING_TTL_FOCUSRANDOM', env('WOODY_VARNISH_CACHING_TTL_FOCUSRANDOM') ?: 86400);
+Config::define('WOODY_VARNISH_CACHING_TTL_FOCUSSHEET', env('WOODY_VARNISH_CACHING_TTL_FOCUSSHEET') ?: 43200);
+Config::define('WOODY_VARNISH_CACHING_TTL_LIVEPAGE', env('WOODY_VARNISH_CACHING_TTL_LIVEPAGE') ?: 900);
+Config::define('WOODY_VARNISH_CACHING_TTL_WEATHERPAGE', env('WOODY_VARNISH_CACHING_TTL_WEATHERPAGE') ?: 21600);
+Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET') ?: 21600);
+Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST') ?: 10800);
 
 /**
  * MailJet informations
@@ -207,8 +212,6 @@ Config::define('WP_CACHE_KEY_SALT', md5(WP_SITE_KEY . '_' . WP_ENV));
 /**
  * Debugging Settings
  */
-ini_set('display_errors', 0);
-Config::define('SAVEQUERIES', false);
 Config::define('ENABLE_LOG_DB', true);
 Config::define('ENABLE_LOG_FILES', false);
 Config::define('WP_DEBUG', false);
@@ -219,12 +222,12 @@ Config::define('SCRIPT_DEBUG', false);
 Config::define('PLL_COOKIE', false);
 Config::define('PLL_CACHE_LANGUAGES', true);
 Config::define('PLL_CACHE_HOME_URL', true);
+Config::apply();
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 if (file_exists($env_config)) {
     require_once $env_config;
 }
-Config::apply();
 
 /**
  * Bootstrap WordPress
@@ -237,6 +240,11 @@ if (!defined('ABSPATH')) {
  * lock mode
  */
 require_once('lock.php');
+
+/**
+ * maintenance mode
+ */
+require_once('maintenance.php');
 
 /**
  * debug functions

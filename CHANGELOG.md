@@ -1,3 +1,21 @@
+### 23 juillet 2020 : Version 1.21.0
+
+-   **[Nouveauté]** Obfuscation des liens de partage sur les réseaux sociaux pour le SEO
+-   **[Mise à jour]** Optimisation du robots.txt
+-   **[Correctif]** Problème de cache persistant sur les fiches SIT
+
+---
+
+### 10 juillet 2020 : Version 1.20.0
+
+-   **[Nouveauté]** Ouverture des fiches d'un roadbook dans le contexte du roadbook
+-   **[Nouveauté]** Ajout d'un mode "maintenance" lors d'une mise à jour
+-   **[Mise à jour]** Amélioration des playlists responsive => boutons d'action pour le téléphone et la réservation
+-   **[Correctif]** Optimisation du temps de chargement lorsque qu'une playlist est mise en avant dans une page
+-   **[Correctif]** Divers correctifs sur les fiches et playlists Hawwwai
+
+---
+
 ### 7 juillet 2020 : Version 1.19.0
 
 -   **[Nouveauté]** Possibilité de choisir le comportement mobile des blocs de mise en avant
