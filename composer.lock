@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c20ad075b3025dbe8b74d209420b0b5",
+    "content-hash": "d52dc49845a158f4019ab84bfc4d07ec",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -4475,16 +4475,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-formatter",
-            "version": "1.1.7",
+            "version": "1.1.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-formatter.git",
-                "reference": "fcf5ef590296c0dee3a4ea20f6453e622519c0d5"
+                "reference": "cff61306724240fe05cee24614af5de488be7849"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-formatter/zipball/fcf5ef590296c0dee3a4ea20f6453e622519c0d5",
-                "reference": "fcf5ef590296c0dee3a4ea20f6453e622519c0d5",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-formatter/zipball/cff61306724240fe05cee24614af5de488be7849",
+                "reference": "cff61306724240fe05cee24614af5de488be7849",
                 "shasum": ""
             },
             "require": {
@@ -4507,10 +4507,10 @@
             ],
             "description": "This plugin adds all the features to format data into Woody data",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-formatter/tree/1.1.7",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-formatter/tree/1.1.8",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-formatter/issues"
             },
-            "time": "2020-07-29T14:05:15+00:00"
+            "time": "2020-08-17T13:56:54+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-hawwwai",
@@ -5153,16 +5153,16 @@
         },
         {
             "name": "woody-wordpress/woody-theme",
-            "version": "1.28.21",
+            "version": "1.28.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woody-wordpress/woody-theme.git",
-                "reference": "d93b2fc1eafea0f53ca6314a2f70e335a3f6e838"
+                "reference": "4b9288324c6abc99bbfd58cd4f5672f79ad25abc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/d93b2fc1eafea0f53ca6314a2f70e335a3f6e838",
-                "reference": "d93b2fc1eafea0f53ca6314a2f70e335a3f6e838",
+                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/4b9288324c6abc99bbfd58cd4f5672f79ad25abc",
+                "reference": "4b9288324c6abc99bbfd58cd4f5672f79ad25abc",
                 "shasum": ""
             },
             "require": {
@@ -5188,10 +5188,10 @@
             ],
             "description": "Parent theme of Woody Wordpresss Builder",
             "support": {
-                "source": "https://github.com/woody-wordpress/woody-theme/tree/1.28.21",
+                "source": "https://github.com/woody-wordpress/woody-theme/tree/1.28.24",
                 "issues": "https://github.com/woody-wordpress/woody-theme/issues"
             },
-            "time": "2020-08-17T07:33:39+00:00"
+            "time": "2020-08-17T13:50:31+00:00"
         },
         {
             "name": "wp-cli/cache-command",

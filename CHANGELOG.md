@@ -1,15 +1,16 @@
-### 17 août 2020 : Version 1.22.0
+### 17 août 2020 : Version 1.23.0
 
 -   **[Nouveauté]** Nouveau type de bloc "Story"
-<!-- -   **[Nouveauté]** Ajout de "clusters" (regroupement de marqueurs) sur les cartes géographiques manuelles et filtres de listes -->
+-   **[Nouveauté]** Ajout de "clusters" (regroupement de marqueurs) sur les cartes géographiques manuelles et filtres de listes
 -   **[Mise à jour]** Mise à jour du plugin Wordpress 5.4.2 vers 5.5
 -   **[Mise à jour]** Mise à jour du plugin Polylang 2.6.10 vers 2.7.4
 -   **[Mise à jour]** Mise à jour du plugin ACF 5.8.9 vers 5.8.13
 -   **[Mise à jour]** Mise à jour du plugin custom_permalinks 1.5.1 vers 1.6.2
-<!-- -   **[Mise à jour]** Améliorations et optimisations de TouristicMaps -->
+-   **[Mise à jour]** Améliorations et optimisations de TouristicMaps
 -   **[Correctif]** Correction des sliders de galeries photos sur mobile
 -   **[Correctif]** Correction de la position des marqueurs sur les cartes géographiques manuelles et filtres de listes
 -   **[Correctif]** Correction de l'affichage des données Instagram sur les socialwall
+<!-- -   **[Correctif]** Correction des paramètres de cache des pages protégées par mot de passe -->
 
 ---
 
