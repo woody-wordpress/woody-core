@@ -40,7 +40,11 @@ gulp.task('watch_compile', done => {
                     config[task].extensions
                 );
                 console.log('WATCH INCLUDE (' + task + ')', src);
-                gulp.watch([src, '!' + config.dist], gulp.series(task, 'size'));
+                gulp.watch(
+                    [src, '!' + config.dist],
+                    { interval: 1000, usePolling: true },
+                    gulp.series(task, 'size')
+                );
             });
 
             var src = path.resolve(
@@ -50,12 +54,17 @@ gulp.task('watch_compile', done => {
                 config[task].extensions
             );
             console.log('WATCH INCLUDE (' + task + ')', src);
-            gulp.watch([src, '!' + config.dist], gulp.series(task, 'size'));
+            gulp.watch(
+                [src, '!' + config.dist],
+                { interval: 1000, usePolling: true },
+                gulp.series(task, 'size')
+            );
         } else if (Array.isArray(config[task].src)) {
             config[task].src.forEach(function (part) {
                 console.log('WATCH INCLUDE (' + task + ')', part);
                 gulp.watch(
                     [part, '!' + config.dist],
+                    { interval: 1000, usePolling: true },
                     gulp.series(task, 'size')
                 );
             });
@@ -63,6 +72,7 @@ gulp.task('watch_compile', done => {
             console.log('WATCH INCLUDE (' + task + ')', config[task].src);
             gulp.watch(
                 [config[task].src, '!' + config.dist],
+                { interval: 1000, usePolling: true },
                 gulp.series(task, 'size')
             );
         }

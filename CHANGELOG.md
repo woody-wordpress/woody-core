@@ -1,3 +1,9 @@
+### 04 Novembre 2020
+
+-   **[Nouveauté]** Possiblité d'afficher plusieurs images dans une mise en avant (Personnalisation mise en avant => Images complémentaires)
+
+---
+
 ### 02 Novembre 2020 : Version 1.26.0
 
 -   **[Nouveauté]** Nouveau template de mise en avant => 130
