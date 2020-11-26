@@ -1,3 +1,21 @@
+### 02 Novembre 2020 : Version 1.26.0
+
+-   **[Nouveauté]** Nouveau template de mise en avant => 130
+-   **[Mise à jour]** Mises à jour pour les développeurs
+-   **[Mise à jour]** Retrait de la notification "Members" dans le backoffice
+-   **[Correctif]** Correction des visuels & accroche avec parallaxe en mobile
+-   **[Correctif]** Les images Instagram retirées de la bibliothèque peuvent à nouveau être téléchargées via Woody Instagram
+
+---
+
+### 28 Octobre 2020
+
+-   **[Correctif]** Correction des metas données des playlists paginées
+-   **[Correctif]** Correction de l'affichage des galeries interactives panoramiques en mobile
+-   **[Correctif]** Correction d'affichage (dépassement de la photo par la bas) de la galerie photo 212
+
+---
+
 ### 22 Octobre 2020 : Version 1.25.0
 
 -   **[Nouveauté]** Galeries photos automatiques (tags)
