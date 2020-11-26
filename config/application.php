@@ -123,6 +123,9 @@ $table_prefix = env('DB_PREFIX') ?: 'wp_';
 
 Config::define('MEMCACHED_HOST', array_env('MEMCACHED_HOST') ?: '');
 Config::define('MEMCACHED_PORT', env('MEMCACHED_PORT') ?: '');
+Config::define('REDIS_HOST', env('REDIS_HOST') ?: '');
+Config::define('REDIS_PORT', env('REDIS_PORT') ?: '');
+Config::define('REDIS_DB', env('REDIS_DB') ?: '');
 
 /**
  * Authentication Unique Keys and Salts

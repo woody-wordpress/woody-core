@@ -1,3 +1,10 @@
+### 24 Novembre 2020
+
+-   **[Nouveauté]** Mise en avant automatiques : option suplémentaire : "Ne correspond à AUCUN des tags" sélectionnés
+-   **[Correctif]** Correction sur le comportement des blocs "Shuffle"
+
+---
+
 ### 19 Novembre 2020 : Version 1.28.0
 
 -   **[Nouveauté]** Mise en page d'en-tête de page avec ratio d'image libre

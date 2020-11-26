@@ -30,9 +30,13 @@ Here are the available settings
 DB_NAME='wp_mywebsite'
 DB_USER='wp_mywebsite'
 DB_PASSWORD='mypassword'
-DB_HOST='localhost:3306'
-MEMCACHED_HOST='localhost'
+DB_HOST='127.0.0.1:3306'
+
+MEMCACHED_HOST='127.0.0.1'
 MEMCACHED_PORT='11211'
+REDIS_HOST='127.0.0.1'
+REDIS_PORT='6379'
+REDIS_DB='1'
 
 WP_ENV='dev'
 WP_MEMORY_LIMIT='256M'
