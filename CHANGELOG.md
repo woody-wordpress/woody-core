@@ -1,3 +1,34 @@
+### 12 Octobre 2020 : Version 1.24.0
+
+-   **[Mise à jour]** Nouvelle version du roadbook
+-   **[Correctif]** Correctifs mineurs divers
+
+---
+
+### 28 septembre 2020
+
+-   **[Nouveauté]** Possibilité de numéroter les mises en avant de contenus
+
+---
+
+### 04 septembre 2020
+
+-   **[Nouveauté]** Ajout du numéro de page dans la balise "title" des playlists
+-   **[Mise à jour]** Mise à jour du comportement des sociallwall (Evite le double chargement des images dans la page)
+-   **[Correctif]** Correctifs mineurs de style sur les fiches SIT
+
+---
+
+### 02 septembre 2020
+
+-   **[Nouveauté]** Clic-droit et drag-drop bloqué sur les images
+-   **[Mise à jour]** Mise à jour de Wordpress 5.5.0 vers 5.5.1
+-   **[Mise à jour]** Optimisation de chargement des options Wordpress en autoload
+-   **[Mise à jour]** Optimisation de l'affichage des fiches SIT
+-   **[Correctif]** Suppression du sitemap Wordpress (version 5.5) au profit du sitemap Woody
+
+---
+
 ### 17 août 2020 : Version 1.23.0
 
 -   **[Nouveauté]** Nouveau type de bloc "Story"
