@@ -1,3 +1,16 @@
+### 19 Novembre 2020 : Version 1.28.0
+
+-   **[Nouveauté]** Mise en page d'en-tête de page avec ratio d'image libre
+-   **[Nouveauté]** Tri des mises en avant automatiques par géolocalisation (par rapport à la page courante)
+-   **[Nouveauté]** Ajout d'une configuration TouristicMaps globale dans les Paramètres (pour mises en avant et cartes manuelles)
+-   **[Mise à jour]** Sur mobile, les mises en avant de fiches SIT ne s'ouvrent plus dans un nouvel onglet
+-   **[Mise à jour]** Allègement des fichiers CSS
+-   **[Mise à jour]** Améliorations sur le RoadBOOK
+-   **[Correctif]** La légende et le copyright s'affichent à nouveau au survol des images
+-   **[Correctif]** Retrait de l'icone sur les liens en bas des cartes géographiques
+
+---
+
 ### 04 Novembre 2020
 
 -   **[Nouveauté]** Possiblité d'afficher plusieurs images dans une mise en avant (Personnalisation mise en avant => Images complémentaires)
