@@ -1,3 +1,13 @@
+### 22 Octobre 2020 : Version 1.25.0
+
+-   **[Nouveauté]** Galeries photos automatiques (tags)
+-   **[Mise à jour]** Mise à jour du plugin ACF 5.8.13 vers 5.9.1
+-   **[Mise à jour]** Mise à jour du plugin Polylang 2.7.4 vers 2.8.3
+-   **[Correctif]** Application d'un correctif sur le plugin Polylang (erreurs à l'enregistrement de page)
+-   **[Correctif]** Correctifs mineurs divers
+
+---
+
 ### 12 Octobre 2020 : Version 1.24.0
 
 -   **[Mise à jour]** Nouvelle version du roadbook
