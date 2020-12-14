@@ -1,3 +1,18 @@
+### 14 Décembre 2020 : Version 1.31.0
+
+-   **[Nouveauté]** Conformité RGPD/CNIL pour l'acceptation des cookies
+-   **[Correctif]** Optimisation des performances du cache
+
+---
+
+### 30 Novembre 2020
+
+-   **[Nouveauté]** Option pour afficher les filtres ouverts dans les listes de contenus
+-   **[Nouveauté]** Nouvelle mise en page d'infolive avec traitement de données supplémentaires
+-   **[Correctif]** Optimisation des performances du sitemap
+
+---
+
 ### 27 Novembre 2020 : Version 1.30.0
 
 -   **[Correctif]** Optimisation du cache Wordpress (retour à Memcached)

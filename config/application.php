@@ -207,7 +207,26 @@ Config::define('WP_MEMORY_LIMIT', env('WP_MEMORY_LIMIT') ?: '256M');
 Config::define('WP_MAX_MEMORY_LIMIT', env('WP_MAX_MEMORY_LIMIT') ?: '256M');
 Config::define('WP_CRON_LOCK_TIMEOUT', 60);
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: 3);
-Config::define('WP_CACHE_KEY_SALT', md5(WP_SITE_KEY . '_' . WP_ENV));
+
+/**
+ * Custom Cache Key
+ */
+$wp_cache_key_salt = [];
+$wp_cache_key_salt[] = WP_SITE_KEY;
+
+if (file_exists(WP_ROOT_DIR . '/REVISION')) {
+    $core_revision = substr(file_get_contents(WP_ROOT_DIR . '/REVISION'), 0, 6);
+    $wp_cache_key_salt[] = $core_revision;
+    Config::define('WOODY_CORE_REVISION', $core_revision);
+}
+
+if (file_exists(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/REVISION')) {
+    $site_revision = substr(file_get_contents(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/REVISION'), 0, 6);
+    $wp_cache_key_salt[] = $site_revision;
+    Config::define('WOODY_SITE_REVISION', $site_revision);
+}
+
+Config::define('WP_CACHE_KEY_SALT', implode('_', $wp_cache_key_salt));
 
 /**
  * Debugging Settings

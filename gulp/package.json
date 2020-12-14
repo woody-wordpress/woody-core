@@ -15,6 +15,7 @@
         "icons": "gulp --action icons",
         "static": "gulp --action static",
         "addons": "gulp --action addons",
+        "addons_debug": "gulp --action addons_debug",
         "imageoptim": "gulp --action imageoptim"
     },
     "devDependencies": {

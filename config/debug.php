@@ -14,6 +14,16 @@ if (!empty(WOODY_SENTRY) && WP_ENV != 'dev') {
 }
 
 /**
+ * Record custom data about this web transaction
+ * Ensure PHP agent is available
+ */
+if (extension_loaded('newrelic') && defined('WOODY_CORE_REVISION') && defined('WOODY_SITE_REVISION')) {
+    newrelic_add_custom_parameter('WP_SITE_KEY', WP_SITE_KEY);
+    newrelic_add_custom_parameter('WOODY_CORE_REVISION', WOODY_CORE_REVISION);
+    newrelic_add_custom_parameter('WOODY_SITE_REVISION', WOODY_SITE_REVISION);
+}
+
+/**
  * PHP Console
  */
 function wd($val, $tag = null)
@@ -29,8 +39,8 @@ function wd($val, $tag = null)
     }
 }
 
-function console_log($output, $tag = 'Say my name, say my name', $with_script_tags = true) {
-
+function console_log($output, $tag = 'Say my name, say my name', $with_script_tags = true)
+{
     if (WP_ENV == 'dev') {
         $js_code = 'console.log(); console.log("%c'. $tag .'", "background: #222; color: #bada55; padding:3px;", ' . json_encode($output, JSON_HEX_TAG) . ');';
         if ($with_script_tags) {

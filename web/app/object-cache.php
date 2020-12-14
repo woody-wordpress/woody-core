@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: WP Memcached Object Cache
-Description: Object cache driver for Memcached in WordPress. Based on Memcached Redux.
-Version: 1.0.0
-Plugin URI: https://github.com/joomlaworks/wp-memcached-object-cache
-Author: Fotis Alexandrou (using code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein)
-
-Upload this file to your WordPress site's /wp-content/ folder. Setup multiple Memcached backends by defining them in wp-config. Check the plugin repo on GitHub for further instructions.
-*/
+ * Plugin Name:  KDK Memcached Object Cache (by Kodeka)
+ * Plugin URI:   https://github.com/kodeka/kdk_memcached_object_cache
+ * Description:  Object cache driver for Memcached in WordPress. Based on Memcached Redux. Upload this file to your WordPress site's /wp-content/ folder. Setup multiple Memcached backends by defining them in wp-config. Check the plugin repo on GitHub for further instructions.
+ * Version:      1.0.0
+ * Author:       Fotis Alexandrou (using code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein)
+ * Author URI:   https://kodeka.io
+ * License:      GNU/GPL https://www.gnu.org/copyleft/gpl.html
+ */
 
 if (!defined('WP_CACHE_KEY_SALT')) {
     define('WP_CACHE_KEY_SALT', md5(dirname(__FILE__)));
@@ -248,6 +248,11 @@ if (class_exists('Memcached')) {
 
         public function flush()
         {
+            // Don't flush if key rotation is configured
+            if (defined('WOODY_CORE_REVISION') && defined('WOODY_SITE_REVISION')) {
+                return true;
+            }
+
             // Don't flush if multi-blog.
             if (function_exists('is_site_admin') || defined('CUSTOM_USER_TABLE') && defined('CUSTOM_USER_META_TABLE')) {
                 return true;
@@ -329,7 +334,7 @@ if (class_exists('Memcached')) {
             }
 
             if (!empty($gets)) {
-                $results = $mc->getMulti($gets, null, Memcached::GET_PRESERVE_ORDER);
+                $results = $mc->getMulti($gets, $null, Memcached::GET_PRESERVE_ORDER);
                 $joined = array_combine(array_keys($gets), array_values($results));
                 $return = array_merge($return, $joined);
             }
@@ -352,7 +357,7 @@ if (class_exists('Memcached')) {
                 $prefix = $this->blog_prefix;
             }
 
-            return preg_replace('/\s+/', '', WP_CACHE_KEY_SALT . "$prefix$group:$key");
+            return preg_replace('/\s+/', '', WP_CACHE_KEY_SALT . "_$prefix$group:$key");
         }
 
         public function replace($id, $data, $group = 'default', $expire = 0)
