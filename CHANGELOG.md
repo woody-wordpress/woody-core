@@ -1,3 +1,15 @@
+### 27 Novembre 2020 : Version 1.30.0
+
+-   **[Correctif]** Optimisation du cache Wordpress (retour à Memcached)
+
+---
+
+### 27 Novembre 2020 : Version 1.29.0
+
+-   **[Mise à jour]** Optimisation du cache Wordpress (remplacement Memcached par Redis)
+
+---
+
 ### 24 Novembre 2020
 
 -   **[Nouveauté]** Mise en avant automatiques : option suplémentaire : "Ne correspond à AUCUN des tags" sélectionnés

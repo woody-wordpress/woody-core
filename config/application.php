@@ -123,9 +123,6 @@ $table_prefix = env('DB_PREFIX') ?: 'wp_';
 
 Config::define('MEMCACHED_HOST', array_env('MEMCACHED_HOST') ?: '');
 Config::define('MEMCACHED_PORT', env('MEMCACHED_PORT') ?: '');
-Config::define('REDIS_HOST', env('REDIS_HOST') ?: '');
-Config::define('REDIS_PORT', env('REDIS_PORT') ?: '');
-Config::define('REDIS_DB', env('REDIS_DB') ?: '');
 
 /**
  * Authentication Unique Keys and Salts
@@ -215,8 +212,8 @@ Config::define('WP_CACHE_KEY_SALT', md5(WP_SITE_KEY . '_' . WP_ENV));
 /**
  * Debugging Settings
  */
-Config::define('ENABLE_LOG_DB', true);
-Config::define('ENABLE_LOG_FILES', false);
+Config::define('ENABLE_LOG_DB', env('ENABLE_LOG_DB') ?: false);
+Config::define('ENABLE_LOG_FILES', env('ENABLE_LOG_FILES') ?: false);
 Config::define('WP_DEBUG', false);
 Config::define('WP_DEBUG_DISPLAY', false);
 Config::define('SCRIPT_DEBUG', false);
