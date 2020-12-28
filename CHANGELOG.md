@@ -1,3 +1,15 @@
+### 28 Décembre 2020 : Version 1.32.0
+
+-   **[Nouveauté]** Ajout des ouvertures en détail des pistes/remontées dans les blocs infolive (Stations de ski)
+-   **[Mise à jour]** Mise à jour de Wordpress 5.5.1 vers 5.6.0
+-   **[Mise à jour]** Mise à jour du plugin Polylang 2.8.3 vers 2.8.4
+-   **[Mise à jour]** Mise à jour du plugin ACF 5.9.1 vers 5.9.3
+-   **[Mise à jour]** Mise à jour du plugin Redirection 4.8 vers 4.9.2
+-   **[Correctif]** Optimisation de la mise à jour des sitemaps
+-   **[Correctif]** Optimisation du responsive pour les groupes d'onglets
+
+---
+
 ### 14 Décembre 2020 : Version 1.31.0
 
 -   **[Nouveauté]** Conformité RGPD/CNIL pour l'acceptation des cookies
