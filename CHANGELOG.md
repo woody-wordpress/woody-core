@@ -1,3 +1,10 @@
+### 06 Janvier 2021 : Version 1.33.0
+
+-   **[Mise à jour]** Mise à jour du plugin Polylang 2.8.4 vers 2.9.1
+-   **[Mise à jour]** Optimisation des addons Instagram et Polylang
+
+---
+
 ### 28 Décembre 2020 : Version 1.32.0
 
 -   **[Nouveauté]** Ajout des ouvertures en détail des pistes/remontées dans les blocs infolive (Stations de ski)
