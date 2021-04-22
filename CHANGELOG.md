@@ -1,3 +1,46 @@
+### 17 Mars 2021 : Version 1.36.0
+
+-   **[Nouveauté]** Ajout de filtres dans les choix de mises en page de mises en avant et galeries photo
+-   **[Nouveauté]** Réduction du choix de mises en page pour le roadbook
+-   **[Mise à jour]** Mise à jour de Wordpress 5.6.2 vers 5.7.0
+-   **[Mise à jour]** Mise à jour du plugin Members 3.1.3 vers 3.1.4
+-   **[Mise à jour]** Traductions de termes génériques
+-   **[Mise à jour]** Réduction de la dépendance à l'api pour les pages edito
+-   **[Mise à jour]** Mise à jour des vignettes des templates en empilement (modifications supplémentaires en cours)
+-   **[Correctif]** Retrait des images dupliquées dans la galerie photo globale de la page
+-   **[Correctif]** Correction de l'alignement des bloc dans la mise en avant 320
+-   **[Correctif]** Affichage du complément de tarif dans le bloc minifiche SIT
+-   **[Correctif]** Correction d'un léger bug graphique avec certains habillages de section
+-   **[Correctif]** Alignement du bouton pour les mises en avant centrées (texte sous l'image)
+
+
+### 04 Mars 2021
+
+-   **[Nouveauté]** Option d'affichage de la date de publication sur les mises en avant
+-   **[Nouveauté]** Option d'affichage des expressions de profils dans le bloc d'en-tête de page
+-   **[Mise à jour]** Ordonnancement des expressions de profils basé sur l'ordre de saisie dans les mises en avant de profils
+-   **[Mise à jour]** Optimisation de code dans le RoadBOOK
+-   **[Mise à jour]** Classement des icones par ordre alphabétique dans le backoffice
+-   **[Mise à jour]** Déplacement du bouton "Recadrer la photo" dans Woody Crop => plus visible
+-   **[Correctif]** Retrait de la page "Paramètres" si la langue courante n'est pas la langue par défaut
+-   **[Correctif]** Correction d'une erreur php sur l'infolive
+-   **[Correctif]** Correction d'une erreur dans les mises en avant de fiches SIT si le roadBOOK est activé
+
+---
+### 01 Mars 2021
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.6.0 vers 5.6.2
+-   **[Correctif]** Correspondance des urls de sitemaps en fonction de la structure des permaliens
+-   **[Correctif]** Correction d'un bug d'affichage des publicités si +10 actives simultanément
+-   **[Correctif]** Améliorations de l'addon Socialize
+
+---
+### 25 Février 2021
+
+-   **[Mise à jour]** Optimisation des performances du modules Marées
+
+---
+
 ### 18 Février 2021 - Version 1.35.0
 
 -   **[Nouveauté]** Ajout d'une option pour désactiver le clic sur les photos des galeries
@@ -12,6 +55,7 @@
 -   **[Correctif]** Amélioration du groupe d'onglet tpl_04
 
 ---
+
 ### 9 Février 2021
 
 -   **[Nouveauté]** Ajout d'une option pour afficher le tag parent dans les champs de recherche de tags
