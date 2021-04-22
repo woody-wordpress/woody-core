@@ -1,7 +1,19 @@
-### 08 Mars 2021 : Version 1.37.0
+### 20 Avril 2021 : Version 1.38.0
+
+-   **[Correctif]** Amélioration du mode maintenance pour éviter les micro-coupures lors de mises à jour.
+-   **[Correctif]** Optimisation du cache
+
+---
+
+### 12 Avril 2021
+
+-   **[Correctif]** Optimisation du cache Hawwwai
+
+---
+
+### 8 Avril 2021 : Version 1.37.0
 
 -   **[Nouveauté]** Sauvegarde des pages sans rechargement du formulaire
--   **[Nouveauté]** Amélioration du temps de chargement des pages
 -   **[Nouveauté]** Ajout d’une option de positionnement des publicités
 -   **[Nouveauté]** Nouveau template de mise en avant n°326
 -   **[Nouveauté]** Nouveau template de socialwall n°06
@@ -17,6 +29,7 @@
 -   **[Correctif]** Traduction de textes dans l'acceptation des cookies
 
 ---
+
 ### 17 Mars 2021 : Version 1.36.0
 
 -   **[Nouveauté]** Ajout de filtres dans les choix de mises en page de mises en avant et galeries photo
@@ -34,7 +47,7 @@
 
 ---
 
-### 04 Mars 2021
+### 4 Mars 2021
 
 -   **[Nouveauté]** Option d'affichage de la date de publication sur les mises en avant
 -   **[Nouveauté]** Option d'affichage des expressions de profils dans le bloc d'en-tête de page
@@ -47,7 +60,8 @@
 -   **[Correctif]** Correction d'une erreur dans les mises en avant de fiches SIT si le roadBOOK est activé
 
 ---
-### 01 Mars 2021
+
+### 1er Mars 2021
 
 -   **[Mise à jour]** Mise à jour de Wordpress 5.6.0 vers 5.6.2
 -   **[Correctif]** Correspondance des urls de sitemaps en fonction de la structure des permaliens
@@ -55,6 +69,7 @@
 -   **[Correctif]** Améliorations de l'addon Socialize
 
 ---
+
 ### 25 Février 2021
 
 -   **[Mise à jour]** Optimisation des performances du modules Marées

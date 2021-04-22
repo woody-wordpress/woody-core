@@ -109,6 +109,7 @@ Config::define('WP_PLUGINS_DIR', Config::get('WP_CONTENT_DIR') . '/plugins');
 Config::define('WP_PLUGINS_URL', Config::get('WP_CONTENT_URL') . '/plugins');
 Config::define('WP_CACHE_DIR', Config::get('WP_CONTENT_DIR') . '/cache');
 Config::define('WP_TIMBER_DIR', Config::get('WP_CACHE_DIR') . '/timber');
+Config::define('WP_MAINTENANCE_DIR', Config::get('WP_CACHE_DIR') . '/maintenance');
 
 /**
  * DB settings
@@ -139,7 +140,6 @@ Config::define('NONCE_SALT', env('NONCE_SALT') ?: '');
 /**
  * Raccourci WOODY settings
  */
-Config::define('WOODY_MAINTENANCE', env('WOODY_MAINTENANCE') ?: false);
 Config::define('WOODY_ACCESS_STAGING', env('WOODY_ACCESS_STAGING') ?: false);
 Config::define('WOODY_ACCESS_LOCKED', env('WOODY_ACCESS_LOCKED') ?: false);
 
@@ -227,6 +227,15 @@ if (file_exists(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/REVISION')) {
 }
 
 Config::define('WP_CACHE_KEY_SALT', implode('_', $wp_cache_key_salt));
+
+/**
+ * Maintenance Mode
+ */
+if (file_exists(Config::get('WP_MAINTENANCE_DIR') . '/' . WP_SITE_KEY)) {
+    Config::define('WOODY_MAINTENANCE', true);
+} else {
+    Config::define('WOODY_MAINTENANCE', env('WOODY_MAINTENANCE') ?: false);
+}
 
 /**
  * Debugging Settings

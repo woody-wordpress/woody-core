@@ -57,11 +57,11 @@ function output_warning($log, $tag = null)
     output_log_db($log, 'warning');
 }
 
-function output_error($log, $tag = null)
+function output_error($log, $tag = null, $exit = false)
 {
     $log = output_array($log, $tag);
     if (defined('WP_CLI') && WP_CLI) {
-        \WP_CLI::error($log);
+        \WP_CLI::error($log, $exit);
     }
 
     // Save Error inside custom log
@@ -69,7 +69,10 @@ function output_error($log, $tag = null)
         output_log_file($log, 'error');
     } else {
         // Always log error inside PHP error
-        error_log($log, 0);
+        error_log('[' . WP_SITE_KEY . '] ' . $log, 0);
+        if (extension_loaded('newrelic')) {
+            newrelic_notice_error('[' . WP_SITE_KEY . '] ' . $log);
+        }
     }
 
     output_log_db($log, 'error');
@@ -119,5 +122,5 @@ function output_log_file($log, $status = 'debug')
         file_put_contents(WP_SITE_KEY, $log_file);
     }
     error_log('[' . date('d-m-Y H:i:s') . '] ' . strtoupper($status) . ' : ' . $log . "\n", 3, $log_file);
-    error_log(strtoupper($status) . ' : ' . $log, 0);
+    error_log('[' . WP_SITE_KEY . '] ' . strtoupper($status) . ' : ' . $log, 0);
 }
