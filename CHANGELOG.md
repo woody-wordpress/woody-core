@@ -1,3 +1,22 @@
+### 08 Mars 2021 : Version 1.37.0
+
+-   **[Nouveauté]** Sauvegarde des pages sans rechargement du formulaire
+-   **[Nouveauté]** Amélioration du temps de chargement des pages
+-   **[Nouveauté]** Ajout d’une option de positionnement des publicités
+-   **[Nouveauté]** Nouveau template de mise en avant n°326
+-   **[Nouveauté]** Nouveau template de socialwall n°06
+-   **[Mise à jour]** Raccourcissement du temps de cache pour les pages avec mises en avant automatiques
+-   **[Mise à jour]** Retrait des cookies des vidéos YouTube
+-   **[Mise à jour]** Les vidéos Youtube en autoplay (Visuel & accroche 04) se lancent sans son et son cliquables
+-   **[Correctif]** Correction de l’affichage des vidéos Vimeo
+-   **[Correctif]** Correction du fil d’Ariane pour les pages miroir
+-   **[Correctif]** Suppression de la mise en cache des fiches SIT en erreur
+-   **[Correctif]** Ajout d’un style par défaut pour les prix des séjours/fiches sur les mise en avant « Texte à côté de l’image »
+-   **[Correctif]** Correction d’un bug affichant des playlist vides dans le cache
+-   **[Correctif]** Correction d’un bug mineur sur l’infolive
+-   **[Correctif]** Traduction de textes dans l'acceptation des cookies
+
+---
 ### 17 Mars 2021 : Version 1.36.0
 
 -   **[Nouveauté]** Ajout de filtres dans les choix de mises en page de mises en avant et galeries photo
@@ -13,6 +32,7 @@
 -   **[Correctif]** Correction d'un léger bug graphique avec certains habillages de section
 -   **[Correctif]** Alignement du bouton pour les mises en avant centrées (texte sous l'image)
 
+---
 
 ### 04 Mars 2021
 

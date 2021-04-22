@@ -269,3 +269,8 @@ require_once('maintenance.php');
  * debug functions
  */
 require_once('debug.php');
+
+/**
+ * output functions
+ */
+require_once('output.php');
