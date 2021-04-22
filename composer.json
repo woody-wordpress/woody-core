@@ -1,7 +1,7 @@
 {
     "name": "woody-wordpress/woody-core",
     "license": "GPL-2.0",
-    "version": "1.34.0",
+    "version": "1.35.0",
     "description": "Woody core is the main project to start your new website. Enjoy ;)",
     "authors": [
         {
@@ -25,7 +25,7 @@
         "cweagans/composer-patches": "^1.6",
         "erusev/parsedown": "^1.7",
         "fightbulc/moment": "^1.29",
-        "johnpbloch/wordpress": "^5.5.1",
+        "johnpbloch/wordpress": "5.6.0",
         "nette/forms": "3.0.7",
         "ocramius/package-versions": "1.5.1",
         "oscarotero/env": "^1.2.0",

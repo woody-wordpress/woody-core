@@ -1,6 +1,39 @@
-### 01 Février 2021 : Version 1.34.0
+### 18 Février 2021 - Version 1.35.0
 
--   **[Nouveauté]** Renommage des ancres dans les sommaires => l'url contient le titre de la section 
+-   **[Nouveauté]** Ajout d'une option pour désactiver le clic sur les photos des galeries
+-   **[Nouveauté]** Nouveau template de mise en avant (3 colonnes - format a4)
+-   **[Mise à jour]** Ajout de toutes les taxonomies liées aux médias pour les galeries automatiques
+-   **[Mise à jour]** Modification du comportement des icones de type "Image"
+-   **[Mise à jour]** Optimisation de l'affichage des images de fond de section
+-   **[Correctif]** Retrait de la mention "Protégée" dans les mises en avant de pages privées
+-   **[Correctif]** Affichage des cartes géographiques dans les groupes d'onglets
+-   **[Correctif]** Correction de la documentation de la version OpenSource### 18 Février 2021 : Version 1.35.0
+-   **[Correctif]** Modification du comportement du formaulaire de recherche sur le diaporama de page d'accueil
+-   **[Correctif]** Amélioration du groupe d'onglet tpl_04
+
+---
+### 9 Février 2021
+
+-   **[Nouveauté]** Ajout d'une option pour afficher le tag parent dans les champs de recherche de tags
+<!-- -   **[Mise à jour]** Déplacement du bouton de recadrage des images pour améliorer l'ergonomie -->
+-   **[Mise à jour]** Gestion de la langue du flux RSS dans l'addon Topics
+-   **[Correctif]** Gestion des couleurs et des icones des marqueurs de cartes géographiques
+-   **[Correctif]** Amélioration du responsive de l'addon Socialize
+-   **[Correctif]** Mise en avant n°130 => Correction du clic sur les liens renvoyant toujours à la même page
+-   **[Correctif]** Correction du comportement des filtres des listes de contenus
+
+---
+
+### 4 Février 2021
+
+-   **[Correctif]** Gestion des permaliens des pages enfants suite à un changement d'arborescence
+-   **[Mise à jour]** Amélioration du cache sur les appels ajax
+
+---
+
+### 1er Février 2021 : Version 1.34.0
+
+-   **[Nouveauté]** Renommage des ancres dans les sommaires => l'url contient le titre de la section
 -   **[Nouveauté]** Nouveau template de mise en avant (n°324)
 -   **[Nouveauté]** Nouveau template de socialwall (n°04)
 -   **[Nouveauté]** Ajout de LinkedIn dans liens de partage sur les réseaux sociaux (à activer dans les paramètres généraux)
@@ -21,7 +54,7 @@
 
 ---
 
-### 06 Janvier 2021 : Version 1.33.0
+### 6 Janvier 2021 : Version 1.33.0
 
 -   **[Mise à jour]** Mise à jour du plugin Polylang 2.8.4 vers 2.9.1
 -   **[Mise à jour]** Optimisation des addons Instagram et Polylang
@@ -87,13 +120,13 @@
 
 ---
 
-### 04 Novembre 2020
+### 4 Novembre 2020
 
 -   **[Nouveauté]** Possiblité d'afficher plusieurs images dans une mise en avant (Personnalisation mise en avant => Images complémentaires)
 
 ---
 
-### 02 Novembre 2020 : Version 1.26.0
+### 2 Novembre 2020 : Version 1.26.0
 
 -   **[Nouveauté]** Nouveau template de mise en avant => 130
 -   **[Mise à jour]** Mises à jour pour les développeurs
@@ -134,7 +167,7 @@
 
 ---
 
-### 04 septembre 2020
+### 4 septembre 2020
 
 -   **[Nouveauté]** Ajout du numéro de page dans la balise "title" des playlists
 -   **[Mise à jour]** Mise à jour du comportement des sociallwall (Evite le double chargement des images dans la page)
@@ -142,7 +175,7 @@
 
 ---
 
-### 02 septembre 2020
+### 2 septembre 2020
 
 -   **[Nouveauté]** Clic-droit et drag-drop bloqué sur les images
 -   **[Mise à jour]** Mise à jour de Wordpress 5.5.0 vers 5.5.1
@@ -275,7 +308,7 @@
 
 ---
 
-### 09 juin 2020 : Version 1.16.0
+### 9 juin 2020 : Version 1.16.0
 
 -   **[Nouveauté]** Nouvelle interface de sélection des templates
 -   **[Nouveauté]** Nouveau bloc "sommaire"
@@ -288,7 +321,7 @@
 
 ---
 
-### 02 juin 2020 : Version 1.15.0
+### 2 juin 2020 : Version 1.15.0
 
 -   **[Nouveauté]** Nouveaux blocs de mise en avant
 -   **[Nouveauté]** Possibilité d'ajouter un bouton dans un bloc de mises en avant
@@ -452,7 +485,7 @@
 
 ---
 
-### 06 février 2020
+### 6 février 2020
 
 -   **[Mise à jour]** Ajout du crédit photo sur les galeries interactives
 -   **[Correctif]** Corrections d'un bug lors de l'ouverture d'une publicité dans une popin
@@ -460,7 +493,7 @@
 
 ---
 
-### 04 février 2020
+### 4 février 2020
 
 -   **[Mise à jour]** Retrait de l'option de partage sur Google+
 -   **[Correctif]** Corrections de l'affichage des favoris
@@ -510,7 +543,7 @@
 
 ---
 
-### 09 janvier 2020
+### 9 janvier 2020
 
 -   **[Mise à jour]** Mise à jour du plugin Redirection de 4.5.1 vers 4.6.2
 -   **[Mise à jour]** Import et mise à jour asynchrone des fiches SIT - Plugin Hawwwai
@@ -560,13 +593,13 @@
 
 ---
 
-### 05 décembre 2019
+### 5 décembre 2019
 
 -   **[Correctif]** Modification du comportement des FAQ => plusieurs lignes peuvent rester ouvertes simultanément
 
 ---
 
-### 03 décembre 2019
+### 3 décembre 2019
 
 -   **[Correctif]** Téléchargement de photos dans la bibliothèque depuis une page
 -   **[Correctif]** Affichage du bloc Yoast en bas des pages
@@ -574,7 +607,7 @@
 
 ---
 
-### 02 décembre 2019 : Version 1.6.0
+### 2 décembre 2019 : Version 1.6.0
 
 -   **[Mise à jour]** Mise à jour de Wordpress 5.2.4 vers 5.3
 -   **[Mise à jour]** Mise à jour d'ACF Pro 5.7.10 vers 5.8.7
@@ -654,7 +687,7 @@
 
 ---
 
-### 01 octobre 2019
+### 1er octobre 2019
 
 -   **[Nouveauté]** Possibilité d'afficher la date de publication dans l'en-tête de page
 -   **[Nouveauté]** Compatiblité avec la plate forme de dépôt de commentaires Disqus + block de commentaires
@@ -723,7 +756,7 @@
 
 ---
 
-### 05 septembre 2019
+### 5 septembre 2019
 
 -   **[Nouveauté]** Ajout d'une option de parallaxe pour les Visuels & accroches et les sections
 -   **[Nouveauté]** Amélioration significative du moteur de recherche (ergonomie et recherche Ajax)
@@ -800,20 +833,20 @@
 
 ---
 
-### 05 juillet 2019
+### 5 juillet 2019
 
 -   **[Correctif]** Mise en avant "Carte" : gestion du responsive si 1 seul élément mis en avant
 -   **[Correctif]** Amélioration de la gestion des vidéos dans le visuel & accroche textes à gauche / média à droite
 
 ---
 
-### 02 juillet 2019
+### 2 juillet 2019
 
 -   **[Nouveauté]** Nouvelles options de carte dans les mises en avant "Carte"
 
 ---
 
-### 01 juillet 2019
+### 1er juillet 2019
 
 -   **[Correctif]** Positionnement des vignettes sur les cartes géographiques au clic sur le marker
 
