@@ -1,3 +1,19 @@
+### 22 Avril 2021 : Version 1.39.0
+
+-   **[Nouveauté]** Possibilité de retravailler une page en ligne dans un brouillon avant de republier ses modifications
+-   **[Nouveauté]** Nouveaux templates de mise en avant (131, 204 => 208), diaporama (08), visuel & accroche (08, 09, 10)
+-   **[Nouveauté]** Ajouts de champs Titre et légende pour les blocs vidéos (SEO Friendly)
+-   **[Mise à jour]** Mise à jour de Wordpress 5.7.0 vers 5.7.1
+-   **[Mise à jour]** Optimisation des appels API pour afficher les contenus SIT Hawwwai
+-   **[Mise à jour]** Amélioration de la gestion des hauteurs d'images dans les mises en avant "mozaiques"
+-   **[Correctif]** Optimisation du mode maintenance
+-   **[Correctif]** Correction de l'affichage des mises en avant numérotées
+-   **[Correctif]** Alignement des boutons de publicités
+-   **[Correctif]** Correction d'une erreur lorsqu'une section cachée est ajoutée dans le sommaire
+-   **[Correctif]** Prise en charge du menu d'admin pour le calcul des hauteurs des visuels & accroche
+
+---
+
 ### 20 Avril 2021 : Version 1.38.0
 
 -   **[Correctif]** Amélioration du mode maintenance pour éviter les micro-coupures lors de mises à jour.

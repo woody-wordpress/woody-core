@@ -231,7 +231,7 @@ Config::define('WP_CACHE_KEY_SALT', implode('_', $wp_cache_key_salt));
 /**
  * Maintenance Mode
  */
-if (file_exists(Config::get('WP_MAINTENANCE_DIR') . '/' . WP_SITE_KEY)) {
+if (file_exists(Config::get('WP_MAINTENANCE_DIR') . '/' . WP_SITE_KEY) || file_exists(Config::get('WP_MAINTENANCE_DIR') . '/all')) {
     Config::define('WOODY_MAINTENANCE', true);
 } else {
     Config::define('WOODY_MAINTENANCE', env('WOODY_MAINTENANCE') ?: false);
