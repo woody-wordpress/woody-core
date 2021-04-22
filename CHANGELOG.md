@@ -1,3 +1,26 @@
+### 01 Février 2021 : Version 1.34.0
+
+-   **[Nouveauté]** Renommage des ancres dans les sommaires => l'url contient le titre de la section 
+-   **[Nouveauté]** Nouveau template de mise en avant (n°324)
+-   **[Nouveauté]** Nouveau template de socialwall (n°04)
+-   **[Nouveauté]** Ajout de LinkedIn dans liens de partage sur les réseaux sociaux (à activer dans les paramètres généraux)
+-   **[Mise à jour]** Mise à jour des miniatures des templates de blocs
+-   **[Mise à jour]** Amélioration du temps d'enregistrement des révisions lors de l'enregistrement d'une page
+-   **[Mise à jour]** Ajustement du comportement des grilles 4 colonnes en mobile => 1 colonne au lieu de 2
+-   **[Mise à jour]** Correctifs mineurs sur l'affichage des objets touristiques
+-   **[Mise à jour]** Repositionnement des controls des cartes géographiques sur certains templates de mise en avant
+-   **[Mise à jour]** Possibilité de mettre un fichier à télécharger dans les boutons du diaporama de page d'accueil
+-   **[Correctif]** Résolution d'un problème de compatibilité addon Hawwwai / plugin Custom Permalinks
+-   **[Correctif]** Résolution d'un problème lors de la planification de dépublication des pages
+-   **[Correctif]** Prise en compte du statut des pages pour l'affichage dans les menus (les brouillons ne sont plus affichés)
+-   **[Correctif]** Infolive : correction d'un bug dans l'affichage lorsqu'une seule piste est ouverte
+-   **[Correctif]** Outil url Checker : les liens vers des pages en brouillons remontent dans les liens vers des pages 404
+-   **[Correctif]** Correction de la recherche par ville sur les listes de contenus lors du lancement d'une recherche
+-   **[Correctif]** Application d'une hauteur par défaut pour les iframes dans les popin de grande taille
+-   **[Correctif]** Correction d'une erreur d'affichage dans les pages sans visuel & accroche
+
+---
+
 ### 06 Janvier 2021 : Version 1.33.0
 
 -   **[Mise à jour]** Mise à jour du plugin Polylang 2.8.4 vers 2.9.1
