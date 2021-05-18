@@ -1,3 +1,35 @@
+### 18 mai 2021 : Version 1.40.0
+
+-   **[Nouveauté]** "Contrôle des urls" optimisée avec analyse dans le temps et prise en compte des corrections
+-   **[Nouveauté]** Ajout des blocs socialwall dans les groupes d'onglets
+-   **[Nouveauté]** Optimisation du chargement des pages de backoffice
+-   **[Nouveauté]** Nouveaux templates de mises en avant (132, 133, 414, 510)
+-   **[Mise à jour]** Ré-activation des boutons Enregistrer/Prévisualiser toujours visibles à l'édition d'une page
+-   **[Mise à jour]** Mise à jour de Wordpress 5.7.1 vers 5.7.2
+-   **[Mise à jour]** Optimisation du cache lors de la déconexion du backoffice
+-   **[Mise à jour]** Amélioration du module Topics
+-   **[Mise à jour]** Retrait des cookies sur les vidéos YouTube (Blocs vidéo, visuel & accroche et diaporama)
+-   **[Mise à jour]** Mises à jour mineures des styles tourisme (Fiches et playlists)
+-   **[Correctif]** Sauvegarde des hashtags de Woody Instagram + optimisations
+-   **[Correctif]** Fatal error dans le module Groupes
+-   **[Correctif]** Affichage du coeur des favoris dans les en-têtes de pages
+
+---
+
+### 3 mai 2021
+
+-   **[Nouveauté]** Ajout de titres de blocs aux Appels à l'action et textes libres
+-   **[Nouveauté]** Nouveau template de groupe d'onglets (05)
+-   **[Mise à jour]** Augmentation du temps de cache des fiches SIT
+-   **[Mise à jour]** Nomenclature des mises en avant de fiches SIT => Classement remplace Note
+-   **[Mise à jour]** Amélioration du système d'alignement des éléments de mise en avant
+-   **[Mise à jour]** Retrait de la mise en forme html au ctr+V dans les éditeurs de texte libre
+-   **[Correctif]** Chargement des fichiers geojson en backoffice
+-   **[Correctif]** Bouton "duplication" dans les sous-niveaux de l'arborescence
+-   **[Correctif]** Indexation asynchrone dans le nouveau moteur de recherche au moment de la sauvegarde d'une page
+
+---
+
 ### 22 Avril 2021 : Version 1.39.0
 
 -   **[Nouveauté]** Possibilité de retravailler une page en ligne dans un brouillon avant de republier ses modifications

@@ -24,7 +24,6 @@
         "babel-preset-env": "^1.7.0",
         "browser-sync": "^2.26.3",
         "browserslist": "^4.12.1",
-        "caniuse-lite": "^1.0.30001088",
         "csv-parse": "^4.10.1",
         "del": "^5.1.0",
         "flat-map": "^1.0.0",
