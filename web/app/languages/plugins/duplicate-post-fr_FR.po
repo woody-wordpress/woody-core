@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast Duplicate Post - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-23 08:56:09+0000\n"
+"PO-Revision-Date: 2021-10-25 08:33:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +43,7 @@ msgstr "La page réécrite %1$s est planifiée pour remplacer la page originale.
 msgid "This rewritten post %1$s is now scheduled to replace the original post. It will be published on %2$s."
 msgstr "L’article réécrit %1$s est planifié pour remplacer l’article original. Il sera publié le %2$s."
 
-#: src/ui/class-classic-editor.php:232
+#: src/ui/class-classic-editor.php:232 js/dist/duplicate-post-strings-412.js:1
 msgid "Schedule republish"
 msgstr "Planifier la republication"
 
@@ -83,9 +83,9 @@ msgstr "Afficher ces liens"
 msgid "Warning: users will be able to copy, rewrite and republish all posts, even those of other users."
 msgstr "Avertissement : les comptes utilisateurs pourront copier, réécrire et republier toutes les publications, même celles des autres comptes."
 
-#: src/admin/class-options.php:284 src/ui/class-bulk-actions.php:80
-#: src/ui/class-admin-bar.php:110 src/ui/class-admin-bar.php:129
-#: src/ui/class-classic-editor.php:164
+#: src/admin/class-options.php:284 src/ui/class-admin-bar.php:110
+#: src/ui/class-admin-bar.php:129 src/ui/class-bulk-actions.php:80
+#: src/ui/class-classic-editor.php:164 js/dist/duplicate-post-edit-412.js:1
 msgid "Rewrite & Republish"
 msgstr "Réécriture & republication"
 
@@ -128,7 +128,7 @@ msgstr "Vous ne pouvez gérer des copies de réécriture & republication que une
 
 #: src/watchers/class-link-actions-watcher.php:118
 msgid "You can now start rewriting your post in this duplicate of the original post. If you click \"Republish\", this rewritten post will replace the original post."
-msgstr "Vous pouvez maintenant réécrire votre publication dans cette version dupliquée de l’originale. Si vous cliquez sur « Republier », cette publication remplacera l’originale."
+msgstr "Vous pouvez maintenant réécrire votre publication dans cette version dupliquée de l’originale. Si vous cliquez sur « Republier », cette publication remplacera l’originale."
 
 #: src/watchers/class-link-actions-watcher.php:102
 msgid "You can now start rewriting your post in this duplicate of the original post. If you click \"Republish\", your changes will be merged into the original post and you’ll be redirected there."
@@ -139,6 +139,7 @@ msgid "An error occurred while republishing the post."
 msgstr "Une erreur est survenue lors de la republication de la publication."
 
 #: src/class-post-republisher.php:87 src/ui/class-classic-editor.php:210
+#: js/dist/duplicate-post-strings-412.js:1
 msgid "Republish"
 msgstr "Republier"
 
@@ -200,7 +201,7 @@ msgstr "Notification de mise à jour"
 #. the template tag documentation, 4: Link closing tag.
 #: src/admin/views/options.php:218
 msgid "You can also use the template tag %1$sduplicate_post_clone_post_link( $link, $before, $after, $id )%2$s. %3$sMore info on the template tag%4$s."
-msgstr "Vous pouvez aussi utiliser le marqueur de modèle %1$sduplicate_post_clone_post_link( $link, $before, $after, $id )%2$s. %3$sPlus d’info sur le marqueur de modèle%4$s."
+msgstr "Vous pouvez aussi utiliser le marqueur de modèle %1$sduplicate_post_clone_post_link($link, $before, $after, $id)%2$s. %3$sPlus d’info sur le marqueur de modèle%4$s."
 
 #. translators: %s: Post title.
 #: src/ui/class-row-actions.php:117
@@ -355,8 +356,9 @@ msgid "Featured Image"
 msgstr "Image mise en avant"
 
 #. translators: %s: Number of posts copied.
-#: src/watchers/class-link-actions-watcher.php:78
+#. translators: %s: Number of posts copied.
 #: src/watchers/class-bulk-actions-watcher.php:60
+#: src/watchers/class-link-actions-watcher.php:78
 msgid "%s item copied."
 msgid_plural "%s items copied."
 msgstr[0] "%s élément copié."
@@ -392,7 +394,7 @@ msgstr "Augmenter l’ordre du menu de"
 
 #: src/admin/class-options.php:183
 msgid "except pingbacks and trackbacks"
-msgstr "sauf pingbacks et trackbacks"
+msgstr "sauf pings et rétroliens"
 
 #: src/admin/class-options.php:181
 msgid "Comments"
@@ -410,13 +412,13 @@ msgstr "Pièces jointes"
 msgid "Password"
 msgstr "Mot de passe"
 
-#: src/handlers/class-check-changes-handler.php:128
 #: src/admin/class-options.php:124
+#: src/handlers/class-check-changes-handler.php:128
 msgid "Content"
 msgstr "Contenu"
 
-#: src/handlers/class-check-changes-handler.php:129
 #: src/admin/class-options.php:117
+#: src/handlers/class-check-changes-handler.php:129
 msgid "Excerpt"
 msgstr "Extrait"
 
@@ -432,8 +434,8 @@ msgstr "État "
 msgid "Date"
 msgstr "Date"
 
-#: src/handlers/class-check-changes-handler.php:127
 #: src/admin/class-options.php:89
+#: src/handlers/class-check-changes-handler.php:127
 msgid "Title"
 msgstr "Titre"
 
@@ -507,7 +509,7 @@ msgstr "Ne pas copier ces taxonomies"
 
 #: src/admin/class-options.php:219
 msgid "Comma-separated list of meta fields that must not be copied."
-msgstr "Liste séparée par des virgules de champs meta qui ne doivent pas être copiés."
+msgstr "Liste séparée par des virgules de champs méta qui ne doivent pas être copiés."
 
 #: src/admin/class-options.php:216 src/admin/views/options.php:107
 msgid "Do not copy these fields"
@@ -538,8 +540,9 @@ msgstr "Vous n’avez sélectionné aucune publication à dupliquer !"
 msgid "New Draft"
 msgstr "Nouveau brouillon"
 
-#: src/ui/class-admin-bar.php:102 src/ui/class-admin-bar.php:119
-#: src/ui/class-classic-editor.php:135 duplicate-post-common.php:77
+#: duplicate-post-common.php:77 src/ui/class-admin-bar.php:102
+#: src/ui/class-admin-bar.php:119 src/ui/class-classic-editor.php:135
+#: js/dist/duplicate-post-edit-412.js:1
 msgid "Copy to a new draft"
 msgstr "Copier dans un nouveau brouillon"
 

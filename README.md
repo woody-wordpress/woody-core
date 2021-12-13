@@ -95,8 +95,6 @@ WOODY_TWIG_CACHE_DISABLE='false'
 WOODY_VARNISH_CACHING_COOKIE=''
 WOODY_VARNISH_CACHING_DEBUG='true'
 WOODY_VARNISH_CACHING_ENABLE='false'
-WOODY_VARNISH_CACHING_FOCUSRANDOM_TTL='86400'
-WOODY_VARNISH_CACHING_FOCUSSHEET_TTL='7200'
 WOODY_VARNISH_CACHING_IPS='127.0.0.1:80'
 WOODY_VARNISH_CACHING_PURGE_KEY=''
 WOODY_VARNISH_CACHING_TTL='2592000'
@@ -267,6 +265,23 @@ Regenerate the canonicals all SIT records
 WP_SITE_KEY=mywebsite wp woody:hawwwai update_canonicals
 WP_SITE_KEY=mywebsite wp woody:hawwwai rsdu
 ```
+
+Update core translations
+
+```bash
+WP_SITE_KEY={{sitekey}} wp language core update
+```
+
+Update plugin translations (fr_FR example)
+
+```bash
+WP_SITE_KEY={{sitekey}} wp language plugin update --all fr_FR
+```
+or
+```bash
+WP_SITE_KEY={{sitekey}} wp language plugin update {{plugin-name}} fr_FR
+```
+
 
 ## :recycle: Recommended VSCode extensions
 

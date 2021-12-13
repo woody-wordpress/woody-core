@@ -1,0 +1,20 @@
+# Translation of Plugins - Semrush SEO Writing Assistant - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Semrush SEO Writing Assistant - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-05 07:59:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Semrush SEO Writing Assistant - Development (trunk)\n"
+
+#. Author URI of the plugin
+msgid "https://www.semrush.com/"
+msgstr "https://www.semrush.com/"
+
+#. Plugin URI of the plugin
+msgid "https://www.semrush.com/swa/"
+msgstr "https://www.semrush.com/swa/"

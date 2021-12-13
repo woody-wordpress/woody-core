@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-28 21:53:03+0000\n"
+"PO-Revision-Date: 2021-07-05 06:23:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,36 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: de\n"
 "Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#. translators: %s is a suite of comma separate file formats, for example: PO,
+#. XLIFF
+#: modules/import-export/file-format-factory.php:111
+msgid "Error: Wrong file format. The supported file formats are: %s."
+msgstr "Fehler: Falsches Dateiformat. Unterstützte Dateiformate sind: %s."
+
+#: modules/xliff/xliff-import.php:82
+msgid "An error occurred during the import, please make sure your file is correctly formatted."
+msgstr "Während des Imports ist ein Fehler aufgetreten, bitte stelle sicher, dass deine Datei korrekt formatiert ist."
+
+#: modules/xliff/xliff-import.php:73
+msgid "Something went wrong during the file import."
+msgstr "Etwas ging schief während des Datei-Imports."
+
+#: modules/xliff/xliff-import.php:61
+msgid "Your PHP installation appears to be missing the libxml extension which is required by the importer."
+msgstr "Deiner PHP-Installation scheint die libxml-Erweiterung zu fehlen, die für den Importer erforderlich ist."
+
+#: modules/translate-slugs/settings-translate-slugs.php:20
+msgid "The module is automatically deactivated when using plain permalinks."
+msgstr "Das Modul wird automatisch deaktiviert, wenn du einfache Permalinks benutzt."
+
+#: modules/share-slug/settings-share-slug.php:35
+msgid "The module is automatically deactivated when using plain permalinks or when the language is set from the content in the URL modifications."
+msgstr "Das Modul wird automatisch deaktiviert, wenn du einfache Permalinks benutzt oder wenn die Sprache in den URL-Modifikationen von dem Inhalt bestimmt wird."
+
+#: modules/export/view-tab-export-strings.php:66
+msgid "Export file format:"
+msgstr "Export-Dateiformat:"
 
 #: modules/locale-fallback/view-locale-fallback.php:13
 msgid "Locale fallback"
@@ -19,18 +49,18 @@ msgstr "Ersatz-Sprachumgebung"
 msgid "WordPress locale to use if a translation file is not available in the main locale."
 msgstr "WordPress-Sprachumgebung, die benutzt wird, falls in der Haupt-Sprachumgebung keine Übersetzungsdatei verfügbar ist."
 
-#: modules/import/import-action.php:193
+#: modules/import/import-action.php:192
 msgid "The translation of the following string was not imported for security reasons:"
 msgid_plural "The translation of the following strings were not imported for security reasons:"
 msgstr[0] "Die Übersetzung der folgenden Zeichenfolge wurde aus Sicherheitsgründen nicht importiert:"
 msgstr[1] "Die Übersetzungen folgender Zeichenfolgen wurden aus Sicherheitsgründen nicht importiert:"
 
-#: modules/import-export/import-export.php:156
+#: modules/import-export/import-export.php:157
 msgid "Error: you haven't selected any target language to be exported."
 msgstr "Fehler: Du hast keine Zielsprache für den Export ausgewählt."
 
 #: modules/import-export/import-export.php:118
-#: modules/import-export/import-export.php:147
+#: modules/import-export/import-export.php:148
 msgid "Sorry, you are not allowed to manage options for this site."
 msgstr "Du bist leider nicht berechtigt, Optionen dieser Website zu verwalten."
 
@@ -42,23 +72,23 @@ msgstr "Zeichenfolgen-Übersetzungen importieren"
 msgid "Export string translations"
 msgstr "Zeichenfolgen-Übersetzungen exportieren"
 
-#: modules/export/view-tab-export-strings.php:63
+#: modules/export/view-tab-export-strings.php:76
 msgid "Download"
 msgstr "Herunterladen"
 
-#: modules/export/view-tab-export-strings.php:48
+#: modules/export/view-tab-export-strings.php:50
 msgid "Export all groups"
 msgstr "Alle Gruppen exportieren"
 
-#: modules/export/view-tab-export-strings.php:45
+#: modules/export/view-tab-export-strings.php:47
 msgid "Filter group:"
 msgstr "Gruppe filtern:"
 
-#: modules/export/view-tab-export-strings.php:27
+#: modules/export/view-tab-export-strings.php:29
 msgid "Target languages:"
 msgstr "Zielsprachen:"
 
-#: modules/export/export-strings-translation.php:125
+#: modules/export/export-strings-translations.php:132
 msgid "Error: Impossible to create a zip file."
 msgstr "Fehler: Kann keine Zip-Datei erstellen."
 
@@ -89,16 +119,16 @@ msgstr "Ignorieren"
 msgid "Error: Invalid file."
 msgstr "Fehler: Ungültige Datei."
 
-#. translators: %s is a suite of comma separate file formats
-#: modules/import/import-file.php:78
-msgid "Error: Wrong file format. The supported file formats are: %s."
-msgstr "Fehler: Falsches Dateiformat. Unterstützte Dateiformate sind: %s"
+#. translators: %s is a file format, for example PO
+#: modules/import-export/file-format-factory.php:108
+msgid "Error: Wrong file format. The only supported file format is %s."
+msgstr "Fehler: Falsches Dateiformat. Das einzige unterstützte Dateiformat ist: %s"
 
 #: modules/import/view-tab-import-translations.php:21
 msgid "Upload"
 msgstr "Hochladen"
 
-#: modules/import/import-action.php:149
+#: modules/import/import-action.php:148
 msgid "Error: You are trying to import a file in a language which doesn't exist on your site."
 msgstr "Fehler: Du versuchst, eine Datei in einer Sprache zu importieren, die auf deiner Website nicht existiert."
 
@@ -134,26 +164,20 @@ msgid "Deactivate"
 msgstr "Deaktivieren"
 
 #: integrations/acf/acf-sync-metas.php:61
-#: modules/rest/rest-translated-object.php:70
-#: modules/block-editor/js/sidebar/components/translations-table/index.js:51
+#: modules/rest/rest-translated-object.php:70 js/build/sidebar.js:3394
 msgid "Translations"
 msgstr "Übersetzungen"
 
-#: modules/metabox-button/metabox-button.php:165
-#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:89
+#: modules/metabox-button/metabox-button.php:165 js/build/sidebar.js:2229
 msgid "You are about to overwrite an existing translation. Are you sure you want to proceed?"
 msgstr "Du bist dabei, eine bestehende Übersetzung zu überschreiben. Bist du sicher, dass du fortfahren willst?"
 
-#: modules/rest/rest-translated-object.php:55
-#: modules/block-editor/js/sidebar/components/switcher/index.js:156
-#: modules/block-editor/js/sidebar/components/switcher/index.js:157
+#: modules/rest/rest-translated-object.php:55 js/build/sidebar.js:1849
+#: js/build/sidebar.js:1852
 msgid "Language"
 msgstr "Sprache"
 
 #: modules/xdata/xdata-session-manager.php:63
-#: tests/phpunit/tests/pro/test-xdata-session-manager.php:33
-#: tests/phpunit/tests/pro/test-xdata-session-manager.php:56
-#: tests/phpunit/tests/pro/test-xdata-session-manager.php:77
 msgid "An error has occurred."
 msgstr "Ein Fehler ist aufgetreten."
 
@@ -165,18 +189,13 @@ msgstr "URL-Titelformen"
 msgid "Synchronizations"
 msgstr "Synchronisierungen"
 
-#: modules/sync-post/sync-post-button.php:41
-#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:93
-#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:67
-#: modules/block-editor/js/sidebar/components/translations-table/index.js:60
+#: modules/sync-post/sync-post-button.php:41 js/build/sidebar.js:2171
+#: js/build/sidebar.js:3398
 msgid "Don't synchronize this post"
 msgstr "Diesen Beitrag nicht synchronisieren"
 
-#: modules/sync-post/sync-post-button.php:40
-#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:105
-#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:67
-#: modules/block-editor/js/sidebar/components/synchronization-button/index.js:85
-#: modules/block-editor/js/sidebar/components/translations-table/index.js:60
+#: modules/sync-post/sync-post-button.php:40 js/build/sidebar.js:2171
+#: js/build/sidebar.js:2225 js/build/sidebar.js:3398
 msgid "Synchronize this post"
 msgstr "Diesen Beitrag synchronisieren"
 
@@ -225,12 +244,10 @@ msgid "Media"
 msgstr "Medien"
 
 #: modules/duplicate/duplicate.php:26
-#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:43
 msgid "Deactivate content duplication"
 msgstr "Inhalts-Duplizierung deaktivieren"
 
 #: modules/duplicate/duplicate.php:25
-#: tests/phpunit/tests/pro/test-ajax-metabox-button.php:56
 msgid "Activate content duplication"
 msgstr "Inhalts-Duplizierung aktivieren"
 
@@ -238,8 +255,7 @@ msgstr "Inhalts-Duplizierung aktivieren"
 msgid "Submit"
 msgstr "Senden"
 
-#: modules/bulk-translate/view-bulk-translate.php:52
-#: modules/block-editor/js/sidebar/components/confirmation-modal/index.js:64
+#: modules/bulk-translate/view-bulk-translate.php:52 js/build/sidebar.js:1197
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -247,7 +263,7 @@ msgstr "Abbrechen"
 msgid "Synchronize original items with translation in selected languages"
 msgstr "Originalelemente mit ausgewählten Sprachen synchronisieren"
 
-#: modules/sync-post/sync-post.php:56 modules/media/admin-advanced-media.php:48
+#: modules/media/admin-advanced-media.php:48 modules/sync-post/sync-post.php:56
 msgid "Copy original items to selected languages"
 msgstr "Originalelemente zu ausgewählten Sprachen kopieren"
 

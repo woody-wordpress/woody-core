@@ -1,3 +1,46 @@
+### 16 Novembre 2021 : Version 1.44.0
+
+-   **[Nouveauté]** Toutes les balises HTML sont conservées dans l’éditeur de texte (onglet code HTML)
+-   **[Nouveauté]** Gestion de l’alignement des titres de section (gauche/droite/centré)
+-   **[Nouveauté]** Traduction Catalane
+-   **[Nouveauté]** Création des blocs Marées, Favoris, Plan du site et Demande de devis pour remplacer les shortcodes correspondants
+-   **[Mise à jour]** Lisibilité de la liste des blocs
+-   **[Mise à jour]** Mise à jour de Wordpress 5.8.1 vers 5.8.2
+-   **[Mise à jour]** Suppression de l’affichage de la date de mise à jour des pages
+-   **[Correctif]** Support des paramètres de fond de blocs pour les mises en avant de fiches SIT
+-   **[Correctif]** Ajout des boutons de mise en avant sur les mises en avant avec carte
+-   **[Correctif]** Mise en avant 418 => retrait des flèches de navigation si inutiles
+
+### 26 Octobre 2021
+
+-   **[Mise à jour]** Pages miroir supprimées du sitemap
+-   **[Correctif]** Url canonique des pages mirroir calculées par rapport à la page de référence
+-   **[Correctif]** Retrait de l'outil *Lien* dans les descriptions de mises en avant manuelles libres
+
+---
+
+### 20 Octobre 2021
+
+-   **[Nouveauté]** Style de caractères dans les éditeurs WYSIWYG (style de titre sans balise hn)
+-   **[Mise à jour]** Traductions d'interface en FR pour Wordpress et ses plugins
+-   **[Mise à jour]** Plugin ACF 5.9.6 vers 5.10.2
+-   **[Correctif]** Application d'une largeur maximum aux mises en avant avec texte sous l'image
+-   **[Correctif]** Affichage de la médiathèque
+-   **[Correctif]** Suppression de notices Php
+-   **[Correctif]** Correction mineure dans le robots.txt
+-   **[Correctif]** Correction des meta title et meta description avec guillemets
+
+---
+
+### 11 Octobre 2021
+
+-   **[Nouveauté]** Marqueurs de clics sur toutes les mises en avant
+-   **[Nouveauté]** Marqueurs de clics sur toutes les mises en avant avec téléchargement de fichier
+-   **[Mise à jour]** Désactivation de GTM en preprod
+-   **[Mise à jour]** Microdonnées manquantes sur les blocs vidéo
+
+---
+
 ### 5 Octobre 2021 : Version 1.43.0
 
 -   **[Nouveauté]** Typologie de bloc : Extraits de fiches SIT
@@ -19,14 +62,14 @@
 
 -   **[Nouveauté]** Option de transparence des couleurs de fond
 -   **[Nouveauté]** Option d’alignement des blocs dans un groupe d’onglet
--   **[Mise à jour]**  Amélioration du comportement mobile des mises en avant 128-129
+-   **[Mise à jour]** Amélioration du comportement mobile des mises en avant 128-129
 -   **[Mise à jour]** Remplacement de l’icone pour les liens externes (desktop) par un curseur spécial
 -   **[Mise à jour]** Amélioration du comportement mobile des groupes d’onglets
 -   **[Mise à jour]** Evolutions infos neige
 -   **[Correctif]** Tag principal multilingue
 -   **[Correctif]** Réduction des marges entre descriptions et boutons des cocons sémantiques
 -   **[Correctif]** Application du zoom défini en backoffice pour les cartes dans des onglets
--   **[Correctif]**  Ouverture fermeture des champs de backoffice à la création d’une page
+-   **[Correctif]** Ouverture fermeture des champs de backoffice à la création d’une page
 
 ---
 
