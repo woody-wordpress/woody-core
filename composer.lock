@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70d3aa4e93e32a1f61ececab11233f08",
+    "content-hash": "4cf076490f473176271cbd418730ec18",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -70,16 +70,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.9",
+            "version": "1.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5"
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/9fdb22c2e97a614657716178093cd1da90a64aa8",
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-12T12:10:35+00:00"
+            "time": "2021-06-07T13:58:28+00:00"
         },
         {
             "name": "composer/composer",
@@ -589,16 +589,16 @@
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "ae02121445ad75f4eaff800cc532b5e6233e2ddf"
+                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/ae02121445ad75f4eaff800cc532b5e6233e2ddf",
-                "reference": "ae02121445ad75f4eaff800cc532b5e6233e2ddf",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/9888dcc74993c030b75f3dd548bb5e20cdbd740c",
+                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c",
                 "shasum": ""
             },
             "require": {
@@ -629,7 +629,7 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "time": "2020-09-30T17:56:20+00:00"
+            "time": "2021-06-08T15:12:46+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -2577,16 +2577,16 @@
         },
         {
             "name": "rmccue/requests",
-            "version": "v1.8.0",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/Requests.git",
-                "reference": "afbe4790e4def03581c4a0963a1e8aa01f6030f1"
+                "reference": "82e6936366eac3af4d836c18b9d8c31028fe4cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/Requests/zipball/afbe4790e4def03581c4a0963a1e8aa01f6030f1",
-                "reference": "afbe4790e4def03581c4a0963a1e8aa01f6030f1",
+                "url": "https://api.github.com/repos/WordPress/Requests/zipball/82e6936366eac3af4d836c18b9d8c31028fe4cd5",
+                "reference": "82e6936366eac3af4d836c18b9d8c31028fe4cd5",
                 "shasum": ""
             },
             "require": {
@@ -2629,7 +2629,7 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2021-04-27T11:05:25+00:00"
+            "time": "2021-06-04T09:56:25+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -5155,16 +5155,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-roadbook",
-            "version": "2.4.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-roadbook.git",
-                "reference": "898efcea8e228bf940cee40675bd996ba5f8028b"
+                "reference": "214a6d412e0c8b40aaeed83fcc8f30b507f9cefc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-roadbook/zipball/898efcea8e228bf940cee40675bd996ba5f8028b",
-                "reference": "898efcea8e228bf940cee40675bd996ba5f8028b",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-roadbook/zipball/214a6d412e0c8b40aaeed83fcc8f30b507f9cefc",
+                "reference": "214a6d412e0c8b40aaeed83fcc8f30b507f9cefc",
                 "shasum": ""
             },
             "require": {
@@ -5195,10 +5195,10 @@
             ],
             "description": "This plugin adds all the features developped for the Woody RoadBook",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/tree/2.4.0",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/tree/3.0.0",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-roadbook/issues"
             },
-            "time": "2021-05-26T08:32:03+00:00"
+            "time": "2021-06-15T08:04:14+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-search",
@@ -5245,16 +5245,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-addon-section-models",
-            "version": "dev-master",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-addon-section-models.git",
-                "reference": "21cdf68c37debbc1500c5ef831bb3656b78b222c"
+                "reference": "521d6ee4a13f88284615cc2a29f4d4cf9cb27b24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-section-models/zipball/21cdf68c37debbc1500c5ef831bb3656b78b222c",
-                "reference": "21cdf68c37debbc1500c5ef831bb3656b78b222c",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-addon-section-models/zipball/521d6ee4a13f88284615cc2a29f4d4cf9cb27b24",
+                "reference": "521d6ee4a13f88284615cc2a29f4d4cf9cb27b24",
                 "shasum": ""
             },
             "require": {
@@ -5281,10 +5281,10 @@
             ],
             "description": "This plugin handles all functions linked section models",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-addon-section-models/tree/1.0.2",
+                "source": "https://github.com/woody-wordpress-pro/woody-addon-section-models/tree/1.0.6",
                 "issues": "https://github.com/woody-wordpress-pro/woody-addon-section-models/issues"
             },
-            "time": "2021-05-31T12:48:05+00:00"
+            "time": "2021-06-15T06:43:46+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-addon-socialize",
@@ -5409,16 +5409,16 @@
         },
         {
             "name": "woody-wordpress-pro/woody-library",
-            "version": "1.25.0",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-library.git",
-                "reference": "bbc4a94869e8fadde6baf6e55cd04e3edeae2c33"
+                "reference": "0dec30c33e51e25725a2a8ee91d44de1682c728e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/bbc4a94869e8fadde6baf6e55cd04e3edeae2c33",
-                "reference": "bbc4a94869e8fadde6baf6e55cd04e3edeae2c33",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-library/zipball/0dec30c33e51e25725a2a8ee91d44de1682c728e",
+                "reference": "0dec30c33e51e25725a2a8ee91d44de1682c728e",
                 "shasum": ""
             },
             "require": {
@@ -5447,23 +5447,23 @@
             ],
             "description": "Catalogue of block and section templates for the Woody builder.",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.25.0",
+                "source": "https://github.com/woody-wordpress-pro/woody-library/tree/1.26.0",
                 "issues": "https://github.com/woody-wordpress-pro/woody-library/issues"
             },
-            "time": "2021-06-03T08:18:13+00:00"
+            "time": "2021-06-15T08:12:47+00:00"
         },
         {
             "name": "woody-wordpress-pro/woody-plugin",
-            "version": "1.28.3",
+            "version": "1.29.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:woody-wordpress-pro/woody-plugin.git",
-                "reference": "dc840d0afac6efd0cb1fb6c1e453a368e258cb6c"
+                "reference": "3fbf80e22ac7baee9981dcb3b85c493a8f9386b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/dc840d0afac6efd0cb1fb6c1e453a368e258cb6c",
-                "reference": "dc840d0afac6efd0cb1fb6c1e453a368e258cb6c",
+                "url": "https://api.github.com/repos/woody-wordpress-pro/woody-plugin/zipball/3fbf80e22ac7baee9981dcb3b85c493a8f9386b1",
+                "reference": "3fbf80e22ac7baee9981dcb3b85c493a8f9386b1",
                 "shasum": ""
             },
             "require": {
@@ -5500,10 +5500,10 @@
             ],
             "description": "This plugin adds all the features of woody Pro (Hawwwai, Instagram, Favorites, Weather, Claims, ...)",
             "support": {
-                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/1.28.3",
+                "source": "https://github.com/woody-wordpress-pro/woody-plugin/tree/1.29.0",
                 "issues": "https://github.com/woody-wordpress-pro/woody-plugin/issues"
             },
-            "time": "2021-06-01T14:30:46+00:00"
+            "time": "2021-06-14T12:21:45+00:00"
         },
         {
             "name": "woody-wordpress/advanced-custom-fields-pro",
@@ -5892,16 +5892,16 @@
         },
         {
             "name": "woody-wordpress/woody-theme",
-            "version": "1.40.1",
+            "version": "1.40.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woody-wordpress/woody-theme.git",
-                "reference": "5cd30a14c4ba9d06b48887b4aca79d481b2c1587"
+                "reference": "ffc3bb9e3f6df05e819d0b17e7ba6c7eeee015b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/5cd30a14c4ba9d06b48887b4aca79d481b2c1587",
-                "reference": "5cd30a14c4ba9d06b48887b4aca79d481b2c1587",
+                "url": "https://api.github.com/repos/woody-wordpress/woody-theme/zipball/ffc3bb9e3f6df05e819d0b17e7ba6c7eeee015b2",
+                "reference": "ffc3bb9e3f6df05e819d0b17e7ba6c7eeee015b2",
                 "shasum": ""
             },
             "require": {
@@ -5930,10 +5930,10 @@
             ],
             "description": "Parent theme of Woody Wordpresss Builder",
             "support": {
-                "source": "https://github.com/woody-wordpress/woody-theme/tree/1.40.1",
+                "source": "https://github.com/woody-wordpress/woody-theme/tree/1.40.5",
                 "issues": "https://github.com/woody-wordpress/woody-theme/issues"
             },
-            "time": "2021-06-03T12:38:47+00:00"
+            "time": "2021-06-15T08:19:53+00:00"
         },
         {
             "name": "wp-cli/cache-command",
@@ -7876,9 +7876,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "woody-wordpress-pro/woody-addon-section-models": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

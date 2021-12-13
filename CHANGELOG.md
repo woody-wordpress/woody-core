@@ -1,3 +1,20 @@
+### 15 Juin 2021 : Version 1.42.0
+
+-   **[Nouveauté]** Nouveau template de mise en avant 511
+-   **[Nouveauté]** Nouveaux templates de sociallwalls (07/09)
+-   **[Nouveauté]** Ajout de la mention "Publié le" devant la date de publication sur les mises en avant
+-   **[Mise à jour]** RoadBOOK V3
+-   **[Mise à jour]** Suppression de l'autoplay des vidéos dans le contenu des pages
+-   **[Mise à jour]** Optimisation du chargement des galeries photos
+-   **[Mise à jour]** Optimisation de la mise en avant 135
+-   **[Correctif]** Responsive mises en avant cartes : suppression de champs
+-   **[Correctif]** Utilisation de l'image mobile pour tous les blocs de publicités
+-   **[Correctif]** Affichage d'un message à l'enregistrement d'une page en Ajax lorsque la session a expiré
+-   **[Correctif]** Correction dans le robots.txt
+-   **[Correctif]** Affichage de la mention "Paramètres des cookies"
+-   **[Correctif]** Corrections d'affichage sur les Visuels & accroche 08 et 09
+
+---
 ### 03 Juin 2021 : Version 1.41.0
 
 -   **[Nouveauté]** **Possibilité d'enregsitrer une section en tant que modèle pour la réutiliser dans d'autres pages**
