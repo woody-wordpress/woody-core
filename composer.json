@@ -1,7 +1,7 @@
 {
     "name": "woody-wordpress/woody-core",
     "license": "GPL-2.0",
-    "version": "1.40.0",
+    "version": "1.41.0",
     "description": "Woody core is the main project to start your new website. Enjoy ;)",
     "authors": [
         {
@@ -25,7 +25,7 @@
         "cweagans/composer-patches": "^1.6",
         "erusev/parsedown": "^1.7",
         "fightbulc/moment": "^1.29",
-        "johnpbloch/wordpress": "^5.7.1",
+        "johnpbloch/wordpress": "^5.7.2",
         "nette/forms": "3.0.7",
         "ocramius/package-versions": "1.5.1",
         "oscarotero/env": "^1.2.0",
@@ -33,8 +33,9 @@
         "roots/wp-password-bcrypt": "^1.0.0",
         "sentry/sdk": "^2.1.0",
         "vlucas/phpdotenv": "^3.4",
-        "woody-wordpress/woody-library": "^1.22.0",
+        "woody-wordpress/advanced-custom-fields-pro": "^5.9.6",
         "woody-wordpress/enhanced-media-library": "^2.7.3",
+        "woody-wordpress/polylang-pro": "^2.9.0",
         "woody-wordpress/woody-acf-sync": "^1.3.5",
         "woody-wordpress/woody-lib-polylang": "^1.1.0",
         "woody-wordpress/woody-lib-dropzone": "^1.2.0",
@@ -63,7 +64,7 @@
         "wp-cli/search-replace-command": "^2.0",
         "wp-cli/super-admin-command": "^2.0",
         "wp-cli/widget-command": "^2.0",
-        "wp-cli/wp-cli": "^2.4",
+        "wp-cli/wp-cli": "2.4.1",
         "wpackagist-plugin/advanced-cron-manager": "^2.4",
         "wpackagist-plugin/bea-sanitize-filename": "^2.0",
         "wpackagist-plugin/custom-permalinks": "^1.7.1",
@@ -81,20 +82,9 @@
         "wpackagist-plugin/wp-php-console": "^1.6"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-master",
         "squizlabs/php_codesniffer": "^3.0.2"
     },
     "extra": {
-        "patches": {
-            "woody-wordpress/polylang-pro": {
-                "Remove PLL_ACF": "https://raw.githubusercontent.com/woody-wordpress/woody-patches/master/pll-remove-acf-sync.diff",
-                "Remove admin_enqueue_scripts": "https://raw.githubusercontent.com/woody-wordpress/woody-patches/master/pll-remove-admin-enqueue-script.diff"
-            },
-            "woody-wordpress/advanced-custom-fields-pro": {
-                "Refactor revisions query": "https://raw.githubusercontent.com/woody-wordpress/woody-patches/master/acf-refactor-revisions.diff",
-                "Unload flex clones": "https://raw.githubusercontent.com/woody-wordpress/woody-patches/master/acf-unload-flex-clones.diff"
-            }
-        },
         "installer-paths": {
             "web/app/mu-plugins/{$name}/": [
                 "type:wordpress-muplugin"

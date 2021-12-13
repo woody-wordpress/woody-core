@@ -184,6 +184,11 @@ Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET', env('WOODY_VARNISH_CAC
 Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST') ?: 43200);
 
 /**
+ * RoadBook informations
+ */
+Config::define('ROADBOOK_GA_ID', env('ROADBOOK_GA_ID') ?: '');
+
+/**
  * MailJet informations
  */
 Config::define('WOODY_SMTP_USERNAME', env('WOODY_SMTP_USERNAME') ?: '');

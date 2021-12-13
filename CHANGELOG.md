@@ -1,3 +1,32 @@
+### 03 Juin 2021 : Version 1.41.0
+
+-   **[Nouveauté]** **Possibilité d'enregsitrer une section en tant que modèle pour la réutiliser dans d'autres pages**
+-   **[Nouveauté]** **Possibilité de déplacer les blocs entre différentes sections**
+-   **[Nouveauté]** Bouton lié à un bloc de texte
+-   **[Nouveauté]** Nouveaux templates de mise en avant (134, 135)
+-   **[Nouveauté]** Nouveaux templates de mise en avant sur carte géographique (04, 05)
+-   **[Nouveauté]** Ajout d'une option "Tout" dans les filtres de liste (templates listes déroulantes) pour permettre de réinitilaliser une recherche
+-   **[Mise à jour]** Réorganisation des onglets d'édition d'une section pour une meilleure compréhension
+-   **[Mise à jour]** Les médias pdf, doc, docx, ... ne sont plus stockés sur le cdn => amélioration du référencement
+-   **[Mise à jour]** Amélioration de la vue responsive des blocs de mise en avant avec carte géographique (carte visible en mobile)
+-   **[Mise à jour]** Optimisation du robots.txt (+Disallow: api +Disallow: ?query)
+-   **[Mise à jour]** Mise à jour d'ACF' 5.9.3 vers 5.9.6
+-   **[Correctif]** Défaut d'affichage des groupes d'onglets verticaux
+-   **[Correctif]** Défaut d'affichage des mises en avant 130 323 319 et 326 en mobile
+-   **[Correctif]** Contrôles des sliders d'images/mises en avant
+-   **[Correctif]** Suppression des textes coupés au délà de 180 caractères pour les mises en avant manuelles contenu libre
+-   **[Correctif]** Suspension de l'outil de vérification des liens cassées (performances)
+-   **[Correctif]** Traductions manquantes de la fenêtre de cookies
+-   **[Correctif]** Correctifs mineurs sur le roadBOOK dans l'attente de la V2
+
+---
+
+### 21 mai 2021
+
+-   **[Mise à jour]** Possibilité de distinguer les playlists depuis l'arborescence des pages
+
+---
+
 ### 18 mai 2021 : Version 1.40.0
 
 -   **[Nouveauté]** "Contrôle des urls" optimisée avec analyse dans le temps et prise en compte des corrections
