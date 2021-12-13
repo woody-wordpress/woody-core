@@ -1,5 +1,5 @@
 <?php if (!defined('WP_CLI') || WP_CLI != true) : ?>
-<?php if (WOODY_MAINTENANCE) : ?>
+<?php if (WOODY_MAINTENANCE || (substr($_SERVER['REQUEST_URI'], 0, 3) == '/wp' && WOODY_MAINTENANCE_ADMIN)) : ?>
 <?php
 header($_SERVER["SERVER_PROTOCOL"] . " 503 Service Temporarily Unavailable", true, 503);
 header('Retry-After: 15');

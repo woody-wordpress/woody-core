@@ -31,7 +31,10 @@ DB_NAME='wp_mywebsite'
 DB_USER='wp_mywebsite'
 DB_PASSWORD='mypassword'
 DB_HOST='127.0.0.1:3306'
-MEMCACHED_HOST='127.0.0.1'
+
+# Use MEMCACHED_SERVERS or MEMCACHED_HOST/MEMCACHED_PORT
+MEMCACHED_SERVERS='127.0.0.1:11211;127.0.0.1:11212'
+MEMCACHED_HOST='11211'
 MEMCACHED_PORT='11211'
 
 WP_ENV='dev'
@@ -53,6 +56,7 @@ LOGGED_IN_SALT=''
 NONCE_SALT=''
 
 WOODY_MAINTENANCE='false'
+WOODY_MAINTENANCE_ADMIN='false'
 WOODY_ACCESS_STAGING='false'
 WOODY_ACCESS_LOCKED='false'
 
@@ -76,7 +80,6 @@ WOODY_LATITUDE='46.1482363'
 WOODY_LONGITUDE='-1.1750544'
 WOODY_OPTIONS='Provided by Raccourci Agency'
 WOODY_PERMALINK_STRUCTURE='/%postname%/'
-WOODY_SENTRY=''
 WOODY_SMTP_PASSWORD='Provided by Raccourci Agency'
 WOODY_SMTP_SENDER='Provided by Raccourci Agency'
 WOODY_SMTP_SENDER_NAME='Provided by Raccourci Agency'
@@ -105,9 +108,10 @@ WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET='2592000'
 WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST='43200'
 ```
 
-First, install Woody Core via the Composer package manager:
+First, install Woody Core via the Composer package manager (Version 2):
 
 ```bash
+composer self-update --2
 composer install
 ```
 

@@ -46,7 +46,7 @@
         "gulp-to-ico": "^1.0.0",
         "gulp-watch": "^5.0.1",
         "imagemin-pngquant": "^9.0.0",
-        "locutus": "^2.0.11",
+        "locutus": "^2.0.15",
         "merge-stream": "^2.0.0",
         "path": "^0.12.7",
         "readdirp": "^3.4.0",

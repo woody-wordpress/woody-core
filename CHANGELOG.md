@@ -1,3 +1,102 @@
+### 5 Octobre 2021 : Version 1.43.0
+
+-   **[Nouveauté]** Typologie de bloc : Extraits de fiches SIT
+-   **[Nouveauté]** Compatibilité AT Internet
+-   **[Mise à jour]** Optimisation des groupes d’onglets en mobile
+-   **[Mise à jour]** Mise à jour de Wordpress 5.7.2 vers 5.8.1
+-   **[Mise à jour]** Mise à jour de Composer 1 vers Composer 2
+-   **[Mise à jour]** Suppression de l'outil Sentry
+-   **[Correctif]** Affichage de certaines vignettes de blocs
+-   **[Correctif]** Affichage de l'icone seule sur les en-têtes de section
+-   **[Correctif]** Mise en avant des pages miroir
+-   **[Correctif]** Tri par "Ordre de Woody Pages" pour les lists de contenu
+-   **[Correctif]** Optimisation des diaporamas de mises en avant
+-   **[Correctif]** Optimisation des mises en avant 127 et 604
+
+---
+
+### 20 Septembre 2021
+
+-   **[Nouveauté]** Option de transparence des couleurs de fond
+-   **[Nouveauté]** Option d’alignement des blocs dans un groupe d’onglet
+-   **[Mise à jour]**  Amélioration du comportement mobile des mises en avant 128-129
+-   **[Mise à jour]** Remplacement de l’icone pour les liens externes (desktop) par un curseur spécial
+-   **[Mise à jour]** Amélioration du comportement mobile des groupes d’onglets
+-   **[Mise à jour]** Evolutions infos neige
+-   **[Correctif]** Tag principal multilingue
+-   **[Correctif]** Réduction des marges entre descriptions et boutons des cocons sémantiques
+-   **[Correctif]** Application du zoom défini en backoffice pour les cartes dans des onglets
+-   **[Correctif]**  Ouverture fermeture des champs de backoffice à la création d’une page
+
+---
+
+### 10 Août 2021
+
+-   **[Nouveauté]** Nouveaux templates de mises en avant (418,512,513)
+-   **[Nouveauté]** Nouveaux templates de mises en avant sur cartes géographiques (06,07)
+-   **[Nouveauté]** Nouveaux templates de socialwall (05, 10)
+-   **[Nouveauté]** Contenu épinglé au début d'une mise en avant automatique
+-   **[Nouveauté]** Bloc FAQ disponible dans les groupes d'onglets
+-   **[Correctif]** Amélioration du fil d'ariane sur mobile
+-   **[Correctif]** Possibilité de slider les mises en avant "maps" sur mobile
+-   **[Correctif]** Correctifs mineurs sur le roadBOOK
+-   **[Correctif]** Affichage des images de plus de 4 jours dans Woody Instagram
+
+---
+
+### 19 Juillet 2021
+
+-   **[Mise à jour]** Mises en avant => date de création : Prise en charge de la date de modification
+-   **[Mise à jour]** Optimisation des caches Memcached et Twig
+-   **[Mise à jour]** Optimisation du chargement des images de fond de sections ou blocs
+-   **[Correctif]** Affichage des images du feuillet lors de l'impression d'un RoadBOOK
+
+---
+
+### 7 Juillet 2021
+
+-   **[Nouveauté]** Nouveaux templates de citations 05 et 06
+-   **[Nouveauté]** Nouveaux templates de mise en avant 136 et 137
+-   **[Mise à jour]** Améliorations de l'affichage des fiches SIT en mobile
+-   **[Mise à jour]** Comportement du bloc de réservation de page d'accueil (sans dates)
+-   **[Mise à jour]** Ergonomie du fil d'ariane sur mobile
+-   **[Mise à jour]** Amélioration de l'affichage des infos d'itinéraires sur les mises en avant
+-   **[Mise à jour]** Fil d'ariane centré lorsque l'en-tête de page est centrée
+-   **[Correctif]** Atténuation d'un effet de flou sur certaines mises en avant
+-   **[Correctif]** Correction d'affichage sur les groupes d'onglets verticaux
+-   **[Correctif]** Correction d'affichage dans les socialwall
+-   **[Correctif]** Optimisation de la mise en avant 130
+-   **[Correctif]** Nombreux fonds de couleur : affichage optimisé
+-   **[Correctif]** Erreur dans les socialwall pour les sites en Breton
+
+---
+
+### 29 Juin 2021
+
+-   **[Nouveauté]** Possibilité de faire des mises en avant manuelles de feuillets dans le RoadBOOK
+-   **[Nouveauté]** Nouveau template de mise en avant 327
+-   **[Mise à jour]** Traductions d'éléments statiques
+-   **[Mise à jour]** Optimisation de l'affichage des socialwall => gestion du nombre d'éléments maximum
+-   **[Mise à jour]** Template de mise en avant 135 => mise à jour du format d'image
+-   **[Mise à jour]** Optimisation de la gestion de la langue des RoadBOOK
+-   **[Mise à jour]** Améliorations visuelles sur les RoadBOOK
+-   **[Correctif]** Gestion des marges dans les templates de mise en avant 3 éléments avec élément zommé au centre
+-   **[Correctif]** Correction de la vignette du tmeplate de mise en avant 302
+
+---
+
+### 22 Juin 2021
+
+-   **[Nouveauté]** Alignement vertical du contenu des blocs de texte et Appel à l'action
+-   **[Nouveauté]** Mise en avant automatique de documents (Via Mise en avant auto de pages)
+-   **[Nouveauté]** Nouveau template de bloc de texte (alignement des titres)
+-   **[Nouveauté]** Nouveaux templates de visuels & accroche (11 et 12)
+-   **[Mise à jour]** Exclusion des documents du CDN
+-   **[Mise à jour]** Mises à jour mineures sur le RoadBOOK
+-   **[Mise à jour]** Texte des onglets "Outils Hawwwai" mis à jour
+
+---
+
 ### 15 Juin 2021 : Version 1.42.0
 
 -   **[Nouveauté]** Nouveau template de mise en avant 511
@@ -15,7 +114,7 @@
 -   **[Correctif]** Corrections d'affichage sur les Visuels & accroche 08 et 09
 
 ---
-### 03 Juin 2021 : Version 1.41.0
+### 3 Juin 2021 : Version 1.41.0
 
 -   **[Nouveauté]** **Possibilité d'enregsitrer une section en tant que modèle pour la réutiliser dans d'autres pages**
 -   **[Nouveauté]** **Possibilité de déplacer les blocs entre différentes sections**
@@ -34,7 +133,7 @@
 -   **[Correctif]** Suppression des textes coupés au délà de 180 caractères pour les mises en avant manuelles contenu libre
 -   **[Correctif]** Suspension de l'outil de vérification des liens cassées (performances)
 -   **[Correctif]** Traductions manquantes de la fenêtre de cookies
--   **[Correctif]** Correctifs mineurs sur le roadBOOK dans l'attente de la V2
+-   **[Correctif]** Correctifs mineurs sur le RoadBOOK dans l'attente de la V2
 
 ---
 
@@ -127,7 +226,7 @@
 ### 17 Mars 2021 : Version 1.36.0
 
 -   **[Nouveauté]** Ajout de filtres dans les choix de mises en page de mises en avant et galeries photo
--   **[Nouveauté]** Réduction du choix de mises en page pour le roadbook
+-   **[Nouveauté]** Réduction du choix de mises en page pour le RoadBOOK
 -   **[Mise à jour]** Mise à jour de Wordpress 5.6.2 vers 5.7.0
 -   **[Mise à jour]** Mise à jour du plugin Members 3.1.3 vers 3.1.4
 -   **[Mise à jour]** Traductions de termes génériques
@@ -151,7 +250,7 @@
 -   **[Mise à jour]** Déplacement du bouton "Recadrer la photo" dans Woody Crop => plus visible
 -   **[Correctif]** Retrait de la page "Paramètres" si la langue courante n'est pas la langue par défaut
 -   **[Correctif]** Correction d'une erreur php sur l'infolive
--   **[Correctif]** Correction d'une erreur dans les mises en avant de fiches SIT si le roadBOOK est activé
+-   **[Correctif]** Correction d'une erreur dans les mises en avant de fiches SIT si le RoadBOOK est activé
 
 ---
 
@@ -329,7 +428,7 @@
 
 ### 12 Octobre 2020 : Version 1.24.0
 
--   **[Mise à jour]** Nouvelle version du roadbook
+-   **[Mise à jour]** Nouvelle version du RoadBOOK
 -   **[Correctif]** Correctifs mineurs divers
 
 ---
@@ -403,7 +502,7 @@
 
 ### 10 juillet 2020 : Version 1.20.0
 
--   **[Nouveauté]** Ouverture des fiches d'un roadbook dans le contexte du roadbook
+-   **[Nouveauté]** Ouverture des fiches d'un RoadBOOK dans le contexte du RoadBOOK
 -   **[Nouveauté]** Ajout d'un mode "maintenance" lors d'une mise à jour
 -   **[Mise à jour]** Amélioration des playlists responsive => boutons d'action pour le téléphone et la réservation
 -   **[Correctif]** Optimisation du temps de chargement lorsque qu'une playlist est mise en avant dans une page
@@ -476,7 +575,7 @@
 -   **[Mise à jour]** Mise à jour de Wordpress 5.4.1 vers 5.4.2
 -   **[Correctif]** Affichage de la liste des templates sur les modèles
 -   **[Correctif]** Désactivation des redirections inverses lors de l'enregistrement d'une page
--   **[Correctif]** Réglages d'impression du roadbook
+-   **[Correctif]** Réglages d'impression du RoadBOOK
 -   **[Correctif]** Suppression d'effets visuels dupliqués dans certaines mises en avant
 
 ---
@@ -513,7 +612,7 @@
 
 ### 25 mai 2020
 
--   **[Correctif]** Diverses évolutions sur le RoadBook
+-   **[Correctif]** Diverses évolutions sur le RoadBOOK
 -   **[Correctif]** Problèmes de calcul des sessions et du taux de rebond sur Google Analytics
 -   **[Correctif]** Gestion du play/pause automatique sur les vidéos
 -   **[Nouveauté]** Possibilité d'ajouter un titre au bloc citation + nouveau bloc de citation
@@ -573,7 +672,7 @@
 ### 15 avril 2020
 
 -   **[Nouveauté]** Filtre Hawwwai pour exclure des fiches SIT à l'import
--   **[Nouveauté]** Liste des playlists Hawwwai présentes dans les feuillets du RoadBook
+-   **[Nouveauté]** Liste des playlists Hawwwai présentes dans les feuillets du RoadBOOK
 -   **[Correctif]** Sur un site avec une saisonnalité, la recherche ne cherche que dans la saison courante
 
 ---
@@ -608,10 +707,10 @@
 ### 30 mars 2020
 
 -   **[Nouveauté]** Nouveaux templates de visuel & accroche (05), en-tête de page (05) et mise en avant (319)
--   **[Mise à jour]** Mise à jour du plugin Roadbook
+-   **[Mise à jour]** Mise à jour du plugin RoadBOOK
 -   **[Mise à jour]** Ajout d'une balise noindex sur les playlists paginées ou avec un identifiant de pré-sélection
 -   **[Mise à jour]** Autorisation de l'autoplay de vidéos en iframes
--   **[Mise à jour]** Optimisation de chargement des CSS+JS des plugins (Hawwwai, TouristicMaps, RoadBook, Circuits, ...)
+-   **[Mise à jour]** Optimisation de chargement des CSS+JS des plugins (Hawwwai, TouristicMaps, RoadBOOK, Circuits, ...)
 -   **[Correctif]** Meilleure gestion de l'affichage des images dans la bibliothèque de médias
 -   **[Correctif]** Optimisations et erreurs mineures
 -   **[Correctif]** Récupération des données InfoLive toutes les 15min (1h avant le correctif)
@@ -848,7 +947,7 @@
 
 ---
 
-### 08 octobre 2019 : Version 1.4.0
+### 8 octobre 2019 : Version 1.4.0
 
 -   **[Nouveauté]** Prise en charge bloc "Infos séjours" pour les en-tête de page 01 / 02 / 05
 -   **[Nouveauté]** Outil d'export/import de données des pages en CSV
@@ -922,7 +1021,7 @@
 
 ---
 
-### 09 septembre 2019 : Version 1.0.0
+### 9 septembre 2019 : Version 1.0.0
 
 -   **[Mise à jour]** Migration php 7.0 vers php 7.3
 -   **[Mise à jour]** Améliorations ergonomiques du backoffice

@@ -17,6 +17,7 @@ use Roots\WPConfig\Config;
 define('WP_ROOT_DIR', preg_replace('/releases\\/[0-9]*/', 'current', dirname(__DIR__)));
 define('WP_WEBROOT_DIR', WP_ROOT_DIR . '/web');
 define('WP_VENDOR_DIR', WP_ROOT_DIR . '/vendor');
+define('WP_CACHE_DIR', WP_ROOT_DIR . '/cache');
 
 /**
  * Expose global env() function from oscarotero/env
@@ -107,9 +108,8 @@ Config::define('WP_DIST_DIR', Config::get('WP_CONTENT_DIR') . '/dist/' . WP_SITE
 Config::define('WP_DIST_URL', Config::get('WP_CONTENT_URL') . '/dist/' . WP_SITE_KEY);
 Config::define('WP_PLUGINS_DIR', Config::get('WP_CONTENT_DIR') . '/plugins');
 Config::define('WP_PLUGINS_URL', Config::get('WP_CONTENT_URL') . '/plugins');
-Config::define('WP_CACHE_DIR', Config::get('WP_CONTENT_DIR') . '/cache');
-Config::define('WP_TIMBER_DIR', Config::get('WP_CACHE_DIR') . '/timber');
-Config::define('WP_MAINTENANCE_DIR', Config::get('WP_CACHE_DIR') . '/maintenance');
+Config::define('WP_MAINTENANCE_DIR', Config::get('WP_CONTENT_DIR') . '/maintenance');
+Config::define('WP_TIMBER_DIR', WP_CACHE_DIR . '/timber');
 
 /**
  * DB settings
@@ -122,8 +122,9 @@ Config::define('DB_CHARSET', 'utf8mb4');
 Config::define('DB_COLLATE', '');
 $table_prefix = env('DB_PREFIX') ?: 'wp_';
 
-Config::define('MEMCACHED_HOST', array_env('MEMCACHED_HOST') ?: '');
+Config::define('MEMCACHED_HOST', env('MEMCACHED_HOST') ?: '');
 Config::define('MEMCACHED_PORT', env('MEMCACHED_PORT') ?: '');
+Config::define('MEMCACHED_SERVERS', env('MEMCACHED_SERVERS') ?: '');
 
 /**
  * Authentication Unique Keys and Salts
@@ -161,7 +162,6 @@ Config::define('WOODY_LATITUDE', env('WOODY_LATITUDE') ?: null);
 Config::define('WOODY_LONGITUDE', env('WOODY_LONGITUDE') ?: null);
 Config::define('WOODY_OPTIONS', array_env('WOODY_OPTIONS') ?: []);
 Config::define('WOODY_PERMALINK_STRUCTURE', env('WOODY_PERMALINK_STRUCTURE') ?: '/%postname%/');
-Config::define('WOODY_SENTRY', env('WOODY_SENTRY') ?: '');
 Config::define('WOODY_SSO_ADD_URL_TOKEN', env('WOODY_SSO_ADD_URL_TOKEN') ?: '');
 Config::define('WOODY_SSO_CLIENT_ID', env('WOODY_SSO_CLIENT_ID') ?: '');
 Config::define('WOODY_SSO_CLIENT_SECRET', env('WOODY_SSO_CLIENT_SECRET') ?: '');
@@ -183,6 +183,7 @@ Config::define('WOODY_VARNISH_CACHING_TTL_WEATHERPAGE', env('WOODY_VARNISH_CACHI
 Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET') ?: 2592000);
 Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST') ?: 43200);
 Config::define('WOODY_ERP_PARTNERID', env('WOODY_ERP_PARTNERID') ?: 0);
+Config::define('WOODY_DESTINATION_CONNECT_KEY', env('WOODY_DESTINATION_CONNECT_KEY') ?: '');
 
 /**
  * RoadBook informations
@@ -214,26 +215,20 @@ Config::define('WP_MEMORY_LIMIT', env('WP_MEMORY_LIMIT') ?: '256M');
 Config::define('WP_MAX_MEMORY_LIMIT', env('WP_MAX_MEMORY_LIMIT') ?: '256M');
 Config::define('WP_CRON_LOCK_TIMEOUT', 60);
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: 3);
+Config::define('WP_CACHE_KEY_SALT', WP_SITE_KEY);
 
 /**
- * Custom Cache Key
+ * Get REVISION for logs
  */
-$wp_cache_key_salt = [];
-$wp_cache_key_salt[] = WP_SITE_KEY;
-
 if (file_exists(WP_ROOT_DIR . '/REVISION')) {
     $core_revision = substr(file_get_contents(WP_ROOT_DIR . '/REVISION'), 0, 6);
-    $wp_cache_key_salt[] = $core_revision;
     Config::define('WOODY_CORE_REVISION', $core_revision);
 }
 
 if (file_exists(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/REVISION')) {
     $site_revision = substr(file_get_contents(WP_ROOT_DIR . '/web/app/themes/' . WP_SITE_KEY . '/REVISION'), 0, 6);
-    $wp_cache_key_salt[] = $site_revision;
     Config::define('WOODY_SITE_REVISION', $site_revision);
 }
-
-Config::define('WP_CACHE_KEY_SALT', implode('_', $wp_cache_key_salt));
 
 /**
  * Maintenance Mode
@@ -243,6 +238,7 @@ if (file_exists(Config::get('WP_MAINTENANCE_DIR') . '/' . WP_SITE_KEY) || file_e
 } else {
     Config::define('WOODY_MAINTENANCE', env('WOODY_MAINTENANCE') ?: false);
 }
+Config::define('WOODY_MAINTENANCE_ADMIN', env('WOODY_MAINTENANCE_ADMIN') ?: false);
 
 /**
  * Debugging Settings

@@ -82,6 +82,7 @@
         "src": [
             "web/app/themes/woody-theme/src/img",
             "web/app/themes/WP_SITE_KEY/src/img",
+            "web/app/themes/WP_SITE_KEY/views",
             "vendor/woody-wordpress-pro",
             "vendor/woody-wordpress"
         ],

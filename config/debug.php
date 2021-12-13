@@ -1,19 +1,6 @@
 <?php
 
 /**
- * Added Sentry.io
- */
-if (!empty(WOODY_SENTRY) && WP_ENV != 'dev') {
-    $release = json_decode(file_get_contents(WP_ROOT_DIR . '/composer.json'), true);
-    $version = (!empty($release['version'])) ? $release['version'] : '0.0.0';
-
-    Sentry\init(['environment' => WP_ENV, 'dsn' => WOODY_SENTRY, 'release' => 'woody@' . $version]);
-    Sentry\configureScope(function (Sentry\State\Scope $scope): void {
-        $scope->setTag('site_key', WP_SITE_KEY);
-    });
-}
-
-/**
  * Record custom data about this web transaction
  * Ensure PHP agent is available
  */
@@ -21,6 +8,13 @@ if (extension_loaded('newrelic') && defined('WOODY_CORE_REVISION') && defined('W
     newrelic_add_custom_parameter('WP_SITE_KEY', WP_SITE_KEY);
     newrelic_add_custom_parameter('WOODY_CORE_REVISION', WOODY_CORE_REVISION);
     newrelic_add_custom_parameter('WOODY_SITE_REVISION', WOODY_SITE_REVISION);
+
+    if (!empty($_SERVER['HTTP_HOST']) && !empty($_SERVER['REQUEST_URI'])) {
+        $woody_full_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https://' : 'http://';
+        $woody_full_url .= $_SERVER['HTTP_HOST'];
+        $woody_full_url .= $_SERVER['REQUEST_URI'];
+        newrelic_add_custom_parameter('URL', $woody_full_url);
+    }
 }
 
 /**

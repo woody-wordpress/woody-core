@@ -19,8 +19,8 @@ config.yml
 
 # Application
 web/app/db.php
-web/app/cache/*
-!web/app/cache/.gitkeep
+web/app/maintenance/*
+!web/app/maintenance/.gitkeep
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
@@ -39,3 +39,4 @@ web/.htaccess
 # Config
 config/sites
 REVISION
+VERSION
