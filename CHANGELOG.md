@@ -1,3 +1,9 @@
+### 22 Novembre 2021 : Version 1.45.0
+
+-   **[Mise à jour]** Optimisation du cache Varnish
+
+---
+
 ### 16 Novembre 2021 : Version 1.44.0
 
 -   **[Nouveauté]** Toutes les balises HTML sont conservées dans l’éditeur de texte (onglet code HTML)
@@ -10,6 +16,8 @@
 -   **[Correctif]** Support des paramètres de fond de blocs pour les mises en avant de fiches SIT
 -   **[Correctif]** Ajout des boutons de mise en avant sur les mises en avant avec carte
 -   **[Correctif]** Mise en avant 418 => retrait des flèches de navigation si inutiles
+
+---
 
 ### 26 Octobre 2021
 
@@ -157,6 +165,7 @@
 -   **[Correctif]** Corrections d'affichage sur les Visuels & accroche 08 et 09
 
 ---
+
 ### 3 Juin 2021 : Version 1.41.0
 
 -   **[Nouveauté]** **Possibilité d'enregsitrer une section en tant que modèle pour la réutiliser dans d'autres pages**
@@ -330,7 +339,6 @@
 ### 9 Février 2021
 
 -   **[Nouveauté]** Ajout d'une option pour afficher le tag parent dans les champs de recherche de tags
-<!-- -   **[Mise à jour]** Déplacement du bouton de recadrage des images pour améliorer l'ergonomie -->
 -   **[Mise à jour]** Gestion de la langue du flux RSS dans l'addon Topics
 -   **[Correctif]** Gestion des couleurs et des icones des marqueurs de cartes géographiques
 -   **[Correctif]** Amélioration du responsive de l'addon Socialize
