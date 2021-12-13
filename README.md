@@ -96,7 +96,6 @@ WOODY_VARNISH_CACHING_COOKIE=''
 WOODY_VARNISH_CACHING_DEBUG='true'
 WOODY_VARNISH_CACHING_ENABLE='false'
 WOODY_VARNISH_CACHING_IPS='127.0.0.1:80'
-WOODY_VARNISH_CACHING_PURGE_KEY=''
 WOODY_VARNISH_CACHING_TTL='2592000'
 WOODY_VARNISH_CACHING_TTL_FOCUSRANDOM='86400'
 WOODY_VARNISH_CACHING_TTL_FOCUSSHEET='43200'
@@ -286,13 +285,14 @@ WP_SITE_KEY={{sitekey}} wp language plugin update {{plugin-name}} fr_FR
 ## :recycle: Recommended VSCode extensions
 
 -   Git Graph
+-   Git Blame
 -   BABA-Git Flow
 -   EditorConfig for VS Code
 -   Beautify
--   Intelephense
--   php cs fixer
+-   PHP-CS-Fixer
+-   PHP Extension Pack
 -   Sass
--   TODO Highlight
+-   TODO Highlighter
 -   Todo Tree
 -   Trailing SPaces
 -   Twig
@@ -308,7 +308,7 @@ WP_SITE_KEY={{sitekey}} wp language plugin update {{plugin-name}} fr_FR
 Install php-cs-fixer and configure the VSCode extension to launch in "OnSave" mode
 
 ```bash
-wget https://cs.symfony.com/download/php-cs-fixer-v2.phar -O php-cs-fixer
+wget https://cs.symfony.com/download/php-cs-fixer-v3.phar -O php-cs-fixer
 sudo chmod a+x php-cs-fixer
 sudo mv php-cs-fixer /usr/local/bin/php-cs-fixer
 ```

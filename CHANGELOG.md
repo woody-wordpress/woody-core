@@ -1,3 +1,20 @@
+### 07 Décembre 2021 : Version 1.46.0
+
+-   **[Nouveauté]** Largeurs de sections intermédiaires (Petite, Moyenne, Grande)
+-   **[Nouveauté]** Url canonique d'une page personnalisable dans Woody SEO
+-   **[Nouveauté]** Nouveaux templates de mise en avant (330, 331, 332, 333)
+-   **[Nouveauté]** Nouveau template de visuel & accroche (14)
+-   **[Nouveauté]** Nouveau template de diaporama d'accueil1.30. (09)
+-   **[Nouveauté]** Gestion des marges intérieures pour les blocs de texte et d'appel à l'action
+-   **[Mise à jour]** Nouveau design pour l’affichage des auteurs et copyrights des photos
+-   **[Mise à jour]** Optimisation de la gestion du cache des publicités
+-   **[Correctif]** Comportement du zoom des cartes dans les onglets
+-   **[Correctif]** 3ème élément en doublon dans le template mise en avant 512
+-   **[Correctif]** Affichage des publicités par langue
+-   **[Correctif]** Affichage des boutons "Lire la suite" dans les listes de contenus
+
+---
+
 ### 22 Novembre 2021 : Version 1.45.0
 
 -   **[Mise à jour]** Optimisation du cache Varnish
