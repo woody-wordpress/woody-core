@@ -110,6 +110,7 @@ Config::define('WP_PLUGINS_DIR', Config::get('WP_CONTENT_DIR') . '/plugins');
 Config::define('WP_PLUGINS_URL', Config::get('WP_CONTENT_URL') . '/plugins');
 Config::define('WP_MAINTENANCE_DIR', Config::get('WP_CONTENT_DIR') . '/maintenance');
 Config::define('WP_TIMBER_DIR', WP_CACHE_DIR . '/timber');
+Config::define('WP_HAWWWAI_DIR', WP_CACHE_DIR . '/hawwwai');
 
 /**
  * DB settings

@@ -1,4 +1,64 @@
-### 07 Décembre 2021 : Version 1.46.0
+### 26 Janvier 2022 : Version 1.47.0
+
+-   **[Nouveauté]** Gestion de l'affichage des blocs selon le support (Afficher/Masquer sur mobile ou sur desktop)
+-   **[Nouveauté]** Ordre d'affichage des blocs d'une section sur mobile (Différenciation mobile/desktop)
+-   **[Nouveauté]** Nouveau template de sommaire avec sections géolocalisables (Affichage sur une carte)
+-   **[Nouveauté]** Mise en avant sur carte géographique : Affichage du titre de page/fiche au survol des marqueurs
+-   **[Nouveauté]** Nouveaux template de mise en avant (141, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 606)
+-   **[Mise à jour]** Application d'une largeur maximum au contenu des sites (Bugs d'affichage écrans > 2560px de large)
+-   **[Correctif]** Addon Bons plans : gestion du cache et des liens vers les fiches SIT
+-   **[Correctif]** Infos stations : correction de l'affichage des listes détaillées (largeur)
+-   **[Correctif]** Mise à jour du cache des pages utilisant le bloc "Plan du site" lors du recalcul du sitemap
+-   **[Correctif]** Affichage mobile des mise en avant 128 et 129
+-   **[Correctif]** Retrait du comportement "survol" sur les galeries interactives en mobile
+-   **[Correctif]** Doublon d'informations (capacités) sur certaines mises en avant de fiches
+
+---
+
+### 13 Janvier 2022
+
+-   **[Nouveauté]** Woody SEO : exclure une page indéxée du sitemap
+-   **[Mise à jour]** Mise à jour de la librairie Plyr de 3.5.6 vers 3.6.8
+-   **[Mise à jour]** Retrait du paramètre "muet" au lancement des vidéos dans les pages
+-   **[Correctif]** Désactivation de la librairie Plyr sur iPhone => erreurs au lancement des vidéos
+
+---
+
+### 11 Janvier 2022
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.8.2 vers 5.8.3 (Correction d'une faille de sécurité)
+-   **[Correctif]** Compatibilité recherche globale / Chrome 97.0.4692.71
+
+---
+
+### 06 Janvier 2022
+
+-   **[Nouveauté]** Option "vidéo de présentation" dans les diaporamas de page d'accueil
+-   **[Nouveauté]** Nouveaux templates de mises en avant (209, 334, 335, 336, 420, 421)
+-   **[Mise à jour]** Réglages de style sur les fiches SIT
+-   **[Correctif]** Lecture des vidéos en mobile
+-   **[Correctif]** Copyright visible au survol sur les hauts de page
+
+### 21 Décembre 2021
+
+-   **[Nouveauté]** Limitation de la hauteur des blocs de texte grâce à un bouton "Afficher plus"
+-   **[Nouveauté]** Bloc "liens de partage" => peut être ajouté dans n'importe quelle section de page
+-   **[Mise à jour]** Optimisation du plugin bons plans
+-   **[Mise à jour]** Ajout d'un effet de survol par défaut sur les galeries interactives
+-   **[Mise à jour]** Prise en compte de la langue courante dans les outils des cartes géographiques (zoom, recherche, ...)
+-   **[Correctif]** Gestion des périodes multiples des prix dans les extraits de fiches SIT
+-   **[Correctif]** Page 404 => Le bouton de recherche est compatible avec la recherche V2
+
+---
+
+### 16 Décembre 2021
+
+-   **[Mise à jour]** Optimisation de la gestion du cache des publicités
+-   **[Correctif]** Plan de tags ATInternet
+
+---
+
+### 7 Décembre 2021 : Version 1.46.0
 
 -   **[Nouveauté]** Largeurs de sections intermédiaires (Petite, Moyenne, Grande)
 -   **[Nouveauté]** Url canonique d'une page personnalisable dans Woody SEO
@@ -7,7 +67,6 @@
 -   **[Nouveauté]** Nouveau template de diaporama d'accueil1.30. (09)
 -   **[Nouveauté]** Gestion des marges intérieures pour les blocs de texte et d'appel à l'action
 -   **[Mise à jour]** Nouveau design pour l’affichage des auteurs et copyrights des photos
--   **[Mise à jour]** Optimisation de la gestion du cache des publicités
 -   **[Correctif]** Comportement du zoom des cartes dans les onglets
 -   **[Correctif]** 3ème élément en doublon dans le template mise en avant 512
 -   **[Correctif]** Affichage des publicités par langue
