@@ -1,3 +1,11 @@
+<?php
+// Retourne le pays de l'utilisateur en fonction de Cloudflare
+if(!empty($_GET['ip']) && !empty($_SERVER['HTTP_CF_IPCOUNTRY'])) {
+    header('Content-Type: application/json; charset=utf-8');
+    print json_encode(['cf_country' => $_SERVER['HTTP_CF_IPCOUNTRY']]);
+    exit();
+}
+?>
 <html>
 <head>
     <style>

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-06 17:27:03+0000\n"
+"PO-Revision-Date: 2021-11-23 20:28:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -111,7 +111,7 @@ msgstr "L’élément de menu n’a pas été ajouté car le slug du menu est ma
 
 #: class-wp-import.php:704
 msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr "Impossible d'importer %s « %s »."
+msgstr "Impossible d’importer %s « %s »."
 
 #: class-wp-import.php:642
 msgid "%s &#8220;%s&#8221; already exists."

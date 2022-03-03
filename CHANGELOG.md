@@ -1,3 +1,22 @@
+### 1er mars 2022 : Version 1.50.0
+
+-   **[Nouveauté]** Nouvelle grille de section 2 colonnes (06)
+-   **[Nouveauté]** Possibilité d'avoir plusieurs compte marées pour un même site
+-   **[Nouveauté]** Filtres de templates pour les diaporamas et visuels & accroche
+-   **[Nouveauté]** Nouveau template de sommaire 03
+-   **[Nouveauté]** Nouveaux templates de mise en avant (142,143,348,349,350,351,516,517,518,519,520)
+-   **[Nouveauté]** Nouveaux templates de galeries (112,113,114,115)
+-   **[Nouveauté]** Filtre de personnalisation des pages 404
+-   **[Mise à jour]** Mise à jour de Wordpress 5.9 vers 5.9.1
+-   **[Mise à jour]** Mise à jour d'ACF 5.11.4 vers 5.12
+-   **[Mise à jour]** Alignement du fil d'ariane au contenu des en-têtes
+-   **[Correctif]** Ratio d'image mobile pour certaines mises en avant
+-   **[Correctif]** Optimisatipn et correction du comportement des blocs sommaire
+-   **[Correctif]** Affichage des caractères spéciaux sur les mises en avant sur cartes géographiques
+-   **[Correctif]** Rendu graphique (alignement) du template 335
+
+---
+
 ### 17 Février 2022 : Version 1.49.0
 
 -   **[Nouveauté]** Gestion de Umami comme outil de mesure d'audience

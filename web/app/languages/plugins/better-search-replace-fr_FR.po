@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Better Search Replace - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-24 16:05:13+0000\n"
+"PO-Revision-Date: 2022-01-14 07:07:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -122,7 +122,7 @@ msgstr "Insensible à la casse ?"
 
 #: templates/bsr-search-replace.php:41
 msgid "Select multiple tables with Ctrl-Click for Windows or Cmd-Click for Mac."
-msgstr "Sélectionnez plusieurs tables avec la touche CTRL+clic ou CMD+clic pour Mac"
+msgstr "Sélectionnez plusieurs tables avec la touche Ctrl+clic (sous Windows) ou Cmd+clic (sous Mac)."
 
 #: templates/bsr-search-replace.php:38
 msgid "Select tables"
@@ -138,7 +138,7 @@ msgstr "Rechercher"
 
 #: templates/bsr-search-replace.php:23
 msgid "<strong>WARNING:</strong> Make sure you backup your database before using this plugin!"
-msgstr "<strong>Avertissement :</strong> Assurez-vous que vous avez sauvegardé votre base de données avant d’utiliser cette extension !"
+msgstr "<strong>AVERTISSEMENT :</strong> Assurez-vous d’avoir fait une sauvegarde de votre base de données avant d’utiliser cette extension !"
 
 #: templates/bsr-search-replace.php:22
 msgid "To get started, use the form below to enter the text to be replaced and select the tables to update."
@@ -154,7 +154,7 @@ msgstr "Télécharger les infos système"
 
 #: templates/bsr-help.php:23
 msgid "Found a bug or have a feature request? Please submit an issue on <a href=\"%s\">GitHub</a>!"
-msgstr "Vous avez trouvé un bug ou vous voulez demander une fonctionnalité ? Veuillez le faire sur <a href=\"%s\">GitHub</a> !"
+msgstr "Vous avez trouvé un bug ou vous voulez demander une fonctionnalité ? Veuillez nous le faire savoir sur <a href=\"%s\">GitHub</a> !"
 
 #: templates/bsr-help.php:21
 msgid "For premium features and priority email support, <a href=\"%s\" style=\"font-weight:bold;\">upgrade to pro</a>."

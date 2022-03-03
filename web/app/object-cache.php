@@ -2242,6 +2242,13 @@ class WP_Object_Cache
             $group = 'default';
         }
 
+        // Permet de créer une clé accessible par tous les sites
+        if($group == 'woody_multisite') {
+            $wp_cache_key_salt = 'woody_multisite';
+        } else {
+            $wp_cache_key_salt = WP_CACHE_KEY_SALT;
+        }
+
         return preg_replace('/\s+/', '', WP_CACHE_KEY_SALT . ':' . $group . $key);
     }
 
