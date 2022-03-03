@@ -1,3 +1,17 @@
+### 01 Février 2022 : Version 1.48.0
+
+-   **[Nouveauté]** Nouveaux template de mise en avant (422, 423, 424, 425, 426)
+-   **[Nouveauté]** Option de numérotation des liens dans les blocs sommaires
+-   **[Nouveauté]** Bloc d'espacement : prend la place d'un bloc sans générer de contenu
+-   **[Mise à jour]** Optimisation du rendu des blocs infos stations
+-   **[Mise à jour]** Affichage complet du texte saisi manuellement dans les vignettes de cartes géographique
+-   **[Mise à jour]** Optimisation de la génération des sitemap
+-   **[Mise à jour]** Améliorations et corrections des roadBOOK avec site saisonnier
+-   **[Mise à jour]** Ajout de "La Réunion" dans les "pays" de provenance dans le roadBOOK
+-   **[Correctif]** Caractères spéciaux dans les titres de page visible au survol des marqueurs dans les MEA géographiques
+-   **[Correctif]** Correction d'un bug d'affichage dans les grilles de section "split"
+-   **[Correctif]** Gestion de l'affichage des tarifs dans les extraits de fiches SIT
+
 ### 26 Janvier 2022 : Version 1.47.0
 
 -   **[Nouveauté]** Gestion de l'affichage des blocs selon le support (Afficher/Masquer sur mobile ou sur desktop)
