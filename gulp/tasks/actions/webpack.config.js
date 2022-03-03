@@ -26,7 +26,7 @@ MODULES.push(config.js.src);
 const webpackConfig = {
     mode: 'production',
     context: config.js.src,
-    entry: config.js.entry,
+    entry: mode.light ? config.js.light_entry : config.js.entry,
     output: {
         path: config.js.dist,
         filename: '[name].js',

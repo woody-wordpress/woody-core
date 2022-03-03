@@ -13,6 +13,9 @@
             "admin.scss",
             "print.scss"
         ],
+        "light_entry": [
+            "main.scss"
+        ],
         "dist": "css",
         "modules": [
             "gulp/node_modules/swiper",
@@ -32,6 +35,9 @@
         "entry": {
             "main": "main.js",
             "admin": "admin.js"
+        },
+        "light_entry": {
+            "main": "main.js"
         },
         "node_modules": "gulp/node_modules",
         "modules": [

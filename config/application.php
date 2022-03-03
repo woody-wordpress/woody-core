@@ -126,6 +126,7 @@ $table_prefix = env('DB_PREFIX') ?: 'wp_';
 Config::define('MEMCACHED_HOST', env('MEMCACHED_HOST') ?: '');
 Config::define('MEMCACHED_PORT', env('MEMCACHED_PORT') ?: '');
 Config::define('MEMCACHED_SERVERS', env('MEMCACHED_SERVERS') ?: '');
+Config::define('MONGO_SERVERS', env('MONGO_SERVERS') ?: '');
 
 /**
  * Authentication Unique Keys and Salts

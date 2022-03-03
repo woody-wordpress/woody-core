@@ -17,6 +17,7 @@ const del = require('del');
 const config = require('../lib/config');
 const mode = require('../lib/mode');
 
+const entries = mode.light ? config.css.light_entry : config.css.entry;
 // Create path
 config.css.modules.forEach(function(part, index, array) {
     array[index] = path.resolve(
@@ -26,13 +27,18 @@ config.css.modules.forEach(function(part, index, array) {
 });
 
 gulp.task('css_clean', done => {
-    del.sync(path.resolve(config.dist, config.css.dist), {
+    let filesPaths = [];
+    entries.forEach(entry => {
+        filesPaths.push(path.resolve(config.dist, config.css.dist, entry.replace('.scss', '.css')));
+        filesPaths.push(path.resolve(config.dist, config.css.dist, entry.replace('.scss', '-*.css')));
+    });
+    del.sync(filesPaths, {
         force: true
     });
     done();
 });
 
-config.css.entry.forEach(entry => {
+entries.forEach(entry => {
     gulp.task(entry, () => {
         return gulp
             .src(
@@ -109,4 +115,4 @@ config.css.entry.forEach(entry => {
 });
 
 // Main Task
-gulp.task('css', gulp.series('css_clean', gulp.parallel(config.css.entry)));
+gulp.task('css', gulp.series('css_clean', gulp.parallel(entries)));

@@ -1,4 +1,17 @@
-### 01 Février 2022 : Version 1.48.0
+### 17 Février 2022 : Version 1.49.0
+
+-   **[Nouveauté]** Gestion de Umami comme outil de mesure d'audience
+-   **[Mise à jour]** Mise à jour de Wordpress 5.8.3 vers 5.9
+-   **[Mise à jour]** Mise à jour de Polylang 2.9.1 vers 3.1.4
+-   **[Mise à jour]** Mise à jour d'ACF 5.10.2 vers 5.11.4
+-   **[Mise à jour]** Migration des moteurs de recherche sur un nouvel algorithme
+-   **[Mise à jour]** Optimisation du stockage de l'offre SIT (base MongoDB)
+-   **[Mise à jour]** Optimisation des mises en avant triées par géolocalisation
+-   **[Correctif]** Possibilité de supprimer complètement Google Analytics pour le remplacer par un autre outil de mesure
+
+---
+
+### 1er Février 2022 : Version 1.48.0
 
 -   **[Nouveauté]** Nouveaux template de mise en avant (422, 423, 424, 425, 426)
 -   **[Nouveauté]** Option de numérotation des liens dans les blocs sommaires
@@ -11,6 +24,8 @@
 -   **[Correctif]** Caractères spéciaux dans les titres de page visible au survol des marqueurs dans les MEA géographiques
 -   **[Correctif]** Correction d'un bug d'affichage dans les grilles de section "split"
 -   **[Correctif]** Gestion de l'affichage des tarifs dans les extraits de fiches SIT
+
+---
 
 ### 26 Janvier 2022 : Version 1.47.0
 
@@ -45,13 +60,15 @@
 
 ---
 
-### 06 Janvier 2022
+### 6 Janvier 2022
 
 -   **[Nouveauté]** Option "vidéo de présentation" dans les diaporamas de page d'accueil
 -   **[Nouveauté]** Nouveaux templates de mises en avant (209, 334, 335, 336, 420, 421)
 -   **[Mise à jour]** Réglages de style sur les fiches SIT
 -   **[Correctif]** Lecture des vidéos en mobile
 -   **[Correctif]** Copyright visible au survol sur les hauts de page
+
+---
 
 ### 21 Décembre 2021
 

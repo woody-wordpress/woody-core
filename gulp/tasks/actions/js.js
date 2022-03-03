@@ -11,9 +11,16 @@ const config = require('../lib/config');
 
 const webpackConfig = require('./webpack.config');
 const Log = require('../lib/logger');
+const mode = require('../lib/mode');
 
+const entries = mode.light ? config.js.light_entry : config.js.entry;
 gulp.task('js_clean', done => {
-    del.sync(path.resolve(config.dist, config.js.dist), {
+    let filesPaths = [];
+    Object.values(entries).forEach(entry => {
+        filesPaths.push(path.resolve(config.dist, config.js.dist, entry));
+        filesPaths.push(path.resolve(config.dist, config.js.dist, entry.replace('.js', '-*.js')));
+    });
+    del.sync(filesPaths, {
         force: true
     });
 
