@@ -1,3 +1,14 @@
+### 9 mars 2022
+
+-   **[Nouveauté]** Vignette "Nouveau" sur les mises en page datant de moins d'1 mois
+-   **[Nouveauté]** Possibilité de numéroter les mises en avant de fiches automatiques
+-   **[Nouveauté]** Mesure des clics sur les liens internes et les soumissions de formulaire Nurtik (GA, AT et Umami)
+-   **[Nouveauté]** Option publicité sur le roadbook (beta)
+-   **[Mise à jour]** Optimisation de la mise à jour du sitemap (Fréquence / Performances)
+-   **[Mise à jour]** Ajout de plus d'images dans le sitemap.xml
+
+---
+
 ### 1er mars 2022 : Version 1.50.0
 
 -   **[Nouveauté]** Nouvelle grille de section 2 colonnes (06)
@@ -14,6 +25,7 @@
 -   **[Correctif]** Optimisatipn et correction du comportement des blocs sommaire
 -   **[Correctif]** Affichage des caractères spéciaux sur les mises en avant sur cartes géographiques
 -   **[Correctif]** Rendu graphique (alignement) du template 335
+-   **[Correctif]** Réactivation du plugin MCE Table buttons
 
 ---
 

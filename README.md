@@ -196,34 +196,6 @@ yarn build --site mywebsite
 
 ## :construction: Debug PHP
 
-### In the Chrome console (PHP Console)
-
-Install the PHP Console extension for Chrome
-[https://chrome.google.com/webstore/detail/php-console/nfhmhhlpfleoednkpnnnkolmclajemef](https://chrome.google.com/webstore/detail/php-console/nfhmhhlpfleoednkpnnnkolmclajemef)
-
-> WARNING: you must enter the password which is "root".
-
-Then simply call the function :
-
-```php
-wd($value);
-```
-
-You can add 2 optional parameters:
-
-```php
-wd($val, $tag = '');
-```
-
-Exemple :
-
-```php
-$array = ['color' => 'red'];
-wd($array, 'color');
-```
-
-### In the current page
-
 There is also the "rcd" function, which allows you to make your own "print_r".
 
 You can add 2 optional parameters:
