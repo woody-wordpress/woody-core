@@ -1,3 +1,63 @@
+### 13 Avril 2022 : Version 1.53.0
+
+-   **[Nouveauté]** Personnalisation des urls de fiches SIT
+-   **[Mise à jour]** Mise à jour de Wordpress 5.9.2 vers 5.9.3
+-   **[Mise à jour]** Mise à jour d’ACF 5.12 vers 5.12.2
+-   **[Mise à jour]** Suppression de la librairie lightgallery lorsqu’elle n’est pas nécessaire
+-   **[Mise à jour]** En-tête 07 : intitulé du bouton « Afficher la carte » devient « Masquer la carte » lorsque la carte est visible
+-   **[Correctif]** WOODY SEO : champ « inclus dans le plan du site » disponible uniquement sur les pages indexées par les moteurs de recherche
+-   **[Correctif]** Disallow : /api/ dans le robots.txt
+-   **[Correctif]** Formulaires de contact des fiches SIT affiché par dessus le menu principal
+-   **[Correctif]** Support Safari et Firefox pour le bouton « Afficher plus » des blocs de texte
+-   **[Correctif]** Rétablissement des droits pour les contributeurs sur l’outil Woody CSV Edit
+-   **[Correctif]** Suppression du flou sur certaines mises en avant (3 colonnes avec  élement central zoomé)
+
+---
+### 05 Avril 2022
+
+-   **[Nouveauté]** Nouveaux templates de mises en avant (210, 211, 212, 213, 214, 607, 608, 609, 610, 611)
+-   **[Mise à jour]** Optimisation du comportement mobile des sliders
+-   **[Mise à jour]** Optimisation du comportement mobile des sommaires
+-   **[Mise à jour]** Copyright invisible sur les diaporamas de page d'accueil (présent dans le code pour les robots ou google image)
+-   **[Correctif]** Amélioration du comportement du bouton "Lire la vidéo" sur les diaporamas
+-   **[Correctif]** Comportement des sliders de mise en avant dans certains groupes d'onglets
+
+---
+
+### 01 Avril 2022
+
+-   **[Nouveauté]** Suppression automatique des pages contenant des fautes d'orthographe
+-   **[Nouveauté]** Suppression automatique des photos sur lesquelles les gens ne sourient pas
+
+---
+
+### 25 mars 2022 : Version 1.52.0
+-   **[Nouveauté]** Support pour les vidéos dans les galeries photos
+-   **[Nouveauté]** Champ « vidéo externe » associé aux images pour un comportement vidéo dans les galeries
+-   **[Nouveauté]** Affichage du risque d’avalanche dans le template infos stations 04
+-   **[Nouveauté]** Possibilité de déclarer la micro-donnée « Centre d’informations touristiques » via le menu Woody SEO
+-   **[Mise à jour]** Modification de l'interface de connexion
+-   **[Mise à jour]** Prise en charge de l’identifiant de configuration Touristicmaps dans les en-têtes de pages
+-   **[Mise à jour]** Optimisation du comportement mobile des sommaires
+-   **[Correctif]** Corrections des redirections de fiches vers des langues différentes dans de rares cas
+-   **[Correctif]** Suppression des redirections vers une page/fiche lors de sa suppression
+-   **[Correctif]** Positionnement des miniatures à l’ouvertures des galeries photos (pages + fiches SIT)
+
+---
+
+### 17 mars 2022 : Version 1.51.0
+
+-   **[Mise à jour]** Mise à jour de Wordpress 5.9.1 vers 5.9.2
+
+---
+
+### 14 mars 2022
+
+-   **[Mise à jour]** Optimisation de la mise à jour du sitemap
+-   **[Correctif]** Amélioration du traitement des extraits optimisés de Google (Position Zéro)
+
+---
+
 ### 9 mars 2022
 
 -   **[Nouveauté]** Vignette "Nouveau" sur les mises en page datant de moins d'1 mois
