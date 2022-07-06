@@ -18,6 +18,10 @@ function output_log($log, $tag = null)
     function output_h1($log, $tag = null)
     {
         $log = output_array($log, $tag);
+
+        // Show on QueryMonitor
+        do_action('qm/info', $log);
+
         $log = '---- ' . mb_strtoupper($log, 'UTF-8') . ' ----';
         output_log($log);
     }
@@ -25,20 +29,34 @@ function output_log($log, $tag = null)
     function output_h2($log, $tag = null)
     {
         $log = output_array($log, $tag);
-        $log = '## ' . $log;
+
+        // Show on QueryMonitor
+        do_action('qm/info', $log);
+
+        $log = \WP_CLI::colorize('%y## ' . $log . '%n');
+        output_log(' ');
         output_log($log);
     }
 
     function output_h3($log, $tag = null)
     {
         $log = output_array($log, $tag);
-        $log = '> ' . $log;
+
+        // Show on QueryMonitor
+        do_action('qm/info', $log);
+
+        $log = \WP_CLI::colorize('%p>> ' . $log . '%n');
+        output_log(' ');
         output_log($log);
     }
 
     function output_debug($log, $tag = null)
     {
         $log = output_array($log, $tag);
+
+        // Show on QueryMonitor
+        do_action('qm/debug', $log);
+
         output_log($log);
     }
 
@@ -48,6 +66,9 @@ function output_warning($log, $tag = null)
     if (defined('WP_CLI') && WP_CLI) {
         \WP_CLI::warning($log);
     }
+
+    // Show on QueryMonitor
+    do_action('qm/warning', $log);
 
     // Save Error inside custom log
     if (ENABLE_LOG_FILES && substr($log, 0, 3) !== '...') {
@@ -63,6 +84,9 @@ function output_error($log, $tag = null, $exit = false)
     if (defined('WP_CLI') && WP_CLI) {
         \WP_CLI::error($log, $exit);
     }
+
+    // Show on QueryMonitor
+    do_action('qm/error', $log);
 
     // Save Error inside custom log
     if (ENABLE_LOG_FILES && substr($log, 0, 3) !== '...') {
@@ -84,6 +108,9 @@ function output_success($log, $tag = null)
     if (defined('WP_CLI') && WP_CLI) {
         \WP_CLI::success($log);
     }
+
+    // Show on QueryMonitor
+    do_action('qm/info', $log);
 
     // Save Error inside custom log
     if (ENABLE_LOG_FILES && substr($log, 0, 3) !== '...') {
@@ -109,7 +136,7 @@ function output_array($log, $tag = null)
     }
 
     if (is_array($log) || is_object($log)) {
-        $log = json_encode($log);
+        $log = json_encode($log, JSON_THROW_ON_ERROR);
     }
 
     return $log;

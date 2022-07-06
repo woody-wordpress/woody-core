@@ -44,7 +44,7 @@ gulp.task('icons_compile', () => {
                 fontName: config.icons.fontName,
                 path: config.icons.tpl,
                 targetPath: '_icons.scss',
-                fontPath: '../fonts/woody-icons/',
+                fontPath: '/app/dist/' + mode.site_key + '/fonts/woody-icons/',
                 cacheBuster: runTimestamp,
                 cssClass: 'wicon'
             })

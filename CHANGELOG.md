@@ -1,3 +1,109 @@
+### 06 juillet 2022 : Version 1.57.0
+
+-   **[Nouveauté]** Bloc "Titres & Icones" repensé pour faciliter l'ajout dans le backoffice (bloc à éléments multiple type Mise en avant manuelle) 
+-   **[Mise à jour]** Mise à jour de jQuery de 3.5.1 vers 3.6.0
+-   **[Correction]** Problème de zoom dans les galeries médias
+-   **[Correction]** Lecture des vidéos oembed sur iPhone
+---
+
+### 27 juin 2022
+
+-   **[Nouveauté]** Ajout du nom du site dans le code source du logo (Accessibilité)
+-   **[Mise à jour]** Ajout des textes alternatifs dans les mises en avant avec diaporama de photos
+-   **[Mise à jour]** Utilisation de l'image de mise en avant en priorité pour les menus de type V2
+-   **[Mise à jour]** Retrait d'une option permettant de masquer un groupe de champs sur une page
+-   **[Correction]** Intitulés tarifs dans les extraits de fiches SIT
+-   **[Correction]** Icones des en-têtes de page
+-   **[Correction]** Icones ajouter aux favoris sur la liste des favoris
+-   **[Correction]** Icone x pour fermer les blocs de détail des pistes et remontées
+-   **[Correction]** Vignettes des vidéos mp4 dans les galeries médias
+-   **[Correction]** Suppression des balises Html dans les meta données des images
+
+---
+
+### 23 juin 2022
+
+-   **[Mise à jour]** Les pages contenant des mises en avant de fiches SIT sont désormais cachées 3h au lieu de 12h
+-   **[Mise à jour]** Compatibilité de Woody en Polonais et Portugais
+-   **[Correction]** Gestion des droits du roadBOOK améliorée
+-   **[Correction]** Optimisation des pubs dans le roadBOOK
+
+---
+
+### 09 juin 2022 : Version 1.56.0
+
+-   **[Nouveauté]** Widget de suivi des mises à jour **Hawwwai** sur le tableau de bord
+-   **[Nouveauté]** Widget de suivi des mises à jour **roadBOOK** sur le tableau de bord
+-   **[Nouveauté]** Nouveaux templates de mises en avant (427, 428)
+-   **[Mise à jour]** Amélioration du comportement responsive des galeries interactives
+-   **[Mise à jour]** Amélioration de l'accessibilité des champs Woody SEO (Firefox)
+
+---
+
+### 03 juin 2022 : Version 1.55.0
+
+-   **[Correction]** Edition du champs Woody SEO sous Firefox
+
+---
+
+### 01 juin 2022
+
+-   **[Nouveauté]** Affichage mobile pour les galeries photos (Empilement / Slider)
+-   **[Nouveauté]** Remontée en tête de liste du template de bloc sélectionné
+-   **[Nouveauté]** Ajout de la grille 5 colonnes dans les groupes d’onglets
+-   **[Mise à jour]** Prise en charge des liaisons pour les infos stations
+-   **[Mise à jour]** Amélioration du zoom des cartes géographiques au scroll
+-   **[Mise à jour]** Application de style responsive sommaires en dessous de 1200px (1024px précédemment)
+-   **[Mise à jour]** Optimisation du comportement des sommaires au scroll
+-   **[Mise à jour]** Style de bouton principal pour les extraits de fiches SIT
+-   **[Mise à jour]** Optimisation de l’accessibilité des menus
+-   **[Correction]** Remontées mécaniques manquantes
+-   **[Correction]** Intitulés manquants dans les blocs de réservation
+-   **[Correction]** Affichage du contenu des feuillets miroirs
+-   **[Correction]** Synchronisation de la suppression d’image et des ses traductions
+-   **[Correction]** Génération des recadrages d'image
+
+---
+
+### 16 mai 2022
+
+-   **[Correctif]** Gestion des "hreflang" sur les sites à saisonnalité
+-   **[Correctif]** Gestion des bons plans
+
+---
+
+### 10 mai 2022
+
+-   **[Nouveauté]** Nouveau template de sélecteur de langue : liste de sélection - Contacter Raccourci pour activation
+-   **[Nouveauté]** Nouveaux templates de Visuel & Accroche (15, 16)
+-   **[Nouveauté]** Nouveaux templates de mises en avant (802, 803, 804, 805)
+-   **[Nouveauté]** Limitation de la largeur des mises en avant avec texte sur l'image (selon ratio d'image)
+-   **[Nouveauté]** Autonomie sur le changement de saison courante dans "Paramètres" (pour les sites avec saisonnalité été/hiver)
+-   **[Nouveauté]** Suppression d'élément html en double (mobile/desktop) dans le code source (Optimisation SEO)
+-   **[Mise à jour]** Optimisation du scroll lors de l'utilisation des sommaires
+-   **[Mise à jour]** Traduction automatique avec DeepL des pages, des tags et des médias (contactez-nous pour activation)
+-   **[Correctif]** Récupération des traductions des éléments mis en avant lors de la traduction d'une page
+-   **[Correctif]** Masquer le fil d'ariane d'une page (Options d'affichage inactive)
+
+---
+
+### 3 mai 2022
+
+-   **[Nouveauté]** Traduction automatique avec DeepL (contactez-nous pour activation)
+-   **[Correctif]** Redirection page d'accueil vers une page aléatoire + redirection fiche FR vers une autre langue
+
+---
+
+### 20 Avril 2022
+
+-   **[Nouveauté]** Nouveau template de mises en avant (144)
+-   **[Mise à jour]** Optimisation de la personnalisation des urls de fiches SIT
+-   **[Mise à jour]** Mise à jour du plugin Members 3.1.7 vers 3.2.1
+-   **[Mise à jour]** Mise à jour du plugin Query Monitor 3.8.2 vers 3.9.0
+-   **[Correctif]** Redirections des fiches en 404
+
+---
+
 ### 13 Avril 2022 : Version 1.53.0
 
 -   **[Nouveauté]** Personnalisation des urls de fiches SIT
@@ -13,6 +119,7 @@
 -   **[Correctif]** Suppression du flou sur certaines mises en avant (3 colonnes avec  élement central zoomé)
 
 ---
+
 ### 05 Avril 2022
 
 -   **[Nouveauté]** Nouveaux templates de mises en avant (210, 211, 212, 213, 214, 607, 608, 609, 610, 611)
@@ -24,7 +131,7 @@
 
 ---
 
-### 01 Avril 2022
+### 1er Avril 2022
 
 -   **[Nouveauté]** Suppression automatique des pages contenant des fautes d'orthographe
 -   **[Nouveauté]** Suppression automatique des photos sur lesquelles les gens ne sourient pas

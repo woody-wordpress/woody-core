@@ -43,3 +43,4 @@ web/.htaccess
 config/sites
 REVISION
 VERSION
+*.code-workspace

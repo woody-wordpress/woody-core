@@ -819,7 +819,6 @@ function wp_cache_add_non_persistent_groups($groups)
 
 class WP_Object_Cache
 {
-
     /**
      * Holds the Memcached object.
      *
@@ -915,8 +914,19 @@ class WP_Object_Cache
             $this->m = new Memcached($persistent_id);
         }
 
-        // Active les transferts asynchrones. Ceci est le mode de transfert le plus rapide, pour les fonctions de stockage.
-        // $this->m->setOption(Memcached::OPT_NO_BLOCK, true);
+        /**
+         * https://www.dugwood.fr/895461-memcached-failover-avec-php-5.html
+         * Memcached::OPT_DISTRIBUTION: configuré pour du hash consistant. Si un serveur Memcached est DEAD, ses clés de cache (et seulement ses clés) seront distribuées globalement sur les autres serveurs. C'est ici que la magie opère. C'est très différent de supprimer un serveur dans l'appel ->addServers().
+         * Memcached::OPT_SERVER_FAILURE_LIMIT: nombre de tentatives de connexion avant qu'un serveur ne soit marqué DEAD, et supprimé de la liste des serveurs (par défaut : 5).
+         * Memcached::OPT_REMOVE_FAILED_SERVERS: configuré à «true», pour activer la suppression des serveurs DEAD.
+         * Memcached::OPT_RETRY_TIMEOUT: une fois qu'un serveur est déclaré DEAD, libmemcached le testera à nouveau après cette durée en secondes. Ici j'ai mis 1 seconde, mais je travaille principalement sur des scripts qui durent moins de 100ms. De fait, c'est utile uniquement sur les scripts qui tournent via un cron ou un démon.
+         * Memcached::OPT_CONNECT_TIMEOUT: c'est le délai au bout duquel un serveur est considéré DEAD. Comme mes serveurs sont sur un même LAN, le ping est de ~0.5ms, donc 1s est assez large pour considérer que le serveur est DEAD. Notez bien que vous devez attendre deux fois cette durée pour qu'un serveur soit marqué DEAD, donc si c'est 1000ms, votre script sera bloqué 2 secondes avant d'ignorer le serveur DEAD. Cela peut impacter fortement vos temps de réponse, c'est pourquoi je l'ai configuré très bas.
+         */
+        $this->m->setOption(Memcached::OPT_DISTRIBUTION, Memcached::DISTRIBUTION_CONSISTENT);
+        $this->m->setOption(Memcached::OPT_SERVER_FAILURE_LIMIT, 2);
+        $this->m->setOption(Memcached::OPT_REMOVE_FAILED_SERVERS, true);
+        $this->m->setOption(Memcached::OPT_RETRY_TIMEOUT, 1);
+        $this->m->setOption(Memcached::OPT_CONNECT_TIMEOUT, 1000);
 
         $this->addServers($this->servers);
 
@@ -977,7 +987,7 @@ class WP_Object_Cache
         // Exlude keys
         $no_mc_key = false;
         foreach ($this->no_mc_keys as $key) {
-            if (strpos($derived_key, $key) !== false) {
+            if (strpos($derived_key, (string) $key) !== false) {
                 $no_mc_key = true;
                 break;
             }
@@ -1094,6 +1104,7 @@ class WP_Object_Cache
      */
     public function append($key, $value, $group = 'default', $server_key = '', $byKey = false)
     {
+        $combined = null;
         if (!is_string($value) && !is_int($value) && !is_float($value)) {
             return false;
         }
@@ -1935,6 +1946,7 @@ class WP_Object_Cache
      */
     public function prepend($key, $value, $group = 'default', $server_key = '', $byKey = false)
     {
+        $combined = null;
         if (!is_string($value) && !is_int($value) && !is_float($value)) {
             return false;
         }
@@ -2085,7 +2097,7 @@ class WP_Object_Cache
         // Exlude keys
         $no_mc_key = false;
         foreach ($this->no_mc_keys as $key) {
-            if (strpos($derived_key, $key) !== false) {
+            if (strpos($derived_key, (string) $key) !== false) {
                 $no_mc_key = true;
                 break;
             }
@@ -2243,7 +2255,7 @@ class WP_Object_Cache
         }
 
         // Permet de créer une clé accessible par tous les sites
-        if($group == 'woody_multisite') {
+        if ($group == 'woody_multisite') {
             $wp_cache_key_salt = 'woody_multisite';
         } else {
             $wp_cache_key_salt = WP_CACHE_KEY_SALT;
@@ -2473,7 +2485,7 @@ class WP_Object_Cache
 
             $log = $derived_key;
             if (!empty($value)) {
-                $value = json_encode($value);
+                $value = json_encode($value, JSON_THROW_ON_ERROR);
                 $log .= ' (' . strlen($value) . ')';
             }
 
