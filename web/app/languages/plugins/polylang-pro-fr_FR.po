@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-02 09:57:36+0000\n"
+"PO-Revision-Date: 2022-03-28 17:37:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#: modules/import/view-tab-import-translations.php:21
+msgid "Upload a translation file"
+msgstr "Téléverser un fichier de traduction"
+
+#: modules/block-editor/navigation-language-switcher-block.php:173
+msgid "Language switcher submenu."
+msgstr "Sous-menu du sélecteur de langue."
 
 #: tests/phpunit/tests/pro/test-widgets-blocks-filter.php:35
 msgid "Block"
@@ -52,6 +60,11 @@ msgstr "Locale alternative"
 #: modules/locale-fallback/view-locale-fallback.php:15
 msgid "WordPress locale to use if a translation file is not available in the main locale."
 msgstr "La locale WordPress à utiliser si un fichier de traduction n’est pas disponible dans la locale principale."
+
+#: modules/block-editor/navigation-language-switcher-block.php:88
+#: modules/block-editor/js/blocks/block.js:30
+msgid "Language switcher settings"
+msgstr "Réglages de la liste de langues"
 
 #: modules/import/import-action.php:218
 msgid "The translation of the following string was not imported for security reasons:"
@@ -96,11 +109,11 @@ msgstr "Langues cibles :"
 msgid "Error: Impossible to create a zip file."
 msgstr "Erreur : Impossible de créer un fichier zip."
 
-#: modules/bulk-translate/bulk-translate.php:197
+#: modules/bulk-translate/bulk-translate.php:216
 msgid "Error: No target language has been selected. Please make sure to select at least one target language."
 msgstr "Erreur : Aucune langue cible n’a été sélectionnée. Veuillez vous assurer de sélectionner au moins une langue cible."
 
-#: modules/bulk-translate/bulk-translate.php:189
+#: modules/bulk-translate/bulk-translate.php:206
 msgid "No item has been selected. Please make sure to select at least one item to be translated."
 msgstr "Aucun élément n’a été sélectionné. Veuillez vous assurer de sélectionner au moins un élément à traduire."
 
@@ -159,13 +172,17 @@ msgstr "Erreur : Vous n’avez pas sélectionné de fichier à téléverser."
 msgid "Activate"
 msgstr "Activer"
 
+#: modules/block-editor/language-switcher-block.php:53
+msgid "Choose a language"
+msgstr "Choisir une langue"
+
 #: modules/active-languages/active-languages.php:119
 msgid "Deactivate"
 msgstr "Désactiver"
 
 #: integrations/acf/acf-sync-metas.php:61
-#: modules/rest/rest-translated-object.php:70
-#: modules/block-editor/js/sidebar/components/translations-table/index.js:51
+#: modules/rest/rest-translated-object.php:83
+#: modules/block-editor/js/sidebar/components/translations-table/index.js:53
 msgid "Translations"
 msgstr "Traductions"
 
@@ -174,7 +191,8 @@ msgstr "Traductions"
 msgid "You are about to overwrite an existing translation. Are you sure you want to proceed?"
 msgstr "Vous êtes sur le point d’écraser une traduction existante. Confirmez-vous ?"
 
-#: modules/rest/rest-translated-object.php:55
+#: modules/rest/rest-translated-object.php:68
+#: modules/block-editor/js/sidebar/components/language-item/index.js:30
 #: modules/block-editor/js/sidebar/components/switcher/index.js:156
 #: modules/block-editor/js/sidebar/components/switcher/index.js:157
 msgid "Language"
@@ -198,7 +216,6 @@ msgstr "Synchronisations"
 #: modules/sync-post/sync-post-button.php:41
 #: tests/phpunit/tests/pro/test-ajax-metabox-button.php:93
 #: modules/block-editor/js/sidebar/components/synchronization-button/index.js:68
-#: modules/block-editor/js/sidebar/components/translations-table/index.js:60
 msgid "Don't synchronize this post"
 msgstr "Ne pas synchroniser cette publication"
 
@@ -206,7 +223,6 @@ msgstr "Ne pas synchroniser cette publication"
 #: tests/phpunit/tests/pro/test-ajax-metabox-button.php:105
 #: modules/block-editor/js/sidebar/components/synchronization-button/index.js:68
 #: modules/block-editor/js/sidebar/components/synchronization-button/index.js:86
-#: modules/block-editor/js/sidebar/components/translations-table/index.js:60
 msgid "Synchronize this post"
 msgstr "Synchroniser cette publication"
 
@@ -214,31 +230,31 @@ msgstr "Synchroniser cette publication"
 msgid "Limit results to a specific language."
 msgstr "Limiter les résultats à une langue spécifique."
 
-#: modules/rest/rest-post.php:129
+#: modules/rest/rest-post.php:145
 msgid "Translations table"
 msgstr "Tableau des traductions"
 
-#: modules/rest/rest-api.php:151
+#: modules/rest/rest-api.php:156
 msgid "Are we in a block editor context?"
 msgstr "Sommes-nous dans un contexte d’éditeur de blocs ?"
 
-#: modules/rest/rest-api.php:146
+#: modules/rest/rest-api.php:151
 msgid "Add this post's translation to results."
 msgstr "Ajouter la traduction de cette publication aux résultats."
 
-#: modules/rest/rest-api.php:142
+#: modules/rest/rest-api.php:147
 msgid "Limit results to those matching a string."
 msgstr "Limiter les résultats à ceux correspondants à une chaîne."
 
-#: modules/rest/rest-api.php:136
+#: modules/rest/rest-api.php:141
 msgid "Limit results to items in a language."
 msgstr "Limiter les résultats aux éléments dans une langue."
 
-#: modules/rest/rest-api.php:130
+#: modules/rest/rest-api.php:135
 msgid "Limit results to untranslated items in a language."
 msgstr "Limiter les résultats aux éléments non traduits dans une langue."
 
-#: modules/rest/rest-api.php:124
+#: modules/rest/rest-api.php:129
 msgid "Limit results to items of an object type."
 msgstr "Limiter les résultats aux éléments d’un type d’objet."
 
@@ -304,7 +320,7 @@ msgstr[0] "%d traduction créée."
 msgstr[1] "%d traductions créées."
 
 #: integrations/acf/acf-sync-metas.php:84
-#: modules/bulk-translate/bulk-translate.php:272
+#: modules/bulk-translate/bulk-translate.php:276
 msgid "Translate"
 msgstr "Traduire"
 

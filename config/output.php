@@ -22,7 +22,8 @@ function output_log($log, $tag = null)
         // Show on QueryMonitor
         do_action('qm/info', $log);
 
-        $log = '---- ' . mb_strtoupper($log, 'UTF-8') . ' ----';
+        $log = \WP_CLI::colorize('%c---- ' . mb_strtoupper($log, 'UTF-8') . ' ----%n');
+        output_log(' ');
         output_log($log);
     }
 

@@ -1,5 +1,5 @@
-# Translation of WordPress - 5.9.x - Development - Continents & Cities in Japanese
-# This file is distributed under the same license as the WordPress - 5.9.x - Development - Continents & Cities package.
+# Translation of WordPress - 5.9.x - Continents & Cities in Japanese
+# This file is distributed under the same license as the WordPress - 5.9.x - Continents & Cities package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-06-30 23:35:31+0000\n"
@@ -7,165 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: ja_JP\n"
-"Project-Id-Version: WordPress - 5.9.x - Development - Continents & Cities\n"
-
-#: wp-admin/includes/continents-cities.php:319
-msgid "Qostanay"
-msgstr "コスタナイ"
-
-#: wp-admin/includes/continents-cities.php:187
-msgid "Nuuk"
-msgstr "ヌーク"
-
-#: wp-admin/includes/continents-cities.php:471
-msgid "Saratov"
-msgstr "サラトフ"
-
-#: wp-admin/includes/continents-cities.php:347
-msgid "Yangon"
-msgstr "ヤンゴン"
-
-#: wp-admin/includes/continents-cities.php:281
-msgid "Famagusta"
-msgstr "ファマグスタ"
-
-#: wp-admin/includes/continents-cities.php:260
-msgid "Atyrau"
-msgstr "アティラウ"
-
-#: wp-admin/includes/continents-cities.php:198
-msgid "Punta Arenas"
-msgstr "プンタ・アレーナス"
-
-#: wp-admin/includes/continents-cities.php:535
-msgid "Pohnpei"
-msgstr "ポンペイ"
-
-#: wp-admin/includes/continents-cities.php:509
-msgid "Chuuk"
-msgstr "チューク"
-
-#: wp-admin/includes/continents-cities.php:507
-msgid "Bougainville"
-msgstr "ブーゲンビル"
-
-#: wp-admin/includes/continents-cities.php:479
-msgid "Ulyanovsk"
-msgstr "ウラジオストク"
-
-#: wp-admin/includes/continents-cities.php:451
-msgid "Kirov"
-msgstr "キーロフ"
-
-#: wp-admin/includes/continents-cities.php:439
-msgid "Busingen"
-msgstr "ビュージンゲン"
-
-#: wp-admin/includes/continents-cities.php:430
-msgid "Astrakhan"
-msgstr "アストラハン"
-
-#: wp-admin/includes/continents-cities.php:343
-msgid "Ust-Nera"
-msgstr "ウスチ＝ネラ"
-
-#: wp-admin/includes/continents-cities.php:338
-msgid "Tomsk"
-msgstr "トムスク"
-
-#: wp-admin/includes/continents-cities.php:329
-msgid "Srednekolymsk"
-msgstr "スレドネコリムスク"
-
-#: wp-admin/includes/continents-cities.php:311
-msgid "Novokuznetsk"
-msgstr "ノヴォクズネツク"
-
-#: wp-admin/includes/continents-cities.php:298
-msgid "Khandyga"
-msgstr "ハンドゥイガ"
-
-#: wp-admin/includes/continents-cities.php:296
-msgid "Kathmandu"
-msgstr "カトマンズ"
-
-#: wp-admin/includes/continents-cities.php:284
-msgid "Hebron"
-msgstr "ヘブロン"
-
-#: wp-admin/includes/continents-cities.php:270
-msgid "Chita"
-msgstr "チタ"
-
-#: wp-admin/includes/continents-cities.php:265
-msgid "Barnaul"
-msgstr "バルナウル"
-
-#: wp-admin/includes/continents-cities.php:245
-msgid "Troll"
-msgstr "トロール"
-
-#: wp-admin/includes/continents-cities.php:238
-msgid "Macquarie"
-msgstr "マッコーリー"
-
-#: wp-admin/includes/continents-cities.php:213
-msgid "Sitka"
-msgstr "シトカ"
-
-#: wp-admin/includes/continents-cities.php:207
-msgid "Santarem"
-msgstr "サンタレン"
-
-#: wp-admin/includes/continents-cities.php:206
-msgid "Santa Isabel"
-msgstr "サンタイサベル"
-
-#: wp-admin/includes/continents-cities.php:188
-msgid "Ojinaga"
-msgstr "オヒナガ"
-
-#: wp-admin/includes/continents-cities.php:184
-msgid "Beulah"
-msgstr "ベウラ"
-
-#: wp-admin/includes/continents-cities.php:170
-msgid "Metlakatla"
-msgstr "メトラカトラ"
-
-#: wp-admin/includes/continents-cities.php:166
-msgid "Matamoros"
-msgstr "マタモロス"
-
-#: wp-admin/includes/continents-cities.php:160
-msgid "Lower Princes"
-msgstr "ローワープリンシズ"
-
-#: wp-admin/includes/continents-cities.php:156
-msgid "Kralendijk"
-msgstr "クラレンダイク"
-
-#: wp-admin/includes/continents-cities.php:124
-msgid "Fort Nelson"
-msgstr "フォートネルソン"
-
-#: wp-admin/includes/continents-cities.php:111
-msgid "Creston"
-msgstr "クレストン"
-
-#: wp-admin/includes/continents-cities.php:93
-msgid "Bahia Banderas"
-msgstr "バイーア・デ・バンデラス"
-
-#: wp-admin/includes/continents-cities.php:83
-msgid "Salta"
-msgstr "サルタ"
-
-#: wp-admin/includes/continents-cities.php:39
-msgid "Juba"
-msgstr "ジュバ"
+"Project-Id-Version: WordPress - 5.9.x - Continents & Cities\n"
 
 #: wp-admin/includes/continents-cities.php:547
 msgid "Yap"
@@ -214,6 +58,10 @@ msgstr "ポートモレスビー"
 #: wp-admin/includes/continents-cities.php:536
 msgid "Ponape"
 msgstr "ポンペイ島"
+
+#: wp-admin/includes/continents-cities.php:535
+msgid "Pohnpei"
+msgstr "ポンペイ"
 
 #: wp-admin/includes/continents-cities.php:534
 msgid "Pitcairn"
@@ -315,9 +163,17 @@ msgstr "エファテ島"
 msgid "Easter"
 msgstr "イースター島"
 
+#: wp-admin/includes/continents-cities.php:509
+msgid "Chuuk"
+msgstr "チューク"
+
 #: wp-admin/includes/continents-cities.php:508
 msgid "Chatham"
 msgstr "チャタム"
+
+#: wp-admin/includes/continents-cities.php:507
+msgid "Bougainville"
+msgstr "ブーゲンビル"
 
 #: wp-admin/includes/continents-cities.php:506
 msgid "Auckland"
@@ -419,6 +275,10 @@ msgstr "ファドゥーツ"
 msgid "Uzhgorod"
 msgstr "ウージュホロド"
 
+#: wp-admin/includes/continents-cities.php:479
+msgid "Ulyanovsk"
+msgstr "ウラジオストク"
+
 #: wp-admin/includes/continents-cities.php:478
 msgid "Tiraspol"
 msgstr "ティラスポリ"
@@ -446,6 +306,10 @@ msgstr "スコピエ"
 #: wp-admin/includes/continents-cities.php:472
 msgid "Simferopol"
 msgstr "シンフェロポリ"
+
+#: wp-admin/includes/continents-cities.php:471
+msgid "Saratov"
+msgstr "サラトフ"
 
 #: wp-admin/includes/continents-cities.php:470
 msgid "Sarajevo"
@@ -523,6 +387,10 @@ msgstr "リュブリャナ"
 msgid "Lisbon"
 msgstr "リスボン"
 
+#: wp-admin/includes/continents-cities.php:451
+msgid "Kirov"
+msgstr "キーロフ"
+
 #: wp-admin/includes/continents-cities.php:450
 msgid "Kiev"
 msgstr "キエフ"
@@ -534,6 +402,10 @@ msgstr "カリーニングラード"
 #: wp-admin/includes/continents-cities.php:448
 msgid "Jersey"
 msgstr "ジャージー島"
+
+#: wp-admin/includes/continents-cities.php:447
+msgid "Istanbul"
+msgstr "イスタンブル"
 
 #: wp-admin/includes/continents-cities.php:446
 msgid "Isle of Man"
@@ -562,6 +434,10 @@ msgstr "コペンハーゲン"
 #: wp-admin/includes/continents-cities.php:440
 msgid "Chisinau"
 msgstr "キシナウ"
+
+#: wp-admin/includes/continents-cities.php:439
+msgid "Busingen"
+msgstr "ビュージンゲン"
 
 #: wp-admin/includes/continents-cities.php:438
 msgid "Budapest"
@@ -595,6 +471,10 @@ msgstr "ベルファスト"
 msgid "Athens"
 msgstr "アテネ"
 
+#: wp-admin/includes/continents-cities.php:430
+msgid "Astrakhan"
+msgstr "アストラハン"
+
 #: wp-admin/includes/continents-cities.php:429
 msgid "Andorra"
 msgstr "アンドラ"
@@ -611,13 +491,13 @@ msgstr "ヨーロッパ"
 msgid "Zulu"
 msgstr "ズールー"
 
-#: wp-admin/includes/continents-cities.php:423
-msgid "UTC"
-msgstr "協定世界時 (UTC)"
-
 #: wp-admin/includes/continents-cities.php:424
 msgid "Universal"
 msgstr "ユニバーサル"
+
+#: wp-admin/includes/continents-cities.php:423
+msgid "UTC"
+msgstr "協定世界時 (UTC)"
 
 #: wp-admin/includes/continents-cities.php:422
 msgid "UCT"
@@ -783,13 +663,13 @@ msgstr "クイーンズランド"
 msgid "Perth"
 msgstr "パース"
 
-#: wp-admin/includes/continents-cities.php:379
-msgid "NSW"
-msgstr "ニューサウスウェールズ"
-
 #: wp-admin/includes/continents-cities.php:380
 msgid "North"
 msgstr "北部"
+
+#: wp-admin/includes/continents-cities.php:379
+msgid "NSW"
+msgstr "ニューサウスウェールズ"
 
 #: wp-admin/includes/continents-cities.php:378
 msgid "Melbourne"
@@ -907,6 +787,10 @@ msgstr "エレバン"
 msgid "Yekaterinburg"
 msgstr "エカテリンブルク"
 
+#: wp-admin/includes/continents-cities.php:347
+msgid "Yangon"
+msgstr "ヤンゴン"
+
 #: wp-admin/includes/continents-cities.php:346
 msgid "Yakutsk"
 msgstr "ヤクーツク"
@@ -918,6 +802,10 @@ msgstr "ウラジオストク"
 #: wp-admin/includes/continents-cities.php:344
 msgid "Vientiane"
 msgstr "ヴィエンチャン"
+
+#: wp-admin/includes/continents-cities.php:343
+msgid "Ust-Nera"
+msgstr "ウスチ＝ネラ"
 
 #: wp-admin/includes/continents-cities.php:342
 msgid "Urumqi"
@@ -934,6 +822,10 @@ msgstr "ウランバートル"
 #: wp-admin/includes/continents-cities.php:339
 msgid "Ujung Pandang"
 msgstr "マカッサル (ウジュン・パンダン)"
+
+#: wp-admin/includes/continents-cities.php:338
+msgid "Tomsk"
+msgstr "トムスク"
 
 #: wp-admin/includes/continents-cities.php:337
 msgid "Tokyo"
@@ -966,6 +858,10 @@ msgstr "タシュケント"
 #: wp-admin/includes/continents-cities.php:330
 msgid "Taipei"
 msgstr "台北"
+
+#: wp-admin/includes/continents-cities.php:329
+msgid "Srednekolymsk"
+msgstr "スレドネコリムスク"
 
 #: wp-admin/includes/continents-cities.php:328
 msgid "Singapore"
@@ -1003,6 +899,10 @@ msgstr "ヤンゴン"
 msgid "Qyzylorda"
 msgstr "クズロルダ"
 
+#: wp-admin/includes/continents-cities.php:319
+msgid "Qostanay"
+msgstr "コスタナイ"
+
 #: wp-admin/includes/continents-cities.php:318
 msgid "Qatar"
 msgstr "カタール"
@@ -1030,6 +930,10 @@ msgstr "オムスク"
 #: wp-admin/includes/continents-cities.php:312
 msgid "Novosibirsk"
 msgstr "ノヴォシビルスク"
+
+#: wp-admin/includes/continents-cities.php:311
+msgid "Novokuznetsk"
+msgstr "ノヴォクズネツク"
 
 #: wp-admin/includes/continents-cities.php:310
 msgid "Nicosia"
@@ -1079,8 +983,16 @@ msgstr "クラスノヤルスク"
 msgid "Kolkata"
 msgstr "コルカタ"
 
+#: wp-admin/includes/continents-cities.php:298
+msgid "Khandyga"
+msgstr "ハンドゥイガ"
+
 #: wp-admin/includes/continents-cities.php:297
 msgid "Katmandu"
+msgstr "カトマンズ"
+
+#: wp-admin/includes/continents-cities.php:296
+msgid "Kathmandu"
 msgstr "カトマンズ"
 
 #: wp-admin/includes/continents-cities.php:295
@@ -1111,10 +1023,6 @@ msgstr "ジャヤプラ"
 msgid "Jakarta"
 msgstr "ジャカルタ"
 
-#: wp-admin/includes/continents-cities.php:447
-msgid "Istanbul"
-msgstr "イスタンブル"
-
 #: wp-admin/includes/continents-cities.php:288
 msgid "Irkutsk"
 msgstr "イルクーツク"
@@ -1131,6 +1039,10 @@ msgstr "香港"
 msgid "Ho Chi Minh"
 msgstr "ホーチミン"
 
+#: wp-admin/includes/continents-cities.php:284
+msgid "Hebron"
+msgstr "ヘブロン"
+
 #: wp-admin/includes/continents-cities.php:283
 msgid "Harbin"
 msgstr "ハルビン"
@@ -1138,6 +1050,10 @@ msgstr "ハルビン"
 #: wp-admin/includes/continents-cities.php:282
 msgid "Gaza"
 msgstr "ガザ"
+
+#: wp-admin/includes/continents-cities.php:281
+msgid "Famagusta"
+msgstr "ファマグスタ"
 
 #: wp-admin/includes/continents-cities.php:280
 msgid "Dushanbe"
@@ -1179,6 +1095,10 @@ msgstr "重慶"
 msgid "Choibalsan"
 msgstr "チョイバルサン"
 
+#: wp-admin/includes/continents-cities.php:270
+msgid "Chita"
+msgstr "チタ"
+
 #: wp-admin/includes/continents-cities.php:269
 msgid "Calcutta"
 msgstr "カルカッタ"
@@ -1195,6 +1115,10 @@ msgstr "ビシュケク"
 msgid "Beirut"
 msgstr "ベイルート"
 
+#: wp-admin/includes/continents-cities.php:265
+msgid "Barnaul"
+msgstr "バルナウル"
+
 #: wp-admin/includes/continents-cities.php:264
 msgid "Bangkok"
 msgstr "バンコク"
@@ -1210,6 +1134,10 @@ msgstr "バーレーン"
 #: wp-admin/includes/continents-cities.php:261
 msgid "Baghdad"
 msgstr "バグダード"
+
+#: wp-admin/includes/continents-cities.php:260
+msgid "Atyrau"
+msgstr "アティラウ"
 
 #: wp-admin/includes/continents-cities.php:259
 msgid "Ashkhabad"
@@ -1259,6 +1187,10 @@ msgstr "北極"
 msgid "Vostok"
 msgstr "ボストーク"
 
+#: wp-admin/includes/continents-cities.php:245
+msgid "Troll"
+msgstr "トロール"
+
 #: wp-admin/includes/continents-cities.php:244
 msgid "Syowa"
 msgstr "昭和基地"
@@ -1282,6 +1214,10 @@ msgstr "マクマード"
 #: wp-admin/includes/continents-cities.php:239
 msgid "Mawson"
 msgstr "モーソン"
+
+#: wp-admin/includes/continents-cities.php:238
+msgid "Macquarie"
+msgstr "マッコーリー"
 
 #: wp-admin/includes/continents-cities.php:237
 msgid "DumontDUrville"
@@ -1375,6 +1311,10 @@ msgstr "セントジョーンズ"
 msgid "St Barthelemy"
 msgstr "サン・バルテルミー"
 
+#: wp-admin/includes/continents-cities.php:213
+msgid "Sitka"
+msgstr "シトカ"
+
 #: wp-admin/includes/continents-cities.php:212
 msgid "Shiprock"
 msgstr "シップロック"
@@ -1394,6 +1334,14 @@ msgstr "サントドミンゴ"
 #: wp-admin/includes/continents-cities.php:208
 msgid "Santiago"
 msgstr "サンティアゴ"
+
+#: wp-admin/includes/continents-cities.php:207
+msgid "Santarem"
+msgstr "サンタレン"
+
+#: wp-admin/includes/continents-cities.php:206
+msgid "Santa Isabel"
+msgstr "サンタイサベル"
 
 #: wp-admin/includes/continents-cities.php:205
 msgid "Rosario"
@@ -1422,6 +1370,10 @@ msgstr "ランキンインレット"
 #: wp-admin/includes/continents-cities.php:199
 msgid "Rainy River"
 msgstr "レイニーリバー"
+
+#: wp-admin/includes/continents-cities.php:198
+msgid "Punta Arenas"
+msgstr "プンタ・アレーナス"
 
 #: wp-admin/includes/continents-cities.php:197
 msgid "Puerto Rico"
@@ -1459,6 +1411,14 @@ msgstr "パンニルトゥング"
 msgid "Panama"
 msgstr "パナマ"
 
+#: wp-admin/includes/continents-cities.php:188
+msgid "Ojinaga"
+msgstr "オヒナガ"
+
+#: wp-admin/includes/continents-cities.php:187
+msgid "Nuuk"
+msgstr "ヌーク"
+
 #: wp-admin/includes/continents-cities.php:186
 msgid "New Salem"
 msgstr "ニューセーラム"
@@ -1466,6 +1426,10 @@ msgstr "ニューセーラム"
 #: wp-admin/includes/continents-cities.php:185
 msgid "Center"
 msgstr "センター"
+
+#: wp-admin/includes/continents-cities.php:184
+msgid "Beulah"
+msgstr "ベウラ"
 
 #: wp-admin/includes/continents-cities.php:183
 msgid "North Dakota"
@@ -1519,6 +1483,10 @@ msgstr "ミクロン"
 msgid "Mexico City"
 msgstr "メキシコシティ"
 
+#: wp-admin/includes/continents-cities.php:170
+msgid "Metlakatla"
+msgstr "メトラカトラ"
+
 #: wp-admin/includes/continents-cities.php:169
 msgid "Merida"
 msgstr "メリダ"
@@ -1530,6 +1498,10 @@ msgstr "メノミニー"
 #: wp-admin/includes/continents-cities.php:167
 msgid "Mazatlan"
 msgstr "マサトラン"
+
+#: wp-admin/includes/continents-cities.php:166
+msgid "Matamoros"
+msgstr "マタモロス"
 
 #: wp-admin/includes/continents-cities.php:165
 msgid "Martinique"
@@ -1551,6 +1523,10 @@ msgstr "マナグア"
 msgid "Maceio"
 msgstr "マセイオ"
 
+#: wp-admin/includes/continents-cities.php:160
+msgid "Lower Princes"
+msgstr "ローワープリンシズ"
+
 #: wp-admin/includes/continents-cities.php:159
 msgid "Los Angeles"
 msgstr "ロサンゼルス"
@@ -1562,6 +1538,10 @@ msgstr "リマ"
 #: wp-admin/includes/continents-cities.php:157
 msgid "La Paz"
 msgstr "ラパス"
+
+#: wp-admin/includes/continents-cities.php:156
+msgid "Kralendijk"
+msgstr "クラレンダイク"
 
 #: wp-admin/includes/continents-cities.php:155
 msgid "Knox IN"
@@ -1687,6 +1667,10 @@ msgstr "フォルタレザ"
 msgid "Fort Wayne"
 msgstr "フォートウェイン"
 
+#: wp-admin/includes/continents-cities.php:124
+msgid "Fort Nelson"
+msgstr "フォートネルソン"
+
 #: wp-admin/includes/continents-cities.php:123
 msgid "Ensenada"
 msgstr "エンセナダ"
@@ -1734,6 +1718,10 @@ msgstr "キュラソー"
 #: wp-admin/includes/continents-cities.php:112
 msgid "Cuiaba"
 msgstr "クイアバ"
+
+#: wp-admin/includes/continents-cities.php:111
+msgid "Creston"
+msgstr "クレストン"
 
 #: wp-admin/includes/continents-cities.php:110
 msgid "Costa Rica"
@@ -1803,6 +1791,10 @@ msgstr "ベレン"
 msgid "Barbados"
 msgstr "バルバドス"
 
+#: wp-admin/includes/continents-cities.php:93
+msgid "Bahia Banderas"
+msgstr "バイーア・デ・バンデラス"
+
 #: wp-admin/includes/continents-cities.php:92
 msgid "Bahia"
 msgstr "バイーア"
@@ -1838,6 +1830,10 @@ msgstr "サンルイス"
 #: wp-admin/includes/continents-cities.php:84
 msgid "San Juan"
 msgstr "サンフアン"
+
+#: wp-admin/includes/continents-cities.php:83
+msgid "Salta"
+msgstr "サルタ"
 
 #: wp-admin/includes/continents-cities.php:82
 msgid "Rio Gallegos"
@@ -2006,6 +2002,10 @@ msgstr "ハルツーム"
 #: wp-admin/includes/continents-cities.php:40
 msgid "Kampala"
 msgstr "カンパラ"
+
+#: wp-admin/includes/continents-cities.php:39
+msgid "Juba"
+msgstr "ジュバ"
 
 #: wp-admin/includes/continents-cities.php:38
 msgid "Johannesburg"

@@ -1,9 +1,90 @@
-### 06 juillet 2022 : Version 1.57.0
+### 31 aôut 2022 : Version 1.58.0
 
--   **[Nouveauté]** Bloc "Titres & Icones" repensé pour faciliter l'ajout dans le backoffice (bloc à éléments multiple type Mise en avant manuelle) 
+-   **[Nouveauté]** Nouveau champ "Images complémentaires" dans le "Visuel & accroche"
+-   **[Nouveauté]** Nouveau champ "Lien" dans le bloc "Logo/Image d'illustration"
+-   **[Nouveauté]** Prise en charge des profils dans les en-têtes de page 01 et 02
+-   **[Mise à jour]** Mise à jour de Wordpress de 5.9.3 vers 6.0.2
+-   **[Mise à jour]** Mise à jour du plugin Enhanced Media Library de 2.8.8 vers 2.8.9
+-   **[Mise à jour]** Amélioration du groupe d'onglet 04 (utilisation du titre et de l'icone de l'onglet)
+-   **[Mise à jour]** Amélioration du comportement des sommaires (prise en compte de la visibilité et hauteur du header pour le scroll)
+-   **[Mise à jour]** Ergonomie de la vignette qui s'ouvre au clic sur les cartes géographiques manuelles
+-   **[Mise à jour]** Vue liste de la médiathèque : Voir les pages utilisant une image donnée
+-   **[Mise à jour]** Style css sur les fiches SIT et les playlists
+-   **[Correction]** Affichage de la description et de la flèche en conflit sur certains blocs Visuel & accroche
+-   **[Correction]** Résolution de l'image mobile sur les blocs Visuel & accroche
+-   **[Correction]** Bug graphique à la fermeture des galeries médias
+
+---
+
+
+### 23 août 2022
+
+-   **[Nouveauté]** Lister les pages utilisant une photo (dpeuis la liste en lignes des médias)
+
+---
+
+### 23 août 2022
+
+-   **[Nouveauté]** Module "Disponibilités" : ajout des capacités et tarifs de références si disponibles
+-   **[Nouveauté]** Ajout de TikTok dans la liste des icones Woody
+-   **[Nouveauté]** Nouveaux templates de mises en avant (521 => 524)
+-   **[Nouveauté]** Nouveaux templates de groupes d'onglets (09, 10)
+-   **[Nouveauté]** Addon "Bons plans" => nouveaux champs sur les bons plans (Label + Nom)
+-   **[Mise à jour]** Traductions globales
+-   **[Correction]** Crédit photo de certains visuels et accroche hors champ selon la taille d'écran
+-   **[Correction]** Fiches SIT et pages sont les seul contenu indexés au sitemap
+-   **[Correction]** Date de mise à jour d'une page dans le sitemap
+-   **[Correction]** Possibilité de lancer une traduction automatique des liens qui sont des redirections
+-   **[Correction]** Possibilité de lancer une traduction automatique des liens dans les textes et les boutons
+-   **[Correction]** La traduction automatique DeepL en allemand rajoutait des points non souhaités
+
+---
+
+### 04 août 2022
+
+-   **[Mise à jour]** Listing de toutes vos confs Hawwwai dans "Hawwwai > Outils"
+-   **[Mise à jour]** Optimisation des imports de fiches SIT dans Woody
+-   **[Mise à jour]** Mise à jour du plugin redirection 5.3.0 vers 5.3.1
+-   **[Correction]** Les pages avec mise en avant de fiches ont désormais un cache de 3h
+-   **[Correction]** Les pages avec mise en avant aléatoire ont désormais un cache de 24h
+-   **[Correction]** Les pages avec mise en avant non-alétoire ont désormais un cache de 7j
+
+---
+
+### 26 juillet 2022
+
+-   **[Mise à jour]** Optimisation des plans de tags TourinSoft avec GTM
+
+---
+
+### 22 juillet 2022
+
+-   **[Mise à jour]** Optimisation performance dans le traitement de l'offre SIT
+-   **[Mise à jour]** Mise à jour du plugin Redirection 5.2.3 vers 5.3.0
+
+---
+
+### 20 juillet 2022
+
+-   **[Nouveauté]** Possibilité de désindexer une fiche SIT en fonction d'un critère interne
+-   **[Mise à jour]** Mise à jour d’ACF 5.12.2 vers 5.12.3
+-   **[Correction]** Accès à tous les modèles de sections dans l'édition d'une page (activation du scroll)
+---
+
+### 11 juillet 2022
+
+-   **[Nouveauté]** Template d'en-tête de page n°08
+-   **[Correction]** Optimisation du chargement du bloc de réservation (bloc pour pages de type accueil)
+
+---
+
+### 6 juillet 2022 : Version 1.57.0
+
+-   **[Nouveauté]** Bloc "Titres & Icones" repensé pour faciliter l'ajout dans le backoffice (bloc à éléments multiple type Mise en avant manuelle)
 -   **[Mise à jour]** Mise à jour de jQuery de 3.5.1 vers 3.6.0
 -   **[Correction]** Problème de zoom dans les galeries médias
 -   **[Correction]** Lecture des vidéos oembed sur iPhone
+
 ---
 
 ### 27 juin 2022
@@ -30,7 +111,7 @@
 
 ---
 
-### 09 juin 2022 : Version 1.56.0
+### 9 juin 2022 : Version 1.56.0
 
 -   **[Nouveauté]** Widget de suivi des mises à jour **Hawwwai** sur le tableau de bord
 -   **[Nouveauté]** Widget de suivi des mises à jour **roadBOOK** sur le tableau de bord
@@ -40,13 +121,13 @@
 
 ---
 
-### 03 juin 2022 : Version 1.55.0
+### 3 juin 2022 : Version 1.55.0
 
 -   **[Correction]** Edition du champs Woody SEO sous Firefox
 
 ---
 
-### 01 juin 2022
+### 1er juin 2022
 
 -   **[Nouveauté]** Affichage mobile pour les galeries photos (Empilement / Slider)
 -   **[Nouveauté]** Remontée en tête de liste du template de bloc sélectionné
