@@ -14,7 +14,7 @@ use Roots\WPConfig\Config;
 /**
  * Directory containing all of the site's files
  */
-define('WP_ROOT_DIR', preg_replace('/releases\\/[0-9]*/', 'current', dirname(__DIR__)));
+define('WP_ROOT_DIR', preg_replace('/releases\/\d*/', 'current', dirname(__DIR__)));
 define('WP_WEBROOT_DIR', WP_ROOT_DIR . '/web');
 define('WP_VENDOR_DIR', WP_ROOT_DIR . '/vendor');
 define('WP_CACHE_DIR', WP_ROOT_DIR . '/cache');
@@ -31,8 +31,7 @@ define('WP_SITE_KEY', env('WP_SITE_KEY'));
 function array_env($env)
 {
     $env = str_replace(array('[', ']', '"', ' '), '', env($env));
-    $env = (!empty($env)) ? explode(',', $env) : [];
-    return $env;
+    return (empty($env)) ? [] : explode(',', $env);
 }
 
 if (file_exists(WP_ROOT_DIR . '/config/sites/' . WP_SITE_KEY . '/.env')) {
@@ -185,6 +184,7 @@ Config::define('WOODY_VARNISH_CACHING_TTL_LIVEPAGE', env('WOODY_VARNISH_CACHING_
 Config::define('WOODY_VARNISH_CACHING_TTL_WEATHERPAGE', env('WOODY_VARNISH_CACHING_TTL_WEATHERPAGE') ?: 21600);
 Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_SHEET') ?: 2_592_000);
 Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST') ?: 43200);
+Config::define('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST_FMA', env('WOODY_VARNISH_CACHING_TTL_HAWWWAI_PLAYLIST_FMA') ?: 10800);
 Config::define('WOODY_ERP_PARTNERID', env('WOODY_ERP_PARTNERID') ?: 0);
 Config::define('WOODY_DESTINATION_CONNECT_KEY', env('WOODY_DESTINATION_CONNECT_KEY') ?: '');
 
@@ -281,19 +281,19 @@ if (!defined('ABSPATH')) {
 /**
  * lock mode
  */
-require_once('lock.php');
+require_once(__DIR__ . '/lock.php');
 
 /**
  * maintenance mode
  */
-require_once('maintenance.php');
+require_once(__DIR__ . '/maintenance.php');
 
 /**
  * debug functions
  */
-require_once('debug.php');
+require_once(__DIR__ . '/debug.php');
 
 /**
  * output functions
  */
-require_once('output.php');
+require_once(__DIR__ . '/output.php');

@@ -149,6 +149,7 @@ function output_log_file($log, $status = 'debug')
     if (!file_exists($log_file)) {
         file_put_contents(WP_SITE_KEY, $log_file);
     }
+
     error_log('[' . date('d-m-Y H:i:s') . '] ' . strtoupper($status) . ' : ' . $log . "\n", 3, $log_file);
     error_log('[' . WP_SITE_KEY . '] ' . strtoupper($status) . ' : ' . $log, 0);
 }

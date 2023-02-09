@@ -1,18 +1,221 @@
+### 06 février 2022 : Version 1.66.0
+
+-   **[Nouveauté]** Nouveau bloc de mise en avant (543 => 547) + amélioration du 530 (titre du bloc)
+-   **[Nouveauté]** Module groupe : nouveau type de composant "Excursion"
+-   **[Nouveauté]** Visuel & accroche / diaporama : Autoriser les utilisateurs à activer le son de la vidéo
+-   **[Mise à jour]** Amélioration du comportement des mises en avant 323, 319 et 326 (slider et titre du bloc)
+-   **[Mise à jour]** Retrait du caractère ©️ dans les noms et urls des médias
+-   **[Mise à jour]** Harmonisation et correction des miniatures des mises en pages
+-   **[Mise à jour]** Infos stations : Prise en compte des tapis roulants dans la liste des remontées mécaniques
+-   **[Mise à jour]** Suppression du module "Infolive" (précédemment remplacé par infos stations)
+-   **[Correction]** Scroll horizontal avec certaines configurations de sections
+-   **[Correction]** Résolution des vignettes dans les résultats de recherche
+
+---
+
+### 26 janvier 2023 : Version 1.65.0
+
+-   **[Nouveauté]** Nouveaux rôles : rédacteur, rédacteur roadBOOK, contributeur roadBOOK
+-   **[Mise à jour]** Gestion des droits pour chacun des rôles
+-   **[Mise à jour]** Gestion de l'affichage alterné de la mise en avant 360 (si éléments < 4 )
+-   **[Mise à jour]** Mise à jour du plugin Redirection de 5.3.8 vers 5.3.9
+-   **[Correction]** Affichage des intitulés de prix dans les extraits de fiches SIT
+-   **[Correction]** Mise à jour utilisation et remplacement d'image bloquée
+
+---
+
+### 23 janvier 2023
+
+-   **[Mise à jour]** Gestion des fiches SIT dans les cartes interactives
+-   **[Mise à jour]** Mise à jour du plugin ACF de 6.0.5 vers 6.0.7
+-   **[Mise à jour]** Mise à jour du plugin Redirection de 5.3.6 vers 5.3.8
+-   **[Correction]** Optimisation du comportement responsive par défaut de certaines mise en avant
+-   **[Correction]** Infos stations : affichage des km de pistes nordique
+
+### 12 janvier 2023
+
+-   **[Nouveauté]** Mise en avant de profils : bouton envoyer un email avec email crypté (options d'affichage)
+-   **[Nouveauté]** Organigramme : gestion des entités juridiques
+
+---
+
+### 06 janvier 2023 : Version 1.64.0
+
+-   **[Nouveauté]** Nouveaux templates de mises en avant (155, 617 => 621)
+-   **[Nouveauté]** Nouveau template de socialwall (12)
+-   **[Mise à jour]** Image carré pour les fiches SIT dans le moteur de recherche
+-   **[Mise à jour]** Optimisation des statistiques de téléchargement des pdf dans analytics
+-   **[Mise à jour]** Optimisation du datalayer pour les plans de marquage
+-   **[Correction]** Infos stations: Nombre de pistes ouvertes = null lorsqu'aucune piste n'est ouverte
+-   **[Correction]** undefined affiché dans les résultats de recherche + erreur 404 si pas d'image
+-   **[Correction]** Vignettes de templates erronées
+-   **[Correction]** Ordre mobile de certains blocs inversé
+
+---
+
+### 28 décembre 2022
+
+-   **[Nouveauté]** Evolution du module "Publicité" pour programmer des encarts dans les pages
+-   **[Mise à jour]** Plan de marquage Analytics plus léger
+
+---
+
+### 22 décembre 2022
+
+-   **[Nouveauté]** Affichage de la légende et du copyright des images à l'ouverture d'une galerie
+-   **[Nouveauté]** Nouveaux templates de mises en avant (612 => 616)
+-   **[Mise à jour]** Mise à jour du plugin ACF de 6.0.4 vers 6.0.5
+-   **[Mise à jour]** Exclusion des profils administrateurs dans les restrictions d'accès
+
+---
+
+### 15 décembre 2022 : Version 1.63.0
+
+-   **[Nouveauté]** Restrictions d'accès aux contenus en backoffice (Menu WP => Restrictions d'accès)
+-   **[Nouveauté]** Compatibilité GA4
+-   **[Nouveauté]** Nouveaux templates de mises en avant (367, 542)
+-   **[Mise à jour]** Réduction du nombre d'évènements analytics
+-   **[Mise à jour]** Optimisation du comportement et de la charte graphique du moteur de recherche
+-   **[Mise à jour]** Liens vers les traductions du média dans le remplacement d'image
+-   **[Correction]** Traitement du caractère "-" dans les titres des Visuels & Accroche
+-   **[Correction]** Suppression d'une balise style="" dans le rendu des images
+-   **[Correction]** Affichage d'une vidéo dans le Visuel & Accroche 17
+-   **[Correction]** Ajout d'un séparateur entre les dates dans les extraits de fiches SIT
+
+---
+
+### 10 décembre 2022
+
+-   **[Mise à jour]** Mise à jour du plugin Redirection de 5.3.5 vers 5.3.6
+-   **[Correction]** Gestion des dates des widgets "Mon séjour en Montagne"
+
+---
+
+### 1er décembre 2022
+
+-   **[Nouveauté]** Intégration complète de vos widgets "Mon séjour en Montagne"
+-   **[Nouveauté]** Intégration du module "Co-marquage Service Public"
+
+---
+
+### 24 novembre 2022
+
+-   **[Nouveauté]** Bloc "Espacement" disponible dans les groupes d'onglets
+-   **[Nouveauté]** Nouveaux templates de blocs pub (06, 07)
+-   **[Nouveauté]** Nouveaux templates de mise en avant (366, 540, 541)
+-   **[Nouveauté]** Nouveau template de socialwall (11)
+-   **[Mise à jour]** Mise à jour de Wordpress 6.1.0 vers 6.1.1
+-   **[Mise à jour]** Mise en avant sur carte 01 : raccourcissement de la description
+-   **[Mise à jour]** "Paramètres des cookies" plus discret en bas de page
+-   **[Correction]** Hauteur du sous-menu "burger" en desktop
+-   **[Correction]** Suppression du surtitre dans la pagination du slider des mises en avant 130 et 134
+-   **[Correction]** Comportement des blocs de publicité avec pubs multiples dans les sections
+-   **[Correction]** Mise en avant 154 : prise en charge du 1ier élément
+-   **[Correction]** Mise en avant 419 : gestion du responsive
+-   **[Correction]** Grille 301 : rétablissement des marges horizontales entre les éléments
+
+---
+
+### 10 novembre 2022 : Version 1.62.0
+
+-   **[Nouveauté]** Options responsive fonctionnelles pour les blocs "galeries médias" et "titres & icones"
+-   **[Mise à jour]** Mise à jour du plugin ACF de 6.0.0 vers 6.0.4
+-   **[Mise à jour]** Mise à jour du plugin Polylang de 3.2.7 vers 3.2.8
+-   **[Mise à jour]** Mise à jour des traductions Wordpress
+-   **[Correction]** Position des icones des outils des blocs (Ajout/Suppression/Duplication)
+-   **[Correction]** Comportement mobile du template d'en-tête n°07
+-   **[Correction]** Comportement mobile des "Visuel & accroche" => ratio d'image plus proche de la versio desktop
+
+---
+
+### 7 novembre 2022
+
+-   **[Nouveauté]** Gestion de la justification (alignement horizontal) des boutons dans les blocs de textes, galeries et mises en avant
+-   **[Nouveauté]** Nouveau template de mise en avant (215)
+-   **[Nouveauté]** Nouveaux templates de groupes d'onglets (11, 12)
+-   **[Mise à jour]** Mise à jour de Wordpress de 6.0.3 vers 6.1.0
+-   **[Mise à jour]** Mise à jour du plugin Redirection de 5.3.4 vers 5.3.5
+-   **[Correction]** Gestion des planifications manquées pour les contenus planifiés (date de publication future)
+-   **[Correction]** Microdonnées FAQ retirées => erreurs console lorsque plusieurs blocs sur une page
+-   **[Correction]** Gestion des périodes d'ouverture dans l'extrait de fiche SIT "Infos pratiques"
+
+---
+
+### 20 octobre 2022
+
+-   **[Nouveauté]** Ajout de tableaux dans les blocs de textes
+-   **[Nouveauté]** Date de dépublication automatique pour les pages, pubs, espaces et feuillets
+-   **[Nouveauté]** Nouvelle typologie de bloc : "Agenda"
+-   **[Nouveauté]** Possibilité de lier un profil existant à une page
+-   **[Nouveauté]** Nouveaux templates de mises en avant (152, 154, 432, 433)
+-   **[Mise à jour]** Mise à jour de Wordpress de 6.0.2 vers 6.0.3
+-   **[Mise à jour]** Exclusion des urls /wp-json/woody/crop-url/* dans le robots.txt
+-   **[Mise à jour]** UX : "Paramètres des cookies" remplacé par un picto sur mobile
+---
+
+### 3 octobre 2022
+
+-   **[Nouveauté]** Possibilité de poser des métas-données par langue dans Woody SEO
+-   **[Nouveauté]** Possibilité de désactiver complètement le bandeau de cookies (CMP)
+-   **[Nouveauté]** Nouveau bloc de recherche avec performances améliorées
+
+---
+
+### 22 septembre 2022 : Version 1.60.0
+
+-   **[Nouveauté]** Option de bloquage du lancement des vidéos de diaporama sur mobile
+-   **[Nouveauté]** Possibilité d'ajouter un bouton sur chaque élément des blocs "titre et icone"
+-   **[Nouveauté]** Nouveau template de publicité (05 => pages uniquement)
+-   **[Nouveauté]** Nouveau template de visuel et accroche (17)
+-   **[Nouveauté]** Nouveaux templates de mises en avant (145 => 151, 429 => 431, 525 => 530, 537 => 539, 352 => 365)
+-   **[Mise à jour]** Mise à jour du plugin ACF de 5.12.3 vers 6.0.0
+-   **[Mise à jour]** Mise à jour du plugin Polylang de 3.1.4 vers 3.2.7
+-   **[Correction]** Paramètres : pages recherche, météo et marées vides lors d'un changement de saison
+-   **[Correction]** Slider du template 418
+
+---
+
+### 14 septembre 2022 : Version 1.59.0
+
+-   **[Nouveauté]** Gestion du nombre de colonnes en mobile pour les mises en avant et les galeries
+-   **[Nouveauté]** Remplacement d'un média partout où il est utilisé
+-   **[Nouveauté]** Nouveaux templates de groupes d'onglets (06,07,08)
+-   **[Nouveauté]** Nouveaux templates de mises en avant (531 => 535)
+-   **[Mise à jour]** Mise à jour des traductions Wordpress
+-   **[Mise à jour]** Amélioration de l'outil de visualisation des pages utilisant un média
+-   **[Mise à jour]** Optimisations de code
+-   **[Correction]** Hauteur des vidéos en mobile dans les blocs "Visuel & accroche"
+-   **[Correction]** Envoi de headers inutiles sur la liste des bons plans (Addon bons plans)
+
+---
+
+### 6 septembre 2022
+
+-   **[Nouveauté]** Possibilité de générer un flux RSS ou Json à partir d'une playlist FMA
+-   **[Nouveauté]** Possibilité de réduire le temps de cache des playlists FMA pour ne plus voir d'évenements terminés
+-   **[Nouveauté]** Possibilité de dupliquer les Infos stations
+-   **[Correction]** Mise à jour du cache des pages avec infos stations lors de l'enregistrement d'une configuration
+
+---
+
 ### 31 aôut 2022 : Version 1.58.0
 
 -   **[Nouveauté]** Nouveau champ "Images complémentaires" dans le "Visuel & accroche"
 -   **[Nouveauté]** Nouveau champ "Lien" dans le bloc "Logo/Image d'illustration"
 -   **[Nouveauté]** Prise en charge des profils dans les en-têtes de page 01 et 02
+-   **[Nouveauté]** Utilisation ds blocs infos stations dans les groupes d'onglets
 -   **[Mise à jour]** Mise à jour de Wordpress de 5.9.3 vers 6.0.2
--   **[Mise à jour]** Mise à jour du plugin Enhanced Media Library de 2.8.8 vers 2.8.9
+-   ANNULÉ CAUSE BUG -  **[Mise à jour]** Mise à jour du plugin Enhanced Media Library de 2.8.8 vers 2.8.9
 -   **[Mise à jour]** Amélioration du groupe d'onglet 04 (utilisation du titre et de l'icone de l'onglet)
 -   **[Mise à jour]** Amélioration du comportement des sommaires (prise en compte de la visibilité et hauteur du header pour le scroll)
 -   **[Mise à jour]** Ergonomie de la vignette qui s'ouvre au clic sur les cartes géographiques manuelles
 -   **[Mise à jour]** Vue liste de la médiathèque : Voir les pages utilisant une image donnée
 -   **[Mise à jour]** Style css sur les fiches SIT et les playlists
+-   **[Mise à jour]** Gestion des flux Lumiplan et affichage des infos stations
 -   **[Correction]** Affichage de la description et de la flèche en conflit sur certains blocs Visuel & accroche
 -   **[Correction]** Résolution de l'image mobile sur les blocs Visuel & accroche
 -   **[Correction]** Bug graphique à la fermeture des galeries médias
+-   **[Correction]** Url de la page webcams dans le template Infos Stations n°3
 
 ---
 
@@ -40,7 +243,7 @@
 
 ---
 
-### 04 août 2022
+### 4 août 2022
 
 -   **[Mise à jour]** Listing de toutes vos confs Hawwwai dans "Hawwwai > Outils"
 -   **[Mise à jour]** Optimisation des imports de fiches SIT dans Woody
@@ -201,7 +404,7 @@
 
 ---
 
-### 05 Avril 2022
+### 5 Avril 2022
 
 -   **[Nouveauté]** Nouveaux templates de mises en avant (210, 211, 212, 213, 214, 607, 608, 609, 610, 611)
 -   **[Mise à jour]** Optimisation du comportement mobile des sliders

@@ -40,6 +40,7 @@ function console_log($output, $tag = 'Say my name, say my name', $with_script_ta
         if ($with_script_tags) {
             $js_code = '<script>' . $js_code . '</script>';
         }
+
         echo $js_code;
     }
 }
